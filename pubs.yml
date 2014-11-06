@@ -12,7 +12,7 @@ pubs:
         conference: Computer Graphics Forum
         month: August 7
         year: 2014
-        url: http://onlinelibrary.wiley.com/doi/10.1111/cgf.12458/abstract?systemMessage=Wiley+Online+Library+will+be+disrupted+9th+Aug+from+10-2+BST+for+essential+maintenance.+Pay+Per+View+will+be+unavailable+from+10-6+BST.
+        paper: http://onlinelibrary.wiley.com/doi/10.1111/cgf.12458/abstract?systemMessage=Wiley+Online+Library+will+be+disrupted+9th+Aug+from+10-2+BST+for+essential+maintenance.+Pay+Per+View+will+be+unavailable+from+10-6+BST.
     - c8:
         authors:
         - dkopta
@@ -25,6 +25,7 @@ pubs:
         location: Anaheim
         month: July 10-21
         year: 2013
+        paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_hpg13.pdf
     - c7:
         authors:
         - dkopta
@@ -38,6 +39,7 @@ pubs:
         location: Irvine
         month: March 
         year: 2012
+        paper: http://www.cs.utah.edu/~thiago/papers/rotations.pdf
     - c6:
         authors:
         - jspjut
@@ -49,6 +51,8 @@ pubs:
         location: New Orleans
         month: February 
         year: 2012
+        paper: http://www.cs.utah.edu/~sjosef/papers/spjut-shaw12-final.pdf
+        slides: http://www.cs.utah.edu/~sjosef/slides/spjut-shaw12-slides.pdf
     - c5:
         authors:
         - dkopta
@@ -60,6 +64,7 @@ pubs:
         location: Amsterdam
         month: October 
         year: 2010
+        paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_iccd10.pdf
     - c4:
         authors:
         - spugsley
@@ -81,6 +86,7 @@ pubs:
         conference: IEEE Transactions on Computer Aided Design of Integrated Circuits and Systems (TCAD)
         month: December
         year: 2009
+        paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_tcad09.pdf
     - c2:
         authors:
         - jspjut
@@ -115,6 +121,7 @@ pubs:
         month: June 8-9
         year: 2008
         misc: (Best paper award)
+        paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
 name: Tech Reports
 pubs:
@@ -135,6 +142,7 @@ pubs:
         conference: Tech Report, UUCS 11-002, University of Utah
         month: July 
         year: 2011
+        paper: http://www.cs.utah.edu/research/techreports/2011/pdf/UUCS-11-002.pdf
 ---
 name: Refereed Posters
 pubs:
