@@ -22,34 +22,38 @@ authors:
         pic: 
     nil:
         name: Niladrish Chatterjee
-        url: 
+        url: http://www.cs.utah.edu/~nil
+        pic: 
+    dnellans:
+        name: David Nellans
+        url: http://david.nellans.org
         pic: 
     tize:
         name: Thiago Ize
-        url: 
+        url: http://www.cs.utah.edu/~thiago
         pic: 
     aek:
         name: Andrew Kensler
-        url: 
+        url: http://www.cs.utah.edu/~aek
         pic: 
     sparker:
         name: Steven Parker
-        url: 
+        url: http://www.cs.utah.edu/~sparker
         pic: 
     rajeev:
         name: Rajeev Balasubramonian
-        url: 
+        url: http://www.cs.utah.edu/~rajeev
         pic: 
     sboulos:
         name: Solomon Boulos
-        url: 
+        url: http://graphics.stanford.edu/~boulos/research.htm
         pic: 
     spugsley:
         name: Seth Pugsley
-        url: 
+        url: http://www.cs.utah.edu/~pugsley
         pic: 
     skellis:
         name: Spencer Kellis
-        url: 
+        url: http://vis.caltech.edu/~skellis
         pic: 
 ...

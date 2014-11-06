@@ -1,14 +1,96 @@
 ---
 name: Refereed Publications
-#dkopta, kshkurko, jspjut, elb, and ald; Memory Considerations for Low Energy Ray Tracing, Computer Graphics Forum, August 7, 2014. paper
-#dkopta, kshkurko, jspjut, elb, and ald; An Energy and Bandwidth Efficient Ray Tracing Architecture, High-Performance Graphics (HPG 2013), Anaheim, July 10-21, 2013. paper
-#dkopta, tize, jspjut, elb, ald and aek; Fast, Effective BVH Updates for Animated Scenes, ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D 2012), Irvine, March 2012. paper
-#jspjut, dkopta, elb and ald; A Mobile Accelerator Architecture for Ray Tracing, 3rd Workshop on SoCs, Heterogeneous Architectures and Workloads (SHAW-3), New Orleans, February 2012. paper slides
-#dkopta, jspjut, ald and elb; Efficient MIMD Architectures for High-Performance Ray Tracing, IEEE International Conference on Computer Design (ICCD 2010), Amsterdam, October 2010. paper
-#spugsley, jspjut, dnellans and rajeev; SWEL: Hardware Cache Coherence Protocols to Map Shared Data onto Shared Caches, 19th International Conference on Parallel Architectures and Compilation Techniques (PACT-19), Vienna, September 2010.
-#jspjut, aek, dkopta and elb; TRaX: A Multicore Architecture for Real-Time Ray Tracing, IEEE Transactions on Computer Aided Design of Integrated Circuits and Systems (TCAD), December 2009. paper
-#jspjut, aek and elb; Hardware-accelerated gradient noise for graphics, Proceedings of the 19th ACM Great Lakes Symposium on VLSI (GLSVLSI'09), Boston, May 10-12, 2009.
 pubs: 
+    - c9:
+        authors:
+        - dkopta
+        - kshkurko
+        - jspjut
+        - elb
+        - ald
+        title: Memory Considerations for Low Energy Ray Tracing
+        conference: Computer Graphics Forum
+        month: August 7
+        year: 2014
+        url: http://onlinelibrary.wiley.com/doi/10.1111/cgf.12458/abstract?systemMessage=Wiley+Online+Library+will+be+disrupted+9th+Aug+from+10-2+BST+for+essential+maintenance.+Pay+Per+View+will+be+unavailable+from+10-6+BST.
+    - c8:
+        authors:
+        - dkopta
+        - kshkurko
+        - jspjut
+        - elb
+        - ald
+        title: An Energy and Bandwidth Efficient Ray Tracing Architecture
+        conference: High-Performance Graphics (HPG 2013)
+        location: Anaheim
+        month: July 10-21
+        year: 2013
+    - c7:
+        authors:
+        - dkopta
+        - tize
+        - jspjut
+        - elb
+        - ald
+        - aek
+        title: 'Fast, Effective BVH Updates for Animated Scenes'
+        conference: ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D 2012)
+        location: Irvine
+        month: March 
+        year: 2012
+    - c6:
+        authors:
+        - jspjut
+        - dkopta
+        - elb
+        - ald
+        title: A Mobile Accelerator Architecture for Ray Tracing
+        conference: '3rd Workshop on SoCs, Heterogeneous Architectures and Workloads (SHAW-3)'
+        location: New Orleans
+        month: February 
+        year: 2012
+    - c5:
+        authors:
+        - dkopta
+        - jspjut
+        - ald
+        - elb
+        title: Efficient MIMD Architectures for High-Performance Ray Tracing
+        conference: IEEE International Conference on Computer Design (ICCD 2010)
+        location: Amsterdam
+        month: October 
+        year: 2010
+    - c4:
+        authors:
+        - spugsley
+        - jspjut
+        - dnellans
+        - rajeev
+        title: 'SWEL: Hardware Cache Coherence Protocols to Map Shared Data onto Shared Caches'
+        conference: 19th International Conference on Parallel Architectures and Compilation Techniques (PACT-19)
+        location: Vienna
+        month: September 
+        year: 2010
+    - c3: 
+        authors:
+        - jspjut
+        - aek
+        - dkopta
+        - elb
+        title: 'TRaX: A Multicore Architecture for Real-Time Ray Tracing'
+        conference: IEEE Transactions on Computer Aided Design of Integrated Circuits and Systems (TCAD)
+        month: December
+        year: 2009
+    - c2:
+        authors:
+        - jspjut
+        - aek 
+        - elb
+        title: Hardware-accelerated gradient noise for graphics
+        conference: Proceedings of the 19th ACM Great Lakes Symposium on VLSI (GLSVLSI'09)
+        location: Boston
+        month: May 10-12
+        year: 2009
     - c1: 
         authors: 
         - nil
@@ -18,7 +100,8 @@ pubs:
         title: Optimizing a Multi-Core Processor for Message-Passing Workloads
         conference: 5th Workshop on Unique Chips and Systems (UCAS-5)
         location: Boston
-        date: April 2009
+        month: April
+        year: 2009
     - c0: 
         authors: 
         - jspjut 
@@ -29,17 +112,17 @@ pubs:
         title: "TRaX: A Multi-Threaded Architecture for Real-Time Ray Tracing"
         conference: "Symposium on Application Specific Processors (SASP)"
         location: Anaheim
-        date: June 8-9, 2008
-        misc: (Best paper award) paper
+        month: June 8-9
+        year: 2008
+        misc: (Best paper award)
 ---
 name: Tech Reports
 pubs:
     - tr2:
         authors:
         title: 4 Tech reports in progress
-        conference:
-        location:
-        date: Fall 2014
+        month: Fall
+        year: 2014
     - tr1:
         authors:
         - dkopta
@@ -50,8 +133,8 @@ pubs:
         - ald
         title: Fast, Effective BVH Updates for Dynamic Ray-Traced Scenes Using Tree Rotations
         conference: Tech Report, UUCS 11-002, University of Utah
-        location:
-        date: July 2011
+        month: July 
+        year: 2011
 ---
 name: Refereed Posters
 pubs:
@@ -63,7 +146,8 @@ pubs:
         title: Grid-Based Ray Tracing for a Parallel Computing Architecture
         conference: High Performance Graphics (HPG'09)
         location: New Orleans
-        date: August 1-3, 2009
+        month: August 1-3
+        year: 2009
     - p1:
         authors:
         - dkopta
@@ -72,7 +156,8 @@ pubs:
         - sparker
         title: Comparing Incoherent Ray Performance of TRaX vs. Manta
         conference: IEEE Symposium on Interactive Ray Tracing (RT08)
-        date: August 9-10, 2008
+        month: August 9-10
+        year: 2008
 ...
 
 
