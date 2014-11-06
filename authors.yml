@@ -1,0 +1,55 @@
+---
+authors:
+    jspjut:
+        name: Josef Spjut
+        url: http://josef.spjut.me
+        pic: jspjut.jpg
+    dkopta:
+        name: Daniel Kopta
+        url: http://www.cs.utah.edu/~dkopta/
+        pic: 
+    elb:
+        name: Erik Brunvand
+        url: http://www.cs.utah.edu/~elb/
+        pic: 
+    kshkurko:
+        name: Konstantin Shkurko
+        url: http://www.cs.utah.edu/~kshkurko/
+        pic: 
+    ald:
+        name: Alan Davis
+        url: http://www.cs.utah.edu/~ald/
+        pic: 
+    nil:
+        name: Niladrish Chatterjee
+        url: 
+        pic: 
+    tize:
+        name: Thiago Ize
+        url: 
+        pic: 
+    aek:
+        name: Andrew Kensler
+        url: 
+        pic: 
+    sparker:
+        name: Steven Parker
+        url: 
+        pic: 
+    rajeev:
+        name: Rajeev Balasubramonian
+        url: 
+        pic: 
+    sboulos:
+        name: Solomon Boulos
+        url: 
+        pic: 
+    spugsley:
+        name: Seth Pugsley
+        url: 
+        pic: 
+    skellis:
+        name: Spencer Kellis
+        url: 
+        pic: 
+...

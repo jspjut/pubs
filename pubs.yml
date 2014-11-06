@@ -1,0 +1,82 @@
+---
+name: Refereed Publications
+#dkopta, kshkurko, jspjut, elb, and ald; Memory Considerations for Low Energy Ray Tracing, Computer Graphics Forum, August 7, 2014. paper
+#dkopta, kshkurko, jspjut, elb, and ald; An Energy and Bandwidth Efficient Ray Tracing Architecture, High-Performance Graphics (HPG 2013), Anaheim, July 10-21, 2013. paper
+#dkopta, tize, jspjut, elb, ald and aek; Fast, Effective BVH Updates for Animated Scenes, ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D 2012), Irvine, March 2012. paper
+#jspjut, dkopta, elb and ald; A Mobile Accelerator Architecture for Ray Tracing, 3rd Workshop on SoCs, Heterogeneous Architectures and Workloads (SHAW-3), New Orleans, February 2012. paper slides
+#dkopta, jspjut, ald and elb; Efficient MIMD Architectures for High-Performance Ray Tracing, IEEE International Conference on Computer Design (ICCD 2010), Amsterdam, October 2010. paper
+#spugsley, jspjut, dnellans and rajeev; SWEL: Hardware Cache Coherence Protocols to Map Shared Data onto Shared Caches, 19th International Conference on Parallel Architectures and Compilation Techniques (PACT-19), Vienna, September 2010.
+#jspjut, aek, dkopta and elb; TRaX: A Multicore Architecture for Real-Time Ray Tracing, IEEE Transactions on Computer Aided Design of Integrated Circuits and Systems (TCAD), December 2009. paper
+#jspjut, aek and elb; Hardware-accelerated gradient noise for graphics, Proceedings of the 19th ACM Great Lakes Symposium on VLSI (GLSVLSI'09), Boston, May 10-12, 2009.
+pubs: 
+    - c1: 
+        authors: 
+        - nil
+        - spugsley
+        - jspjut 
+        - rajeev
+        title: Optimizing a Multi-Core Processor for Message-Passing Workloads
+        conference: 5th Workshop on Unique Chips and Systems (UCAS-5)
+        location: Boston
+        date: April 2009
+    - c0: 
+        authors: 
+        - jspjut 
+        - sboulos 
+        - dkopta 
+        - elb 
+        - skellis
+        title: "TRaX: A Multi-Threaded Architecture for Real-Time Ray Tracing"
+        conference: "Symposium on Application Specific Processors (SASP)"
+        location: Anaheim
+        date: June 8-9, 2008
+        misc: (Best paper award) paper
+---
+name: Tech Reports
+pubs:
+    - tr2:
+        authors:
+        title: 4 Tech reports in progress
+        conference:
+        location:
+        date: Fall 2014
+    - tr1:
+        authors:
+        - dkopta
+        - aek
+        - tize
+        - jspjut
+        - elb
+        - ald
+        title: Fast, Effective BVH Updates for Dynamic Ray-Traced Scenes Using Tree Rotations
+        conference: Tech Report, UUCS 11-002, University of Utah
+        location:
+        date: July 2011
+---
+name: Refereed Posters
+pubs:
+    - p2:
+        authors:
+        - dkopta
+        - jspjut
+        - elb
+        title: Grid-Based Ray Tracing for a Parallel Computing Architecture
+        conference: High Performance Graphics (HPG'09)
+        location: New Orleans
+        date: August 1-3, 2009
+    - p1:
+        authors:
+        - dkopta
+        - jspjut
+        - elb 
+        - sparker
+        title: Comparing Incoherent Ray Performance of TRaX vs. Manta
+        conference: IEEE Symposium on Interactive Ray Tracing (RT08)
+        date: August 9-10, 2008
+...
+
+
+
+
+
+
