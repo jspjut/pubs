@@ -154,7 +154,7 @@ def bibtex(pubentry, authors, ptype = 'inproceedings'):
 
 		# add the fields that exist
 		try: 
-			bibstr += ',\n title = {{%s}}'%pub['title']
+			bibstr += ',\n title = { {%s} }'%pub['title']
 		except KeyError:
 			pass
 		try:
@@ -246,7 +246,7 @@ def htmlformat(pubentry, authors, ptype = 'jspjut'):
 		except KeyError:
 			pass
 		try:
-			mdstr += '<em>%s</em>\n'%pub['conference']
+			mdstr += '<em>%s</em>,\n'%pub['conference']
 		except KeyError:
 			pass
 		try:

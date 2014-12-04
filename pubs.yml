@@ -125,11 +125,23 @@ pubs:
 ---
 name: Tech Reports
 pubs:
-    - tr2:
+    - tr3:
         authors:
-        title: 4 Tech reports in progress
+        title: 3 Tech reports in progress
         month: Fall
         year: 2014
+    - tr2:
+        authors:
+        - dhpark
+        - abagaria
+        - fhannan
+        - estorm
+        - jspjut
+        title: "Sphynx: A Shared Instruction Cache Exporatory Study"
+        conference: "Tech Report, arXiv:1412.1140"
+        month: December 3 
+        year: 2014
+        paper: http://arxiv.org/abs/1412.1140
     - tr1:
         authors:
         - dkopta
