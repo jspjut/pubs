@@ -34,7 +34,7 @@ Specific Processing, and Human Computer Interaction.
 # This is a temporary placeholder until I figure out how to autogenerate it
 htmlfooterstring = '''<h2>HMC Clinic Projects</h2>
 
-<p>At Harvey Mudd College I advised a few <a href="http://newwww.hmc.edu/clinic/index.php">clinic
+<p>At Harvey Mudd College I advised a few <a href="https://www.hmc.edu/clinic/">clinic
 projects</a> with junior and
 senior level students paid for by companies. 
 The following is a list of those projects and the people involved. 
@@ -42,24 +42,29 @@ Those before my name are students, after are liaisons from the
 company.</p>
 
 <ul>
-<li>Fabiha Hannan, Guillaume Legrain, Maggie Rabasca, Zachary Vickland,
-Tiancheng Yang, <strong>Josef Spjut</strong>, Philip Cheung, John McNeil.
+<li>Fabiha Hannan, Cyrus Huang, Sebastian Krupa, Guillaume Legrain, 
+Minh Triet Nguyen, Maggie Rabasca, Zachary Vickland, Tiancheng Yang, 
+<strong>Josef Spjut</strong>, Philip Cheung, John McNeil, Jef Vivian.
 <em>Clinic for Dart Neuroscience</em>, 2014-2015.</li>
+
 <li>Olivier Cheng, Stephen Ibanez, Amy Ngai, Joshua Sanz, Avi Thaker,
 <strong>Josef Spjut</strong>, Alon Regev;
 <em>Clinic for Ixia</em>, 2014-2015.</li>
+
 <li>Antoine Billig, Chanel Chang, Austin Chen, Obosa Obazuaye, Jeffrey
 Steele, Sean Velazquez, <strong>Josef Spjut</strong>, Pradeep Batra, Adrian
 Torres, Julia Cline;
 <strong>USB 3.0 to Multi-Protocol Interface Adapter</strong>,
 <em>Clinic Report for Rambus Incorporate</em>, Harvey Mudd College, 183
 pages, May 2014.</li>
+
 <li>Dylan Stow, Carl Pearson, Jeffrey Steele,
 Shreyasha Paudel, Adam Parower, Gurchetan Singh, Dong-hyeon Park,
 <strong>Josef Spjut</strong>, Warren Furguson;
 <strong>Multiplicative Based Division</strong>,
 <em>Clinic Report for Intel Corp</em>, Harvey Mudd College, 117 pages, May
 2013.</li>
+
 <li>Allison Card, Kacyn Fujii, Hannah
 Kastein, Paula Ning, Matthew Tambara, Stephanie Fawaz, <strong>Josef Spjut</strong>,
 Sourabh Ravindran, Nitish Murthy,
@@ -102,6 +107,7 @@ Niladrish Chatterjee, Pete Shirley, Steve Parker,
 Solomon Boulos, Spencer Kellis, 
 Frank Vahid, David Sheldon, Scott Sirowy, Roman Lysecky</p>
 '''
+# I should really find a way to annotate years on the above collaborations...
 
 # Start main script
 import yaml

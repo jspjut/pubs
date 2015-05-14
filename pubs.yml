@@ -123,13 +123,23 @@ pubs:
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
-name: Tech Reports
+name: Technical Reports
 pubs:
+    - tr4:
+        authors:
+        title: 3 Technical reports in progress
+        month: Spring
+        year: 2015
     - tr3:
         authors:
-        title: 3 Tech reports in progress
-        month: Fall
-        year: 2014
+        - jsung
+        - skrupa
+        - afishberg
+        - jspjut
+        title: An Approach to Data Prefetching Using 2-Dimensional Selection Criteria
+        conference: "Tech Report, arXiv:tbd"
+        month: May
+        year: 2015
     - tr2:
         authors:
         - dhpark
