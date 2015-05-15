@@ -123,6 +123,20 @@ pubs:
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
+name: Conference Talks and Courses
+pubs:
+    - ct1:
+        authors:
+        - jspjut
+        - rpiersall
+        - klau
+        title: Build your own Game Controller
+        conference: SIGGRAPH
+        location: Los Angeles
+        month: August
+        year: 2015
+        misc: (to appear)
+---
 name: Technical Reports
 pubs:
     - tr4:
@@ -140,6 +154,7 @@ pubs:
         conference: "Tech Report, arXiv:tbd"
         month: May
         year: 2015
+        misc: (to appear)
     - tr2:
         authors:
         - dhpark

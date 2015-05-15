@@ -58,7 +58,7 @@ authors:
         pic: 
     dhpark:
         name: Dong-hyeon Park
-        url: 
+        url: http://web.eecs.umich.edu/~dohypark/
         pic: 
     abagaria:
         name: Akhil Bagaria
@@ -82,6 +82,14 @@ authors:
         pic:
     afishberg:
         name: Andrew Fishberg
+        url:
+        pic:
+    rpiersall:
+        name: Richard Piersall
+        url:
+        pic:
+    klau:
+        name: Kirklann Lau
         url:
         pic:
 ...
