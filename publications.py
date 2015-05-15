@@ -45,11 +45,12 @@ company.</p>
 <li>Fabiha Hannan, Cyrus Huang, Sebastian Krupa, Guillaume Legrain, 
 Minh Triet Nguyen, Maggie Rabasca, Zachary Vickland, Tiancheng Yang, 
 <strong>Josef Spjut</strong>, Philip Cheung, John McNeil, Jef Vivian.
-<em>Clinic for Dart Neuroscience</em>, 2014-2015.</li>
+<em>Design and Implementation of a Memory Testing Apparatus</em>, 
+Harvey Mudd College, 116 pages, May 2015.</li>
 
 <li>Olivier Cheng, Stephen Ibanez, Amy Ngai, Joshua Sanz, Avi Thaker,
 <strong>Josef Spjut</strong>, Alon Regev;
-<em>Clinic for Ixia</em>, 2014-2015.</li>
+<em>Computer Network Testing</em>, Harvey Mudd College, 48 pages, May 2015.</li>
 
 <li>Antoine Billig, Chanel Chang, Austin Chen, Obosa Obazuaye, Jeffrey
 Steele, Sean Velazquez, <strong>Josef Spjut</strong>, Pradeep Batra, Adrian
