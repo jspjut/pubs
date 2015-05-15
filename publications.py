@@ -50,7 +50,7 @@ Minh Triet Nguyen, Maggie Rabasca, Zachary Vickland, Tiancheng Yang,
 
 <li>Olivier Cheng, Stephen Ibanez, Amy Ngai, Joshua Sanz, Avi Thaker,
 <strong>Josef Spjut</strong>, Alon Regev;
-<stron>Computer Network Testing</strong>,
+<strong>Computer Network Testing</strong>,
 <em>Clinic Report for Ixia</em>, Harvey Mudd College, 48 pages, May 2015.</li>
 
 <li>Antoine Billig, Chanel Chang, Austin Chen, Obosa Obazuaye, Jeffrey
