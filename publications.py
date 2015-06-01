@@ -10,7 +10,7 @@ authorsyaml = 'authors.yml'
 pubsyaml = 'pubs.yml'
 
 # The output filenames
-htmlfilename = '/Users/Josef/jspjut.github.io/testing.html'
+htmlfilename = '/Users/Josef/jspjut.github.io/research.html'
 mdfilename = '/Users/Josef/CV/src/publications.md'
 
 # This header will probably still need to exist, but maybe I can put the 
@@ -25,7 +25,8 @@ group: navigation
 
 <p>
 My Research interests include Ray Tracing, Computer Graphics, Computer
-Architecture, Parallel Computing, Real Time Systems, Application
+Architecture, Computer Displays, Virtual Reality, Augmented Reality,
+Parallel Computing, Real Time Systems, Application
 Specific Processing, and Human Computer Interaction.
 </p>
 

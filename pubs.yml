@@ -154,7 +154,7 @@ pubs:
         conference: "Tech Report, arXiv:tbd"
         month: May
         year: 2015
-        misc: (to appear)
+        paper: http://arxiv.org/abs/1505.03899
     - tr2:
         authors:
         - dhpark
