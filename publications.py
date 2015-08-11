@@ -229,6 +229,10 @@ def markdown(pubentry, authors, ptype = 'jspjut'):
 			mdstr += '\n[slides](%s)'%pub['slides']
 		except:
 			pass
+		try:
+			mdstr += '\n[webpage](%s)'%pub['webpage']
+		except:
+			pass
 	mdstr += '\n'
 	return mdstr
 
@@ -282,6 +286,10 @@ def htmlformat(pubentry, authors, ptype = 'jspjut'):
 			pass
 		try:
 			mdstr += '\n<a href="%s">slides</a>'%pub['slides']
+		except:
+			pass
+		try:
+			mdstr += '\n<a href="%s">webpage</a>'%pub['webpage']
 		except:
 			pass
 

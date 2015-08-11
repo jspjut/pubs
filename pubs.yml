@@ -133,9 +133,11 @@ pubs:
         title: Build your own Game Controller
         conference: SIGGRAPH
         location: Los Angeles
-        month: August
+        month: August 10
         year: 2015
-        misc: (to appear)
+        misc: (Studio Course)
+        slides: http://josef.spjut.me/class/controllerCourseNotes.pdf
+        webpage: http://josef.spjut.me/class/game-controller.html
 ---
 name: Technical Reports
 pubs:
