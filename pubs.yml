@@ -130,8 +130,8 @@ pubs:
         - jspjut
         - rpiersall
         - klau
-        title: Build your own Game Controller
-        conference: SIGGRAPH
+        title: Build your own game controller
+        conference: SIGGRAPH: Studio
         location: Los Angeles
         month: August 10
         year: 2015
