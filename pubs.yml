@@ -131,7 +131,7 @@ pubs:
         - rpiersall
         - klau
         title: Build your own game controller
-        conference: SIGGRAPH: Studio
+        conference: SIGGRAPH Studio
         location: Los Angeles
         month: August 10
         year: 2015
