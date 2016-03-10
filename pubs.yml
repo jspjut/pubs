@@ -122,6 +122,13 @@ pubs:
         year: 2008
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
+    - d0:
+        authors:
+        - jspjut
+        title: "Efficient Ray Tracing Architectures"
+        conference: "University of Utah Dissertation"
+        year: 2015
+        paper: http://gradworks.umi.com/3727095.pdf
 ---
 name: Conference Talks and Courses
 pubs:
