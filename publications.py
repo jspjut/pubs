@@ -82,29 +82,30 @@ May 2013.</li>
 people. The ones I&#39;ve worked with on research are listed below. Email
 me if you think you should be on this list and you aren&#39;t.</p>
 
-<h3>Current Research Students</h3>
+
+<h3>Past Research Students</h3>
 
 <p>Eric Storm &#39;15, Ivan Wong &#39;15, 
 Skyler Williams &#39;16, Ramy Elminyawi &#39;16, 
  Amy Ngai &#39;16, Richard Piersall &#39;16, Kirklann Lau &#39;16, 
- Andrew Fishberg &#39;16, Da Eun Shim &#39;16</p>
-
-<h3>Past Research Students</h3>
-
-<p>Fabiha Hannan &#39;16, Paul Jolly &#39;16,
+ Andrew Fishberg &#39;16, Da Eun Shim &#39;16,
+Fabiha Hannan &#39;16, Paul Jolly &#39;16,
 Dong-hyeon Park &#39;14, Sami Mourad &#39;14, Akhil Bagaria &#39;16,
 Andrew Carter &#39;13, Paula Ning &#39;13, Max Korbel &#39;13, Katherine Yang &#39;15</p>
 
 <h3>Current and Recent (within 3 years) Collaborators</h3>
 
-<p>Timo Aila, Tero Karras, Samuli Laine, David Luebke,
- Erik Brunvand, Konstantin Shkurko, Danny Kopta, Al Davis, 
-Mike Parker, Seth Pugsley,
-Thiago Ize, Andrew Kensler, </p>
+<p>Trey Greer, Turner Whitted, David Luebke,
+Timo Aila, Tero Karras, Samuli Laine, 
+ Erik Brunvand, Konstantin Shkurko, Daniel Kopta, Al Davis, 
+Seth Pugsley,
+</p>
 
 <h3>Past Collaborators</h3>
 
-<p>Rajeev Balasubramonian
+<p>Mike Parker, 
+Thiago Ize, Andrew Kensler, 
+Rajeev Balasubramonian
 David Nellans,
 Niladrish Chatterjee, Pete Shirley, Steve Parker,
 Solomon Boulos, Spencer Kellis, 
@@ -282,6 +283,10 @@ def htmlformat(pubentry, authors, ptype = 'jspjut'):
 		# add paper links
 		try:
 			mdstr += '\n<a href="%s">paper</a>'%pub['paper']
+		except:
+			pass
+		try:
+			mdstr += '\n<a href="%s">alternate</a>'%pub['alternate']
 		except:
 			pass
 		try:

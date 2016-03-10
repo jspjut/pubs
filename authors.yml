@@ -92,4 +92,16 @@ authors:
         name: Kirklann Lau
         url:
         pic:
+    tgreer:
+        name: Trey Greer
+        url: https://research.nvidia.com/users/trey-greer
+        pic:
+    jtw:
+        name: Turner Whitted
+        url: https://research.nvidia.com/users/turner-whitted
+        pic:
+    dluebke:
+        name: David Luebke
+        url: http://luebke.us/
+        pic:
 ...

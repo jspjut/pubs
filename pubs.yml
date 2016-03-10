@@ -1,6 +1,28 @@
 ---
+name: Dissertation
+pubs:
+    - d0:
+        authors:
+        - jspjut
+        title: "Efficient Ray Tracing Architectures"
+        conference: "University of Utah Dissertation"
+        year: 2015
+        paper: http://gradworks.umi.com/3727095.pdf
+        alternate: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
+---
 name: Refereed Publications
 pubs: 
+    - c10:
+        authors:
+        - tgreer
+        - jspjut
+        - dluebke
+        - jtw
+        title: Hybrid Modulation for Near Zero Display Latency
+        conference: Society of Information Display
+        month: May 24-27
+        year: 2016
+        paper: 
     - c9:
         authors:
         - dkopta
@@ -122,13 +144,6 @@ pubs:
         year: 2008
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
-    - d0:
-        authors:
-        - jspjut
-        title: "Efficient Ray Tracing Architectures"
-        conference: "University of Utah Dissertation"
-        year: 2015
-        paper: http://gradworks.umi.com/3727095.pdf
 ---
 name: Conference Talks and Courses
 pubs:
@@ -152,7 +167,7 @@ pubs:
         authors:
         title: 3 Technical reports in progress
         month: Spring
-        year: 2015
+        year: 2016
     - tr3:
         authors:
         - jsung
