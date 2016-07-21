@@ -290,6 +290,10 @@ def htmlformat(pubentry, authors, ptype = 'jspjut'):
 		except:
 			pass
 		try:
+			mdstr += '\n<a href="%s">alternate 2</a>'%pub['alternate2']
+		except:
+			pass
+		try:
 			mdstr += '\n<a href="%s">slides</a>'%pub['slides']
 		except:
 			pass

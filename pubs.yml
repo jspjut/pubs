@@ -7,8 +7,9 @@ pubs:
         title: "Efficient Ray Tracing Architectures"
         conference: "University of Utah Dissertation"
         year: 2015
-        paper: http://gradworks.umi.com/3727095.pdf
-        alternate: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
+        paper: http://josef.spjut.me/pubs/thesis.pdf
+        alternate: http://gradworks.umi.com/3727095.pdf
+        alternate2: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
 ---
 name: Refereed Publications
 pubs: 
