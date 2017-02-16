@@ -164,12 +164,12 @@ pubs:
 ---
 name: Technical Reports
 pubs:
-    - tr4:
+    - tr6:
         authors:
-        title: 3 Technical reports in progress
+        title: 1 Technical report in progress
         month: Spring
-        year: 2016
-    - tr3:
+        year: 2017
+    - tr5:
         authors:
         - jsung
         - skrupa
@@ -180,7 +180,7 @@ pubs:
         month: May
         year: 2015
         paper: http://arxiv.org/abs/1505.03899
-    - tr2:
+    - tr4:
         authors:
         - dhpark
         - abagaria
@@ -192,6 +192,26 @@ pubs:
         month: December 3 
         year: 2014
         paper: http://arxiv.org/abs/1412.1140
+    - tr3:
+        authors:
+        - acarter
+        - mkorbel
+        - pning
+        - jspjut
+        title: "Qualitative Cache Performance Analysis"
+        conference: "Tech Report"
+        month: September
+        year: 2013
+        paper: http://josef.spjut.me/pubs/ckns2013.pdf
+    - tr2:
+        authors:
+        - jspjut
+        - spugsley
+        title: "Time to Recache: Measuring Memory Miss Behavior"
+        conference: "Tech Report"
+        month: September
+        year: 2011
+        paper: http://josef.spjut.me/pubs/spjutpugsley2011.pdf
     - tr1:
         authors:
         - dkopta
