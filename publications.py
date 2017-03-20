@@ -23,6 +23,15 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<style>
+a.author{
+	color: grey;
+}
+a.primary{
+	font-weight: bold;
+}
+</style>
+
 <p>
 My Research interests include Ray Tracing, Computer Graphics, Computer
 Architecture, Computer Displays, Virtual Reality, Augmented Reality,
@@ -248,9 +257,9 @@ def htmlformat(pubentry, authors, ptype = 'jspjut'):
 			first = ''
 			for a in pub['authors']:
 				if a == ptype:
-					mdstr += '%s<strong><a href="%s">%s</a></strong>'%(first, authors[a]['url'], authors[a]['name'])
+					mdstr += '%s<a href="%s" class="author primary">%s</a>'%(first, authors[a]['url'], authors[a]['name'])
 				else:
-					mdstr += '%s<a href="%s">%s</a>'%(first, authors[a]['url'], authors[a]['name'])
+					mdstr += '%s<a href="%s" class="author">%s</a>'%(first, authors[a]['url'], authors[a]['name'])
 				first = ', '
 			mdstr += ';\n'
 		

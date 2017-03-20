@@ -1,16 +1,4 @@
 ---
-name: Dissertation
-pubs:
-    - d0:
-        authors:
-        - jspjut
-        title: "Efficient Ray Tracing Architectures"
-        conference: "University of Utah Dissertation"
-        year: 2015
-        paper: http://josef.spjut.me/pubs/thesis.pdf
-        alternate: http://gradworks.umi.com/3727095.pdf
-        alternate2: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
----
 name: Refereed Publications
 pubs: 
     - c10:
@@ -23,7 +11,8 @@ pubs:
         conference: Society of Information Display
         month: May 24-27
         year: 2016
-        paper: http://onlinelibrary.wiley.com/doi/10.1002/sdtp.10614/full
+        paper: http://josef.spjut.me/greer16.pdf
+        alternate: http://onlinelibrary.wiley.com/doi/10.1002/sdtp.10614/full
     - c9:
         authors:
         - dkopta
@@ -161,6 +150,18 @@ pubs:
         misc: (Studio Course)
         slides: http://josef.spjut.me/class/controllerCourseNotes.pdf
         webpage: http://josef.spjut.me/class/game-controller.html
+---
+name: Dissertation
+pubs:
+    - d0:
+        authors:
+        - jspjut
+        title: "Efficient Ray Tracing Architectures"
+        conference: "University of Utah Dissertation"
+        year: 2015
+        paper: http://josef.spjut.me/pubs/thesis.pdf
+        alternate: http://gradworks.umi.com/3727095.pdf
+        alternate2: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
 ---
 name: Technical Reports
 pubs:
