@@ -116,4 +116,64 @@ authors:
         name: David Luebke
         url: http://luebke.us/
         pic:
+    kaskit:
+        name: Kaan Aksit
+        url: https://kaanaksit.com/
+        pic:
+    wlopes:
+        name: Ward Lopes
+        url: https://research.nvidia.com/users/ward-lopes
+        pic:
+    jonghyunkim:
+        name: Jonghyun Kim
+        url:
+        pic:
+    apatney:
+        name: Anjul Patney
+        url: http://idav.ucdavis.edu/~anjul/
+        pic:
+    pshirley:
+        name: Peter Shirley
+        url: https://www.cs.utah.edu/~shirley/
+        pic:
+    scholewiak:
+        name: Steven A. Cholewiak
+        url: http://steven.cholewiak.com/
+        pic:
+    psrinivasan:
+        name: Pratul Srinivasan
+        url: https://people.eecs.berkeley.edu/~pratul/
+        pic:
+    renng:
+        name: Ren Ng
+        url: https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html/
+        pic:
+    mbanks:
+        name: Martin S. Banks
+        url: http://bankslab.berkeley.edu/
+        pic:
+    glove:
+        name: Gordon D. Love
+        url: https://www.dur.ac.uk/physics/staff/profiles/?id=246
+        pic:
+    rshepherd:
+        name: Robert Shepherd
+        url: https://orl.mae.cornell.edu/#people
+        pic:
+    bpeele:
+        name: Bryan Peele
+        url: http://www.gnarlydesign.io/
+        pic:
+    bmacmurray:
+        name: Benjamin Mac Murray
+        url: https://orl.mae.cornell.edu/#people
+        pic:
+    oshapira:
+        name: Omer Shapira
+        url: http://omershapira.com/#all
+        pic: 
+    jbarreiros:
+        name: Jose Barreiros
+        url: 
+        pic:
 ...

@@ -135,6 +135,56 @@ pubs:
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
+name: Technical Demos
+pubs:
+    - td2:
+        authors:
+        - kaskit
+        - wlopes
+        - jonghyunkim
+        - jspjut
+        - apatney
+        - pshirley
+        - dluebke
+        - scholewiak
+        - psrinivasan
+        - renng
+        - mbanks
+        - glove
+        title: "Varifocal Virtuality: A Novel Optical Layout for Near-Eye Display"
+        conference: SIGGRAPH Emerging Technologies
+        location: Los Angeles
+        month: July 30 - August 3
+        year: 2017
+    - td1:
+        authors:
+        - rshepherd
+        - bpeele
+        - bmacmurray
+        - jbarreiros
+        - oshapira
+        - jspjut
+        - dluebke
+        title: Stretchable Transducers for Kinesthetic Interactions in Virtual Reality
+        conference: SIGGRAPH Emerging Technologies
+        location: Los Angeles
+        month: July 30 - August 3
+        year: 2017
+    - td0:
+        authors:
+        - bpeele
+        - bmacmurray
+        - jbarreiros
+        - rshepherd
+        - oshapira
+        - jspjut
+        - dluebke
+        title: Stretchable Transducers for Haptic Interactions in Virtual and Augmented Reality
+        conference: GTC VR Village
+        location: San Jose
+        month: May 9 - 11
+        year: 2017
+---
 name: Conference Talks and Courses
 pubs:
     - ct1:
