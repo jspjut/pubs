@@ -8,12 +8,14 @@
 # The input filenames
 authorsyaml = 'authors.yml'
 pubsyaml = 'pubs.yml'
+mediayaml = 'media.yml'
 
 # The output filenames
 htmlfilename = '/Users/Josef/jspjut.github.io/research.html'
 mdfilename = '/Users/Josef/CV/src/publications.md'
+mediafilename = '/Users/Josef/jspjut.github.io/media.md'
 
-# This header will probably still need to exist, but maybe I can put the 
+# This header will probably still need to exist, but maybe I can put the
 # interests paragraph in a yaml file somewhere
 htmlheaderstring = '''---
 layout: page
@@ -121,11 +123,23 @@ Solomon Boulos, Spencer Kellis,
 Frank Vahid, David Sheldon, Scott Sirowy, Roman Lysecky</p>
 '''
 # I should really find a way to annotate years on the above collaborations...
+mediaheaderstr = '''---
+layout: page
+title: Media Coverage
+tagline: In the Media
+group: navigation
+---
+{% include JB/setup %}
+
+'''
 
 # Start main script
 import yaml
 import sys
 import string
+
+# media library
+import media
 
 # function for uniquifying the ids in bibtex. Be sure to only run once per reference...
 strdict = {}
@@ -138,7 +152,7 @@ def uniquify(str):
 			if str+a not in strdict.keys():
 				strdict[str+a] = 0
 				return str+a
-		print 'ERROR, could not uniquify'
+		print( 'ERROR, could not uniquify' )
 
 def uniqueid(pub, authors):
 	firstauthor = authornametag(authors[pub['authors'][0]]['name'])
@@ -362,6 +376,23 @@ if __name__ == '__main__':
 	mdfile = open(mdfilename, 'w')
 	mdfile.write( mdstr )
 	mdfile.close()
+
+	# media stuff
+	mediamdstr = mediaheaderstr
+
+	mfile = open(mediayaml, 'r')
+	for entry in yaml.load_all(mfile):
+		mediamdstr += '## %s\n'%entry['name']
+		mediamdstr += entry['text'] + '\n'
+		mediamdstr += media.mdformat(entry['media'])
+
+	# medias = yaml.load(mfile)['media']
+	# mediahtmlstr = media.htmlformat(medias)
+	# mediamdstr += media.mdformat(medias)
+
+	mediafile = open(mediafilename, 'w')
+	mediafile.write(mediamdstr)
+	mediafile.close()
 
 
 

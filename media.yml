@@ -1,0 +1,36 @@
+---
+name: Kinesthetic Haptics for Virtual Reality
+url: 
+text: Collaboration between Cornell Organic Robotics Lab and NVIDIA.
+media:
+  - m4:
+    title: Research lab creates haptic skin material for realistic feedback
+    author: 
+    date: 2017-05-15
+    url: http://www.inavateonthenet.net/news/article/research-lab-creates-haptic-skin-material-for-realistic-feedback
+    journal: InAVate
+  - m3:
+    title: Haptic Skin Created By Cornell Research Lab Makes VR Feel More Human
+    author: Joe Durbin
+    date: 2017-05-12
+    url: https://uploadvr.com/haptic-skin-created-cornell-research-lab-makes/
+    journal: Upload VR
+  - m2:
+    title: Textures In Haptics For VR With Omnipulse
+    author: Rebecca Hills-Duty
+    date: 2017-05-11
+    url: https://www.vrfocus.com/2017/05/textures-in-haptics-for-vr-with-omnipulse/
+    journal: VR Focus
+  - m1:
+    title: This haptic skin prototype could make VR experiences more realistic
+    author: Emma Boyle
+    date: 2017-05-10
+    url: http://www.techradar.com/news/this-haptic-skin-prototype-could-make-vr-experiences-more-realistic
+    journal: Tech Radar
+  - m0:
+    title: This Pulsating 'Haptic Skin' is Somewhat Creepy, Mostly Awesome
+    author: Ben Lang
+    date: 2017-05-09
+    url: http://www.roadtovr.com/omnipulse-haptic-skin-organic-robotics-lab-virtual-reality/
+    journal: Road to VR
+...
