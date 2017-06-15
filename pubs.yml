@@ -156,6 +156,8 @@ pubs:
         location: Los Angeles
         month: July 30 - August 3
         year: 2017
+        paper: http://research.nvidia.com/sites/default/files/publications/final.pdf
+        alternate: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
     - td1:
         authors:
         - rshepherd
@@ -171,6 +173,7 @@ pubs:
         month: July 30 - August 3
         year: 2017
         paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
+        alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
     - td0:
         authors:
         - bpeele
