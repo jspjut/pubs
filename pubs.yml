@@ -193,6 +193,22 @@ name: Conference Talks and Courses
 pubs:
     - ct1:
         authors:
+        - bpeele
+        - bmacmurray
+        - rshepherd
+        - jbarreiros
+        - oshapira
+        - jspjut
+        - dluebke
+        title: Stretchable Transducers for Kinesthetic Interactions in Virtual Reality
+        conference: SIGGRAPH Experience Presentations
+        location: Los Angeles
+        month: August 3
+        year: 2017
+        paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
+        alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
+    - ct0:
+        authors:
         - jspjut
         - rpiersall
         - klau
@@ -203,7 +219,7 @@ pubs:
         year: 2015
         misc: (Studio Course)
         slides: http://josef.spjut.me/class/controllerCourseNotes.pdf
-        webpage: http://josef.spjut.me/class/game-controller.html
+        webpage: http://josef.spjut.me/class/game-controller
 ---
 name: Dissertation
 pubs:
