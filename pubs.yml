@@ -156,7 +156,7 @@ pubs:
         location: Los Angeles
         month: July 30 - August 3
         year: 2017
-        paper: http://research.nvidia.com/sites/default/files/publications/final.pdf
+        paper: http://research.nvidia.com/sites/default/files/publications/final%281%29.pdf
         alternate: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
     - td1:
         authors:
