@@ -1,6 +1,6 @@
 ---
 name: Refereed Publications
-hugoid: 0
+hugoid: 7
 urlid: ref
 pubs: 
     - c10:
@@ -160,7 +160,7 @@ pubs:
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
 name: Technical Demos
-hugoid: 1
+hugoid: 8
 urlid: td
 pubs:
     - td2:
@@ -222,7 +222,7 @@ pubs:
         date: 2017-05-09
 ---
 name: Conference Talks and Courses
-hugoid: 2
+hugoid: 9
 urlid: ct
 pubs:
     - ct1:
@@ -260,7 +260,7 @@ pubs:
         webpage: http://josef.spjut.me/class/game-controller
 ---
 name: Dissertation
-hugoid: 3
+hugoid: 10
 urlid: dis
 pubs:
     - d0:
@@ -355,7 +355,7 @@ pubs:
         paper: http://www.cs.utah.edu/research/techreports/2011/pdf/UUCS-11-002.pdf
 ---
 name: Refereed Posters
-hugoid: 5
+hugoid: 11
 urlid: pos
 pubs:
     - p2:

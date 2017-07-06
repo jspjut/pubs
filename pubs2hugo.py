@@ -94,7 +94,7 @@ if __name__ == '__main__':
                 outstr += '\n+++\n'
                 #save the file
                 # generate filename  ~/github/jspjut-projects/jubilant-meme/content/publication/
-                output_filename = '%scontent/publication/%s-%s.md'%('/Users/Josef/github/jspjut-projects/jubilant-meme/', puburltext, pid)
+                output_filename = '%scontent/publication/%s/%s.md'%('/Users/Josef/github/jspjut-projects/jubilant-meme/', puburltext, pid)
                 # print output_filename, outstr
                 # exit(0)
                 outfile = open(output_filename, 'w')
