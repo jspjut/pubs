@@ -104,14 +104,7 @@ if __name__ == '__main__':
                     outstr += 'url_slides = ""\n'
                 outstr += 'url_video = ""\n'
 
-                #Add bibtex button
-                # try:
-                #     bib = publications.bibtex(pubentry, authors)
-                #     outstr += 'bibtex = "%s"'%bib
-                #     # outstr += ''' <a class="ec" href="javascript:" onclick="e=document.getElementById('bib%s').style;e.display=(e.display=='block'?'none':'block')">Bibtex</a>'''%pid 
-                #     # outstr += '''<span id="bib%s" class="b" style="display: none;"><pre>%s</pre></span>'''%(pid, bib)
-                # except:
-                #     pass
+                # used for making the publication unique on pages
                 outstr += 'unique_id = "%s"\n'%publications.uniqueid(pub, authors)
 
                 outstr += '\n# Optional custom urls.\n'
