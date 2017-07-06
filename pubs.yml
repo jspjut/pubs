@@ -11,8 +11,10 @@ pubs:
         - jtw
         title: Hybrid Modulation for Near Zero Display Latency
         conference: Society of Information Display
+        conf-short: SID
         month: May 24-27
         year: 2016
+        date: 2016-05-24
         paper: http://josef.spjut.me/pubs/greer16.pdf
         alternate: http://onlinelibrary.wiley.com/doi/10.1002/sdtp.10614/full
     - c9:
@@ -24,8 +26,10 @@ pubs:
         - ald
         title: Memory Considerations for Low Energy Ray Tracing
         conference: Computer Graphics Forum
+        conf-short: CGF
         month: August 7
         year: 2014
+        date: 2014-08-07
         paper: http://onlinelibrary.wiley.com/doi/10.1111/cgf.12458/abstract?systemMessage=Wiley+Online+Library+will+be+disrupted+9th+Aug+from+10-2+BST+for+essential+maintenance.+Pay+Per+View+will+be+unavailable+from+10-6+BST.
     - c8:
         authors:
@@ -36,9 +40,11 @@ pubs:
         - ald
         title: An Energy and Bandwidth Efficient Ray Tracing Architecture
         conference: High-Performance Graphics (HPG 2013)
+        conf-short: HPG
         location: Anaheim
         month: July 10-21
         year: 2013
+        date: 2013-07-10
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_hpg13.pdf
     - c7:
         authors:
@@ -50,9 +56,11 @@ pubs:
         - aek
         title: 'Fast, Effective BVH Updates for Animated Scenes'
         conference: ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D 2012)
+        conf-short: I3D
         location: Irvine
         month: March 
         year: 2012
+        date: 2012-03-01
         paper: http://www.cs.utah.edu/~thiago/papers/rotations.pdf
     - c6:
         authors:
@@ -62,9 +70,11 @@ pubs:
         - ald
         title: A Mobile Accelerator Architecture for Ray Tracing
         conference: '3rd Workshop on SoCs, Heterogeneous Architectures and Workloads (SHAW-3)'
+        conf-short: SHAW
         location: New Orleans
         month: February 
         year: 2012
+        date: 2012-02-01
         paper: http://www.cs.utah.edu/~sjosef/papers/spjut-shaw12-final.pdf
         slides: http://www.cs.utah.edu/~sjosef/slides/spjut-shaw12-slides.pdf
     - c5:
@@ -75,9 +85,11 @@ pubs:
         - elb
         title: Efficient MIMD Architectures for High-Performance Ray Tracing
         conference: IEEE International Conference on Computer Design (ICCD 2010)
+        conf-short: ICCD
         location: Amsterdam
         month: October 
         year: 2010
+        date: 2010-10-01
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_iccd10.pdf
     - c4:
         authors:
@@ -87,9 +99,11 @@ pubs:
         - rajeev
         title: 'SWEL: Hardware Cache Coherence Protocols to Map Shared Data onto Shared Caches'
         conference: 19th International Conference on Parallel Architectures and Compilation Techniques (PACT-19)
+        conf-short: PACT
         location: Vienna
         month: September 
         year: 2010
+        date: 2010-09-01
     - c3: 
         authors:
         - jspjut
@@ -98,8 +112,10 @@ pubs:
         - elb
         title: 'TRaX: A Multicore Architecture for Real-Time Ray Tracing'
         conference: IEEE Transactions on Computer Aided Design of Integrated Circuits and Systems (TCAD)
+        conf-short: TCAD
         month: December
         year: 2009
+        date: 2009-12-01
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_tcad09.pdf
     - c2:
         authors:
@@ -108,9 +124,11 @@ pubs:
         - elb
         title: Hardware-accelerated gradient noise for graphics
         conference: Proceedings of the 19th ACM Great Lakes Symposium on VLSI (GLSVLSI'09)
+        conf-short: GLSVLSI
         location: Boston
         month: May 10-12
         year: 2009
+        date: 2009-05-10
     - c1: 
         authors: 
         - nil
@@ -119,9 +137,11 @@ pubs:
         - rajeev
         title: Optimizing a Multi-Core Processor for Message-Passing Workloads
         conference: 5th Workshop on Unique Chips and Systems (UCAS-5)
+        conf-short: UCAS
         location: Boston
         month: April
         year: 2009
+        date: 2009-04-01
     - c0: 
         authors: 
         - jspjut 
@@ -131,9 +151,11 @@ pubs:
         - skellis
         title: "TRaX: A Multi-Threaded Architecture for Real-Time Ray Tracing"
         conference: "Symposium on Application Specific Processors (SASP)"
+        conf-short: SASP
         location: Anaheim
         month: June 8-9
         year: 2008
+        date: 2008-06-08
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
 ---
@@ -157,9 +179,11 @@ pubs:
         - glove
         title: "Varifocal Virtuality: A Novel Optical Layout for Near-Eye Display"
         conference: SIGGRAPH Emerging Technologies
+        conf-short: SIGGRAPH E-Tech
         location: Los Angeles
         month: July 30 - August 3
         year: 2017
+        date: 2017-07-30
         paper: http://research.nvidia.com/sites/default/files/publications/final%281%29.pdf
         alternate: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
     - td1:
@@ -173,9 +197,11 @@ pubs:
         - dluebke
         title: Stretchable Transducers for Kinesthetic Interactions in Virtual Reality
         conference: SIGGRAPH Emerging Technologies
+        conf-short: SIGGRAPH E-Tech
         location: Los Angeles
         month: July 30 - August 3
         year: 2017
+        date: 2017-07-30
         paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
     - td0:
@@ -188,10 +214,12 @@ pubs:
         - jspjut
         - dluebke
         title: Stretchable Transducers for Haptic Interactions in Virtual and Augmented Reality
-        conference: GTC VR Village
+        conference: GPU Technology Conference VR Village
+        conf-short: GTC
         location: San Jose
         month: May 9 - 11
         year: 2017
+        date: 2017-05-09
 ---
 name: Conference Talks and Courses
 hugoid: 2
@@ -208,9 +236,11 @@ pubs:
         - dluebke
         title: Stretchable Transducers for Kinesthetic Interactions in Virtual Reality
         conference: SIGGRAPH Experience Presentations
+        conf-short: SIGGRAPH
         location: Los Angeles
         month: August 3
         year: 2017
+        date: 2017-08-03
         paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
     - ct0:
@@ -220,9 +250,11 @@ pubs:
         - klau
         title: Build your own game controller
         conference: SIGGRAPH Studio
+        conf-short: SIGGRAPH
         location: Los Angeles
         month: August 10
         year: 2015
+        date: 2015-08-10
         misc: (Studio Course)
         slides: http://josef.spjut.me/class/controllerCourseNotes.pdf
         webpage: http://josef.spjut.me/class/game-controller
@@ -236,7 +268,9 @@ pubs:
         - jspjut
         title: "Efficient Ray Tracing Architectures"
         conference: "University of Utah Dissertation"
+        conf-short: Dissertation
         year: 2015
+        date: 2015-05-01
         paper: http://josef.spjut.me/pubs/thesis.pdf
         alternate: http://gradworks.umi.com/3727095.pdf
         alternate2: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
@@ -253,8 +287,10 @@ pubs:
         - jspjut
         title: An Approach to Data Prefetching Using 2-Dimensional Selection Criteria
         conference: "Tech Report, arXiv:1505.03899"
+        conf-short: Tech Report
         month: May
         year: 2015
+        date: 2015-05-01
         paper: http://arxiv.org/abs/1505.03899
     - tr5:
         authors:
@@ -265,8 +301,10 @@ pubs:
         - jspjut
         title: "Sphynx: A Shared Instruction Cache Exporatory Study"
         conference: "Tech Report, arXiv:1412.1140"
+        conf-short: Tech Report
         month: December 3 
         year: 2014
+        date: 2014-12-03
         paper: http://arxiv.org/abs/1412.1140
     - tr4:
         authors:
@@ -276,6 +314,7 @@ pubs:
         conference: "Tech Report"
         month: March
         year: 2014
+        date: 2014-03-01
         paper: http://josef.spjut.me/pubs/stormttr14.pdf
     - tr3:
         authors:
@@ -287,6 +326,7 @@ pubs:
         conference: "Tech Report"
         month: September
         year: 2013
+        date: 2013-09-01
         paper: http://josef.spjut.me/pubs/carterttr13.pdf
     - tr2:
         authors:
@@ -296,6 +336,7 @@ pubs:
         conference: "Tech Report"
         month: September
         year: 2011
+        date: 2011-09-01
         paper: http://josef.spjut.me/pubs/ttr11.pdf
     - tr1:
         authors:
@@ -307,8 +348,10 @@ pubs:
         - ald
         title: Fast, Effective BVH Updates for Dynamic Ray-Traced Scenes Using Tree Rotations
         conference: Tech Report, UUCS 11-002, University of Utah
+        conf-short: Tech Report
         month: July 
         year: 2011
+        date: 2011-07-01
         paper: http://www.cs.utah.edu/research/techreports/2011/pdf/UUCS-11-002.pdf
 ---
 name: Refereed Posters
@@ -322,9 +365,11 @@ pubs:
         - elb
         title: Grid-Based Ray Tracing for a Parallel Computing Architecture
         conference: High Performance Graphics (HPG'09)
+        conf-short: HPG
         location: New Orleans
         month: August 1-3
         year: 2009
+        date: 2009-08-01
     - p1:
         authors:
         - dkopta
@@ -333,8 +378,10 @@ pubs:
         - sparker
         title: Comparing Incoherent Ray Performance of TRaX vs. Manta
         conference: IEEE Symposium on Interactive Ray Tracing (RT08)
+        conf-short: RT
         month: August 9-10
         year: 2008
+        date: 2008-08-09
 ...
 
 

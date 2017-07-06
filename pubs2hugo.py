@@ -33,7 +33,7 @@ if __name__ == '__main__':
                     first = ''
                     for a in pub['authors']:
                         if a == 'jspjut': # special case for important author
-                            outstr += '%s"*[%s](%s)*"'%(first, authors[a]['name'], authors[a]['url'])
+                            outstr += '%s"**[%s](%s)**"'%(first, authors[a]['name'], authors[a]['url'])
                         else:
                             outstr += '%s"[%s](%s)"'%(first, authors[a]['name'], authors[a]['url'])
                         first = ', '
@@ -46,17 +46,26 @@ if __name__ == '__main__':
                 outstr += '\n# Publication type.\n'
                 outstr += 'publication_types = ["%s"]\n\n'%(pubhugoid)
 
-                # publication name
-                outstr += '\n# Publication name and optional abbreviated version.\n'
-                outstr += 'publication = ""\n'
-                outstr += 'publication_short = ""\n'
+                # date
+                try:
+                    outstr += 'date = "%s"\n'%pub['date']
+                except KeyError:
+                    pass
+
+                # journal/conference name
+                try:
+                    outstr += '\n# Publication name and optional abbreviated version.\n'
+                    outstr += 'publication = "%s"\n'%pub['conference']
+                    outstr += 'publication_short = "%s"\n'%pub['conf-short']
+                except KeyError:
+                    pass
 
                 # # Abstract and optional shortened version.\n'
                 # abstract = ""\n'
                 # abstract_short = ""\n'
 
                 # # Featured image thumbnail (optional)\n'
-                # image_preview = ""\n'
+                outstr += 'image_preview = "placeholder.png"\n'
 
                 #constants...
                 outstr += '\n# Is this a selected publication? (true/false)\n'
@@ -67,7 +76,10 @@ if __name__ == '__main__':
                 outstr += 'highlight = true\n'
 
                 outstr += '\n# Links (optional)\n'
-                outstr += 'url_pdf = ""\n'
+                try:
+                    outstr += 'url_pdf = "%s"\n'%pub['paper']
+                except KeyError:
+                    pass
                 outstr += 'url_code = ""\n'
                 outstr += 'url_dataset = ""\n'
                 outstr += 'url_project = ""\n'
