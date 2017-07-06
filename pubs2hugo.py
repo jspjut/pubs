@@ -65,7 +65,10 @@ if __name__ == '__main__':
                 # abstract_short = ""\n'
 
                 # # Featured image thumbnail (optional)\n'
-                outstr += 'image_preview = "placeholder.png"\n'
+                try:
+                    outstr += 'image_preview = "thumbnail/%s"\n'%(pub['thumbnail'])
+                except KeyError:
+                    outstr += 'image_preview = "placeholder.png"\n'
 
                 #constants...
                 outstr += '\n# Is this a selected publication? (true/false)\n'
@@ -88,7 +91,10 @@ if __name__ == '__main__':
 
                 outstr += '\n# Optional featured image (relative to `static/img/` folder).\n'
                 outstr += '[header]\n'
-                outstr += 'image = ""\n'
+                try:
+                    outstr += 'image = "headers/%s"\n'%(pub['banner'])
+                except KeyError:
+                    outstr += 'image = "placeholder-banner.jpeg"\n'
                 outstr += 'caption = ""\n'
 
                 outstr += '\n+++\n'
