@@ -85,11 +85,25 @@ if __name__ == '__main__':
                 try:
                     outstr += 'url_pdf = "%s"\n'%pub['paper']
                 except KeyError:
+                    outstr += 'url_pdf = ""\n'
+                try:
+                    outstr += '[[url_custom]]\n\tname="alternate"\n\turl = "%s"\n'%pub['alternate']
+                except KeyError:
+                    pass
+                try:
+                    outstr += '[[url_custom]]\n\tname="alternate2"\n\turl = "%s"\n'%pub['alternate2']
+                except KeyError:
                     pass
                 outstr += 'url_code = ""\n'
                 outstr += 'url_dataset = ""\n'
-                outstr += 'url_project = ""\n'
-                outstr += 'url_slides = ""\n'
+                try:
+                    outstr += 'url_project = "%s"\n'%pub['webpage']
+                except:
+                    outstr += 'url_project = ""\n'
+                try:
+                    outstr += 'url_slides = "%s"\n'%pub['slides']
+                except:
+                    outstr += 'url_slides = ""\n'
                 outstr += 'url_video = ""\n'
 
                 outstr += '\n# Optional featured image (relative to `static/img/` folder).\n'
