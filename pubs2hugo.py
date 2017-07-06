@@ -92,14 +92,6 @@ if __name__ == '__main__':
                     outstr += 'url_pdf = "%s"\n'%pub['paper']
                 except KeyError:
                     outstr += 'url_pdf = ""\n'
-                try:
-                    outstr += '[[url_custom]]\n\tname="alternate"\n\turl = "%s"\n'%pub['alternate']
-                except KeyError:
-                    pass
-                try:
-                    outstr += '[[url_custom]]\n\tname="alternate2"\n\turl = "%s"\n'%pub['alternate2']
-                except KeyError:
-                    pass
                 outstr += 'url_code = ""\n'
                 outstr += 'url_dataset = ""\n'
                 try:
@@ -122,6 +114,16 @@ if __name__ == '__main__':
                 #     pass
                 outstr += 'unique_id = "%s"\n'%publications.uniqueid(pub, authors)
 
+                outstr += '\n# Optional custom urls.\n'
+                try:
+                    outstr += '[[url_custom]]\n\tname="alternate"\n\turl = "%s"\n'%pub['alternate']
+                except KeyError:
+                    pass
+                try:
+                    outstr += '[[url_custom]]\n\tname="alternate2"\n\turl = "%s"\n'%pub['alternate2']
+                except KeyError:
+                    pass
+                
                 outstr += '\n# Optional featured image (relative to `static/img/` folder).\n'
                 outstr += '[header]\n'
                 try:
