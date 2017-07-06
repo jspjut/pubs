@@ -33,6 +33,8 @@ pubs:
         year: 2014
         date: 2014-08-07
         paper: http://onlinelibrary.wiley.com/doi/10.1111/cgf.12458/abstract?systemMessage=Wiley+Online+Library+will+be+disrupted+9th+Aug+from+10-2+BST+for+essential+maintenance.+Pay+Per+View+will+be+unavailable+from+10-6+BST.
+        thumbnail: kopta14.png
+        banner: kopta14.png
     - c8:
         authors:
         - dkopta
@@ -208,8 +210,8 @@ pubs:
         date: 2017-07-30
         paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
-        thumbnail: etech17-orl.png
-        banner: etech17-orl.png
+        thumbnail: etech17-orl-3.png
+        banner: etech17-orl-2.png
     - td0:
         authors:
         - bpeele
@@ -227,7 +229,7 @@ pubs:
         year: 2017
         date: 2017-05-09
         thumbnail: etech17-orl.png
-        banner: etech17-orl.png
+        banner: etech17-orl-2.png
 ---
 name: Conference Talks and Courses
 hugoid: 9
@@ -251,7 +253,7 @@ pubs:
         date: 2017-08-03
         paper: http://research.nvidia.com/sites/default/files/publications/peele_siggraph_etech17.pdf
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
-        thumbnail: etech17-orl.png
+        thumbnail: etech17-orl-4.png
         banner: etech17-orl.png
     - ct0:
         authors:
@@ -286,6 +288,10 @@ pubs:
         paper: http://josef.spjut.me/pubs/thesis.pdf
         alternate: http://gradworks.umi.com/3727095.pdf
         alternate2: http://content.lib.utah.edu/cdm/ref/collection/etd3/id/3732
+        thumbnail: spjut-dis.png
+        banner: spjut-dis.png
+        abstract: "This dissertation presents computer architecture designs that are efficient for ray tracing based rendering algorithms. The primary observation is that ray tracing maps better to independent thread issue hardware designs than it does to dependent thread and data designs used in most commercial architectures. While the independent thread issue causes extra overhead in the fetch and issue parts of the pipeline, the number of computation resources required can be reduced through the sharing of less frequently used execution units. Furthermore, since all the threads run a single program on multiple data (SPMD), thread processors can share instruction and data caches. Ray tracing needs read-only access to the scene data during each frame, so caches can be optimized for reading, and traditional cache coherence protocols are unnecessary for maintaining coherent memory access. The resultant image exists as a write only frame buffer, allowing memory writes to avoid the cache entirely, preventing cache pollution and increasing the performance of smaller caches.
+        Commercial real-time rendering systems lean heavily on high-performance graphics processing units (GPU) that use the rasterization and z-buffer algorithms for rendering. A single pass of rasterization throws out much of the global scene information by streaming the surface data that a ray tracer keeps resident in memory. As a result, ray tracing is more naturally able to support rendering effects involving global information, such as shadows, reflections, refractions and camera lens effects. Rasterization has a time complexity of approximately O(Nlog(P)) where N is the number of primitive polygons and P is the number of pixels in the image. Ray tracing, in contrast, has a time complexity of O(Plog(N)) making ray tracing scale better to large scenes with many primitive polygons, allowing for increased surface detail. Finally, once the number of pixels reaches its limit, ray tracing should exceed the performance of rasterization by allowing the number of objects to increase with less of a penalty on performance."
 ---
 name: Technical Reports
 hugoid: 4
@@ -304,6 +310,7 @@ pubs:
         year: 2015
         date: 2015-05-01
         paper: http://arxiv.org/abs/1505.03899
+        thumbnail: sung15.png
     - tr5:
         authors:
         - dhpark
@@ -318,6 +325,8 @@ pubs:
         year: 2014
         date: 2014-12-03
         paper: http://arxiv.org/abs/1412.1140
+        thumbnail: park14.png
+        banner: park14.png
     - tr4:
         authors:
         - estorm

@@ -60,9 +60,12 @@ if __name__ == '__main__':
                 except KeyError:
                     pass
 
-                # # Abstract and optional shortened version.\n'
-                # abstract = ""\n'
-                # abstract_short = ""\n'
+                outstr += '# Abstract and optional shortened version.\n'
+                try:
+                    outstr += 'abstract = "%s"\n'%pub['abstract']
+                    outstr += 'abstract_short = ""\n'
+                except KeyError:
+                    pass
 
                 # # Featured image thumbnail (optional)\n'
                 try:
@@ -94,7 +97,8 @@ if __name__ == '__main__':
                 try:
                     outstr += 'image = "headers/%s"\n'%(pub['banner'])
                 except KeyError:
-                    outstr += 'image = "placeholder-banner.jpeg"\n'
+                    # outstr += 'image = "placeholder-banner.jpeg"\n'
+                    outstr += 'image = ""\n'
                 outstr += 'caption = ""\n'
 
                 outstr += '\n+++\n'
