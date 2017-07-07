@@ -17,6 +17,7 @@ pubs:
         date: 2016-05-24
         paper: http://josef.spjut.me/pubs/greer16.pdf
         alternate: http://onlinelibrary.wiley.com/doi/10.1002/sdtp.10614/full
+        abstract: "Binary displays for virtual reality can achieve low latency by integrating view tracking with modulation. We present a novel modulation scheme that combines tracking, pulse density modulation, and pulse width modulation to minimize grayscale artifacts. The hybrid modulator is applied to an AMOLED display at an update rate of 1.7 kHz on which we observe nearly zero latency in the perceived image."
         thumbnail: greer16.png
         banner: greer16.png
     - c9:
@@ -50,6 +51,8 @@ pubs:
         year: 2013
         date: 2013-07-10
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_hpg13.pdf
+        thumbnail: kopta13.png
+        banner: kopta13.png
     - c7:
         authors:
         - dkopta
@@ -66,6 +69,8 @@ pubs:
         year: 2012
         date: 2012-03-01
         paper: http://www.cs.utah.edu/~thiago/papers/rotations.pdf
+        thumbnail: kopta12.png
+        banner: kopta12.png
     - c6:
         authors:
         - jspjut
@@ -81,6 +86,8 @@ pubs:
         date: 2012-02-01
         paper: http://www.cs.utah.edu/~sjosef/papers/spjut-shaw12-final.pdf
         slides: http://www.cs.utah.edu/~sjosef/slides/spjut-shaw12-slides.pdf
+        thumbnail: spjut12.png
+        banner: spjut12.png
     - c5:
         authors:
         - dkopta
@@ -95,6 +102,7 @@ pubs:
         year: 2010
         date: 2010-10-01
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_iccd10.pdf
+        thumbnail: kopta10.png
     - c4:
         authors:
         - spugsley
@@ -108,6 +116,8 @@ pubs:
         month: September 
         year: 2010
         date: 2010-09-01
+        paper: https://pdfs.semanticscholar.org/ce47/02c907835c14022c9e3052a25c46d459c295.pdf
+        thumbnail: pugsley10.png
     - c3: 
         authors:
         - jspjut
@@ -121,6 +131,7 @@ pubs:
         year: 2009
         date: 2009-12-01
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_tcad09.pdf
+        thumbnail: spjut_tcad09.png
     - c2:
         authors:
         - jspjut
@@ -133,6 +144,8 @@ pubs:
         month: May 10-12
         year: 2009
         date: 2009-05-10
+        paper: http://www.eng.utah.edu/~cs6958/papers/noise.pdf
+        thumbnail: spjut_glsvlsi09.png
     - c1: 
         authors: 
         - nil
@@ -146,6 +159,8 @@ pubs:
         month: April
         year: 2009
         date: 2009-04-01
+        paper: http://ai2-s2-pdfs.s3.amazonaws.com/f87a/bd4bf77bae5286fbde62de6b331d45c30d0c.pdf
+        thumbnail: nil09.png
     - c0: 
         authors: 
         - jspjut 
@@ -162,6 +177,7 @@ pubs:
         date: 2008-06-08
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
+        thumbnail: spjut08.png
 ---
 name: Technical Demos
 hugoid: 8
@@ -337,6 +353,7 @@ pubs:
         year: 2014
         date: 2014-03-01
         paper: http://josef.spjut.me/pubs/stormttr14.pdf
+        thumbnail: storm14.png
     - tr3:
         authors:
         - acarter
@@ -349,6 +366,7 @@ pubs:
         year: 2013
         date: 2013-09-01
         paper: http://josef.spjut.me/pubs/carterttr13.pdf
+        thumbnail: carter13.png
     - tr2:
         authors:
         - jspjut
@@ -359,6 +377,7 @@ pubs:
         year: 2011
         date: 2011-09-01
         paper: http://josef.spjut.me/pubs/ttr11.pdf
+        thumbnail: ttr11.png
     - tr1:
         authors:
         - dkopta
@@ -373,7 +392,9 @@ pubs:
         month: July 
         year: 2011
         date: 2011-07-01
-        paper: http://www.cs.utah.edu/research/techreports/2011/pdf/UUCS-11-002.pdf
+        paper: https://pdfs.semanticscholar.org/c352/f679482dcea78e1abe0913b8e12d1c52ae5b.pdf
+        thumbnail: kopta12.png
+        banner: kopta12.png
 ---
 name: Refereed Posters
 hugoid: 11
@@ -391,6 +412,7 @@ pubs:
         month: August 1-3
         year: 2009
         date: 2009-08-01
+        thumbnail: koptaposter09.jpg
     - p1:
         authors:
         - dkopta
@@ -403,6 +425,7 @@ pubs:
         month: August 9-10
         year: 2008
         date: 2008-08-09
+        abstract: TRaX (Threaded Ray eXecution) is a highly parallel multi-threaded, multi-core processor architecture designed for real-time ray tracing. One motivation behind TRaX is to accelerate single-ray performance instead of relying on ray-packets in SIMD mode to boost throughput, which can fail as packets become incoherent. To evaluate the effectiveness of this approach we implement a path tracer on the TRaX simulator and measure performance as the secondary rays become less coherent. We are able to show that TRaX exhibits only minor slowdown on highly incoherent rays compared to a well-optimized SIMD-packet based path tracer which suffers significant slowdown as rays become incoherent.
 ...
 
 
