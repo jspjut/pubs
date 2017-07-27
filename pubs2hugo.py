@@ -6,7 +6,9 @@ import yaml
 
 import publications
 
-if __name__ == '__main__':
+HUGO_SITE='/Users/Josef/jspjut.github.io/'
+
+def main():
 	# get author lookup
     afile = open(publications.authorsyaml, 'r')
     authors = yaml.load(afile)['authors']
@@ -19,7 +21,7 @@ if __name__ == '__main__':
         puburltext = publist['urlid']
         pubhugoid = publist['hugoid']
 
-        print pubtype
+        print('Building ' + pubtype + ' for hugo in ' + HUGO_SITE + puburltext)
 
 		# loop over list of publications
         for pubentry in publist['pubs']:
@@ -129,10 +131,14 @@ if __name__ == '__main__':
                 outstr += '\n+++\n'
                 #save the file
                 # generate filename  ~/github/jspjut-projects/jubilant-meme/content/publication/
-                output_filename = '%scontent/publication/%s/%s.md'%('/Users/Josef/github/jspjut-projects/jubilant-meme/', puburltext, pid)
+                output_filename = '%scontent/publication/%s/%s.md'%(HUGO_SITE, puburltext, pid)
                 # print output_filename, outstr
                 # exit(0)
                 outfile = open(output_filename, 'w')
                 outfile.write(outstr)
                 outfile.close()
+
+
+if __name__ == '__main__':
+    main()
 

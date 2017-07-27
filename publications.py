@@ -11,19 +11,15 @@ pubsyaml = 'pubs.yml'
 mediayaml = 'media.yml'
 
 # The output filenames
-htmlfilename = '/Users/Josef/jspjut.github.io/research.html'
-mdfilename = '/Users/Josef/CV/src/publications.md'
-mediafilename = '/Users/Josef/jspjut.github.io/media.md'
+htmlfilename = '/Users/Josef/jspjut.github.io/content/research/research.html' # use is deprecated on the website
+mdfilename = '/Users/Josef/CV/src/publications.md' # used by CV tool
+mediafilename = '/Users/Josef/jspjut.github.io/content/media/_index.md' # media page
+researchfilename = '/Users/Josef/jspjut.github.io/content/research/_index.md' # research page
 
-# This header will probably still need to exist, but maybe I can put the
-# interests paragraph in a yaml file somewhere
-htmlheaderstring = '''---
-layout: page
-title: Research
-tagline: Publications and Interests
-group: navigation
----
-{% include JB/setup %}
+htmlheaderstring = '''+++
+title = "Research"
+date = 2017-07-26
++++
 
 <style>
 a.author{
@@ -34,12 +30,23 @@ a.primary{
 }
 </style>
 
-<p>
-My Research interests include Ray Tracing, Computer Graphics, Computer
-Architecture, Computer Displays, Virtual Reality, Augmented Reality,
-Parallel Computing, Real Time Systems, Application
-Specific Processing, and Human Computer Interaction.
-</p>
+
+'''
+researchheaderstring = '''+++
+title = "Research"
+date = "2017-01-01T00:00:00Z"
+math = false
+highlight = false
+
+# This is the list of publication types to display (in order)
+pubtype_list = ["7", "8", "9", "10", "4", "11"]
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
+
++++
 
 '''
 
@@ -123,13 +130,9 @@ Solomon Boulos, Spencer Kellis,
 Frank Vahid, David Sheldon, Scott Sirowy, Roman Lysecky</p>
 '''
 # I should really find a way to annotate years on the above collaborations...
-mediaheaderstr = '''---
-layout: page
-title: Media Coverage
-tagline: In the Media
-group: navigation
----
-{% include JB/setup %}
+mediaheaderstr = '''+++
+title = "Media Coverage"
++++
 
 '''
 
@@ -140,6 +143,7 @@ import string
 
 # media library
 import media
+import pubs2hugo
 
 # function for uniquifying the ids in bibtex. Be sure to only run once per reference...
 strdict = {}
@@ -148,7 +152,7 @@ def uniquify(str):
 		strdict[str] = 0
 		return str
 	else:
-		for a in string.lowercase:
+		for a in string.ascii_lowercase:
 			if str+a not in strdict.keys():
 				strdict[str+a] = 0
 				return str+a
@@ -369,10 +373,12 @@ if __name__ == '__main__':
 	htmlstr += htmlfooterstring
 
 	# write out html and markdown results
+	print('Writing research (old) file at ' + htmlfilename)
 	htmlfile = open(htmlfilename, 'w')
 	htmlfile.write( htmlstr )
 	htmlfile.close()
 
+	print('Writing CV file at ' + mdfilename)
 	mdfile = open(mdfilename, 'w')
 	mdfile.write( mdstr )
 	mdfile.close()
@@ -383,17 +389,26 @@ if __name__ == '__main__':
 	mfile = open(mediayaml, 'r')
 	for entry in yaml.load_all(mfile):
 		mediamdstr += '## %s\n'%entry['name']
-		mediamdstr += entry['text'] + '\n'
+		mediamdstr += entry['text'] + '\n\n'
 		mediamdstr += media.mdformat(entry['media'])
 
 	# medias = yaml.load(mfile)['media']
 	# mediahtmlstr = media.htmlformat(medias)
 	# mediamdstr += media.mdformat(medias)
 
+	print('Writing media file at ' + mediafilename)
 	mediafile = open(mediafilename, 'w')
 	mediafile.write(mediamdstr)
 	mediafile.close()
 
+	researchmdstr = researchheaderstring + htmlfooterstring
+	print('Writing research file at ' + researchfilename)
+	researchfile = open(researchfilename, 'w')
+	researchfile.write(researchmdstr)
+	researchfile.close()
+
+	# build hugo files per publication
+	pubs2hugo.main()
 
 
 
