@@ -262,7 +262,7 @@ pubs:
         - dluebke
         title: Stretchable Transducers for Kinesthetic Interactions in Virtual Reality
         conference: SIGGRAPH Experience Presentations
-        conf-short: SIGGRAPH
+        conf-short: SIGGRAPH Talk
         location: Los Angeles
         month: August 3
         year: 2017
@@ -278,7 +278,7 @@ pubs:
         - klau
         title: Build your own game controller
         conference: SIGGRAPH Studio
-        conf-short: SIGGRAPH
+        conf-short: SIGGRAPH Studio
         location: Los Angeles
         month: August 10
         year: 2015
