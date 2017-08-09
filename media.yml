@@ -3,6 +3,24 @@ name: Kinesthetic Haptics for Virtual Reality
 url: 
 text: Collaboration between Cornell Organic Robotics Lab and NVIDIA.
 media:
+  - m7:
+    title: This Controller Changes Shape To Match Virtual Objects
+    author: Ian Hamilton
+    date: 2017-08-01
+    url: https://uploadvr.com/siggraph-controller-changes-shape/
+    journal: Upload VR
+  - m6:
+    title: NVIDIA to present its advances in haptics and multi-focus displays at SIGGRAPH
+    author:
+    date: 2017-07-28
+    url: https://www.realovirtual.com/noticias/3946/nvidia-presentara-siggraph-sus-avances-haptica-pantallas-multiple-enfoque
+    journal: Realovirtual
+  - m5:
+    title: "SIGGRAPH 2017 Emerging Technologies: What’s Waiting in the Wings?"
+    author: Bryant Frazer
+    date: 2017-07-18
+    url: http://www.studiodaily.com/2017/07/siggraph-2017-emerging-technologies-whats-waiting-wings/
+    journal: Studio Daily
   - m4:
     title: Research lab creates haptic skin material for realistic feedback
     author: 
@@ -33,4 +51,51 @@ media:
     date: 2017-05-09
     url: http://www.roadtovr.com/omnipulse-haptic-skin-organic-robotics-lab-virtual-reality/
     journal: Road to VR
+---
+name: Varifocal Virtuality
+url: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
+text: NVIDIA Research
+media:
+  - m0:
+    title: I experienced "Variable Focus HMD" available at the NVIDIA booth that enables expression of perspective that can not be done with existing VR HMD
+    author: Yoshiji Nishikawa
+    date: 2017-08-03
+    url: http://www.4gamer.net/games/999/G999902/20170803025/
+    journal: 4Gamer.net
+  - m4:
+    title: NVIDIA put the latest glasses
+    author: Li Geng
+    date: 2017-08-01
+    url: https://www.leiphone.com/news/201708/4hJa9u8C64gOjSEX.html
+    journal: Leiphone
+  - m2:
+    title: NVIDIA research develops new technology that gives 3D sense to VR
+    author:
+    date: 2017-07-30
+    url: http://www.moguravr.com/nvidia-membrane-vr-varifocal-virtuality/
+    journal: Mogura VR
+  - m6:
+    title: NVIDIA latest research to explore the limitations of VR 
+    author: 51 Touch
+    date: 2017-07-28
+    url: http://www.51touch.com/touchscreen/news/front/201707/28-47883.html
+    journal: 51 Touch
+  - m5:
+    title: New technology studied by Nvidia makes virtual reality more realistic
+    author: 
+    date: 2017-07-28
+    url: http://vrinside.jp/news/nvidia-research-is-studying-new-tech-for-comfortable-virtual-experience/
+    journal: VR Inside
+  - m3:
+    title: NVIDIA to present its advances in haptics and multi-focus displays at SIGGRAPH
+    author:
+    date: 2017-07-28
+    url: https://www.realovirtual.com/noticias/3946/nvidia-presentara-siggraph-sus-avances-haptica-pantallas-multiple-enfoque
+    journal: Realovirtual
+  - m1:
+    title: NVIDIA Research At SIGGRAPH Aims To Fix VR Headset Limits
+    author: Ian Hamilton
+    date: 2017-07-27
+    url: https://uploadvr.com/nvidia-research-aims-to-fix-vr-headset-limits/
+    journal: Upload VR
 ...
