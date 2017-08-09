@@ -208,6 +208,7 @@ pubs:
         alternate: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
         thumbnail: etech17-nv.png
         banner: etech17-nv.png
+        abstract: Augmented reality (AR) has recently gained momentum in the form of a variety of available optical see-through near-eye displays (NEDs) such as the Meta 2and the Microsoft Hololens. These devices are a big step forward towards Sutherland's vision of an ultimate display [Sutherland 1968]. The device we demonstrate attempts to deal with the main limitations of current devices. First, the graphics images are at a constant virtual distance for the eyes' accommodation mechanism, while the vergence of the two eyes working in concert places the virtual object(s) at a distance other than the accommodation distance. This vergence-accommodation conflict is one of the main problems in many AR and VR systems [Kress and Starner 2013]. The second limitation is achieving a wide FOV with compact optics. Cakmakci et al. [2006] contend that achieving a wide field-of-view (FOV) is the major optical design challenge in AR NEDs.
     - td1:
         authors:
         - rshepherd
@@ -228,6 +229,7 @@ pubs:
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
         thumbnail: etech17-orl-3.png
         banner: etech17-orl-2.png
+        abstract: We provide two key demonstrations to highlight the use of fluidic elastomer actuators to provide haptic feedback. These demos allow users to progress through a series of brief experiences where the hand-held controller adjusts its form and behavior to match that of the virtual object used in each demo. The objects held in the demo include a goo gun, pistol and mallet.
     - td0:
         authors:
         - bpeele
@@ -271,6 +273,7 @@ pubs:
         alternate: http://research.nvidia.com/publication/2017-06_Stretchable-Transducers-for
         thumbnail: etech17-orl-4.png
         banner: etech17-orl.png
+        abstract: We provide two key demonstrations to highlight the use of fluidic elastomer actuators to provide haptic feedback. These demos allow users to progress through a series of brief experiences where the hand-held controller adjusts its form and behavior to match that of the virtual object used in each demo. The objects held in the demo include a goo gun, pistol and mallet.
     - ct0:
         authors:
         - jspjut
