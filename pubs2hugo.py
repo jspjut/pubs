@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 '''Script to generate publications files for a hugo academic site.'''
 # Josef Spjut 2017
 
@@ -20,6 +20,10 @@ def main():
         pubtype = publist['name']
         puburltext = publist['urlid']
         pubhugoid = publist['hugoid']
+
+        # skip unpublished list
+        if puburltext == 'unpub':
+            continue
 
         print('Building ' + pubtype + ' for hugo in ' + HUGO_SITE + puburltext)
 

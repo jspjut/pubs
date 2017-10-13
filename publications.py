@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # By Josef Spjut, 2014
 # This script is intended to be used to read in some yaml files and output
@@ -111,6 +111,10 @@ Fabiha Hannan &#39;16, Paul Jolly &#39;16,
 Dong-hyeon Park &#39;14, Sami Mourad &#39;14, Akhil Bagaria &#39;16,
 Andrew Carter &#39;13, Paula Ning &#39;13, Max Korbel &#39;13, Katherine Yang &#39;15</p>
 
+'''
+
+# hiding the collaborator list since I automated it
+'''
 <h3>Current and Recent (within 3 years) Collaborators</h3>
 
 <p>Trey Greer, Turner Whitted, David Luebke,
@@ -129,7 +133,7 @@ Niladrish Chatterjee, Pete Shirley, Steve Parker,
 Solomon Boulos, Spencer Kellis, 
 Frank Vahid, David Sheldon, Scott Sirowy, Roman Lysecky</p>
 '''
-# I should really find a way to annotate years on the above collaborations...
+
 mediaheaderstr = '''+++
 title = "Media Coverage"
 +++
@@ -345,6 +349,45 @@ def authormarkdown(authors):
 		mdstr += '   [%s]: %s\n'%(key, val['url'])
 	return mdstr
 
+def getCollaborators(collaborators, pubentry, authors, exclude = 'jspjut'):
+	year = 1982
+	for pid, pub in pubentry.items():
+		if pub['year'] is not None:
+			year = pub['year']
+		try:
+			collaborators[year]
+		except KeyError:
+			collaborators[year] = set()
+		if pub['authors'] is not None:
+			for a in pub['authors']:
+				if a == exclude:
+					continue # skip myself
+				collaborators[year].add(authors[a]['name'])
+	return collaborators
+
+def collaboratorString(collaborators):
+	firstyear = 2006
+	recentyear = 2014
+	currentyear = 2018
+	recentset = set()
+	pastset = set()
+	for year in range(firstyear, currentyear):
+		try:
+			if year < recentyear:
+				[pastset.add(c) for c in collaborators[year]]
+			else:
+				[recentset.add(c) for c in collaborators[year]]
+			# htmlstr += '<p>' + ', '.join(collaborators[year]) + '</p>'
+		except:
+			pass
+
+	htmlstr = ''
+	htmlstr += '<h3>Current and Recent Collaborators</h3>\n\n'
+	htmlstr += '<p>' + ', '.join(recentset) + '</p>\n\n'
+	htmlstr += '<h3>Past Collaborators</h3>\n\n'
+	htmlstr += '<p>' + ', '.join(pastset.difference(recentset)) + '</p>\n\n'
+	return htmlstr
+
 if __name__ == '__main__':
 	mdstr = ''
 	htmlstr = htmlheaderstring
@@ -352,10 +395,19 @@ if __name__ == '__main__':
 	afile = open(authorsyaml, 'r')
 	authors = yaml.load(afile)['authors']
 
+	# collaborators dict
+	collaborators = {}
+
 	# load pub list
 	stream = open(pubsyaml, 'r')
 	# delimited by --- in the yaml
 	for publist in yaml.load_all(stream): 
+		# skip unpublished list
+		if publist['urlid'] == 'unpub':
+			for pub in publist['pubs']:
+				collaborators = getCollaborators(collaborators, pub, authors)
+			continue
+
 		mdstr += '## %s\n'%publist['name']
 		htmlstr += '<h2>%s</h2>\n<ol>'%publist['name']
 
@@ -363,11 +415,15 @@ if __name__ == '__main__':
 		for pub in publist['pubs']:
 			mdstr += markdown(pub, authors)
 			htmlstr += htmlformat(pub, authors)
+			collaborators = getCollaborators(collaborators, pub, authors)
 
 		mdstr += '\n\n'
 		htmlstr += '</ol>\n\n'
 	# add links at the end of markdown
 	mdstr += authormarkdown(authors)
+
+	# add collaborators to html footer
+	htmlfooterstring += collaboratorString(collaborators)
 
 	# add html footer
 	htmlstr += htmlfooterstring
