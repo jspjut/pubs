@@ -433,6 +433,47 @@ pubs:
         alternate: http://josef.spjut.me/pubs/koptaGradPoster2009.pdf
         thumbnail: koptaposter08.png
         abstract: TRaX (Threaded Ray eXecution) is a highly parallel multi-threaded, multi-core processor architecture designed for real-time ray tracing. One motivation behind TRaX is to accelerate single-ray performance instead of relying on ray-packets in SIMD mode to boost throughput, which can fail as packets become incoherent. To evaluate the effectiveness of this approach we implement a path tracer on the TRaX simulator and measure performance as the secondary rays become less coherent. We are able to show that TRaX exhibits only minor slowdown on highly incoherent rays compared to a well-optimized SIMD-packet based path tracer which suffers significant slowdown as rays become incoherent.
+---
+name: Unpublished
+hugoid: -1
+urlid: unpub
+pubs:
+    - up3:
+        authors:
+        - dluebke
+        - jtw
+        - tgreer
+        - mmcguire
+        - balfieri
+        title: NVIDIA ongoing
+        year: 2017
+        date: 2017-12-31
+    - up2:
+        authors:
+        - jspjut
+        - taila
+        - tkarras
+        - slaine
+        - dluebke
+        title: NVIDIA 2015
+        year: 2015
+        date: 2015-05-30
+    - up1:
+        authors:
+        - mparker
+        title: NVIDIA 2013
+        year: 2013
+        date: 2013-09-01
+    - up0:
+        authors:
+        - jspjut
+        - fvahid
+        - dsheldon
+        - ssirowy
+        - rlysecky
+        title: UCR
+        year: 2006
+        date: 2006-06-20
 ...
 
 

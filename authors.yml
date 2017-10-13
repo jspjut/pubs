@@ -176,4 +176,44 @@ authors:
         name: Jose Barreiros
         url: 
         pic:
+    mmcguire:
+        name: Morgan McGuire
+        url: https://casual-effects.com/morgan/index.html
+        pic:
+    balfieri:
+        name: Bob Alfieri
+        url:
+        pic:
+    taila:
+        name: Timo Aila
+        url: http://research.nvidia.com/person/timo-aila
+        pic:
+    tkarras:
+        name: Tero Karras
+        url: http://research.nvidia.com/person/tero-karras
+        pic:
+    slaine:
+        name: Samuli Laine
+        url: http://research.nvidia.com/person/samuli-laine
+        pic:
+    fvahid:
+        name: Frank Vahid
+        url: http://www.cs.ucr.edu/~vahid/
+        pic:
+    dsheldon:
+        name: David Sheldon
+        url:
+        pic:
+    ssirowy:
+        name: Scott Sirowy
+        url:
+        pic:
+    rlysecky:
+        name: Roman Lysecky
+        url: http://www2.engr.arizona.edu/~rlysecky/
+        pic:
+    mparker:
+        name: Mike Parker
+        url:
+        pic:
 ...
