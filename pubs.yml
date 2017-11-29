@@ -316,6 +316,21 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - tr7:
+        authors:
+        - clarson
+        - jspjut
+        - rknepper
+        - rshepherd
+        title: "OrbTouch: Recognizing Human Touch in Deformable Interfaces with Deep Neural Networks"
+        conference: "Tech Report, arXiv:1706.02542"
+        conf-short: Tech Report
+        month: June
+        year: 2017
+        date: 2017-06-08
+        paper: https://arxiv.org/abs/1706.02542
+        thumbnail: clarson17.png
+        banner: clarson17.png
     - tr6:
         authors:
         - jsung
