@@ -132,7 +132,15 @@ def main():
                     outstr += 'image = ""\n'
                 outstr += 'caption = ""\n'
 
-                outstr += '\n+++\n'
+                outstr += '\n+++\n\n'
+
+                # Allow web page detailed markdown
+                try:
+                    outstr += pub['details']
+                    outstr += '\n'
+                except KeyError:
+                    pass
+
                 #save the file
                 # generate filename  ~/github/jspjut-projects/jubilant-meme/content/publication/
                 output_filename = '%scontent/publication/%s/%s.md'%(HUGO_SITE, puburltext, pid)
