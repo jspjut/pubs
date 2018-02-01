@@ -3,6 +3,25 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c11:
+        authors:
+        - bmacmurray
+        - bpeele
+        - patriciaxu
+        - jspjut
+        - oshapira
+        - dluebke
+        - rshepherd
+        title: A Variable Shape and Variable Stiffness Controller for Haptic Virtual Interactions
+        conference:  IEEE International Conference on Soft Robotics
+        conf-short: RoboSoft
+        month: April 24-28
+        year: 2018
+        date: 2018-04-24
+        paper:
+        abstract: 
+        thumbnail:
+        banner:
     - c10:
         authors:
         - tgreer
@@ -253,6 +272,21 @@ name: Conference Talks and Courses
 hugoid: 9
 urlid: ct
 pubs:
+    - ct2:
+        authors:
+        - jspjut
+        title: "The Augmented Frontier: Challenges for Near Eye Display Computing"
+        conference: "[AR In Action](http://arinaction.org/)"
+        conf-short: ARIA
+        locations: Boston
+        month: January 16-17
+        year: 2018
+        date: 2018-01-16
+        paper: http://josef.spjut.me/pubs/spjutARIA2018.pdf
+        thumbnail: spjutaria18.png
+        banner: nvresearch.png
+        abstract: NVIDIA Research is developing solutions to upcoming difficulties for near eye displays for virtual and augmented reality. In this talk, I review some of the recent research projects from NVIDIA and our collaborators at various insitutions and how they contribute to our greater vision of near eye display computing replacing the existing ecosystem of mobile and desktop computing. 
+        details: See also [The Virtual Fronteir](http://on-demand.gputechconf.com/siggraph/2017/video/sig1718-morgan-mcguire-virtual-frontier-computer-graphics.html) by Morgan McGuire from whom I borrowed many of the slides.
     - ct1:
         authors:
         - bpeele
