@@ -226,6 +226,7 @@ pubs:
         date: 2017-07-30
         paper: http://research.nvidia.com/sites/default/files/publications/final%281%29.pdf
         alternate: http://research.nvidia.com/publication/2017-07_Varifocal-Virtuality%3A-A
+        slides: https://kaanaksit.files.wordpress.com/2017/08/siggraph_slides.pdf
         thumbnail: etech17-nv.png
         banner: etech17-nv.png
         abstract: Augmented reality (AR) has recently gained momentum in the form of a variety of available optical see-through near-eye displays (NEDs) such as the Meta 2and the Microsoft Hololens. These devices are a big step forward towards Sutherland's vision of an ultimate display [Sutherland 1968]. The device we demonstrate attempts to deal with the main limitations of current devices. First, the graphics images are at a constant virtual distance for the eyes' accommodation mechanism, while the vergence of the two eyes working in concert places the virtual object(s) at a distance other than the accommodation distance. This vergence-accommodation conflict is one of the main problems in many AR and VR systems [Kress and Starner 2013]. The second limitation is achieving a wide FOV with compact optics. Cakmakci et al. [2006] contend that achieving a wide field-of-view (FOV) is the major optical design challenge in AR NEDs.
