@@ -36,6 +36,7 @@ pubs:
         date: 2016-05-24
         paper: http://josef.spjut.me/pubs/greer16.pdf
         alternate: http://onlinelibrary.wiley.com/doi/10.1002/sdtp.10614/full
+        video: https://www.youtube.com/watch?v=BKzXRwJ8gjw
         abstract: "Binary displays for virtual reality can achieve low latency by integrating view tracking with modulation. We present a novel modulation scheme that combines tracking, pulse density modulation, and pulse width modulation to minimize grayscale artifacts. The hybrid modulator is applied to an AMOLED display at an update rate of 1.7 kHz on which we observe nearly zero latency in the perceived image."
         thumbnail: greer16.png
         banner: greer16.png
