@@ -283,6 +283,7 @@ pubs:
         year: 2018
         date: 2018-01-16
         paper: http://josef.spjut.me/pubs/spjutARIA2018.pdf
+        video: https://www.youtube.com/watch?v=sIqv-MJAwHo
         thumbnail: spjutaria18.png
         banner: nvresearch.png
         abstract: NVIDIA Research is developing solutions to upcoming difficulties for near eye displays for virtual and augmented reality. In this talk, I review some of the recent research projects from NVIDIA and our collaborators at various insitutions and how they contribute to our greater vision of near eye display computing replacing the existing ecosystem of mobile and desktop computing. 
