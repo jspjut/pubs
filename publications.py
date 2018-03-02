@@ -145,7 +145,6 @@ import yaml
 import sys
 import string
 import datetime
-import dateutil.parser
 
 # media library
 import media
@@ -247,6 +246,12 @@ def markdown(pubentry, authors, ptype = 'jspjut'):
 			pass
 		try:
 			mdstr += '%d.'%pub['year']
+		except KeyError:
+			pass
+		try:
+			if pub['date'] > datetime.datetime.now().date():
+				mdstr += ' (to appear)'
+				pass
 		except KeyError:
 			pass
 		try:
