@@ -3,6 +3,23 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c12:
+        authors:
+            - tgrant
+            - kshkurko
+            - dkopta
+            - jspjut
+            - elb
+        title: "SimTrax: Simulation Infrastructure for Exploring Thousands of Cores"
+        conference: ACM Great Lakes Symposium on VLSI
+        conf-short: GLSVLSI
+        month: May 23-25
+        year: 2018
+        date: 2018-05-23
+        paper:
+        abstract:
+        thumbnail: grant18.png
+        banner: grant18.png
     - c11:
         authors:
         - bmacmurray
@@ -20,8 +37,8 @@ pubs:
         date: 2018-04-24
         paper:
         abstract: 
-        thumbnail:
-        banner:
+        thumbnail: macmurray18.png
+        banner: macmurray18.png
     - c10:
         authors:
         - tgreer

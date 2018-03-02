@@ -174,7 +174,7 @@ authors:
         pic: 
     jbarreiros:
         name: Jose Barreiros
-        url: 
+        url: https://orl.mae.cornell.edu//#people
         pic:
     clarson:
         name: Chris Larson
@@ -226,6 +226,10 @@ authors:
         pic:
     patriciaxu:
         name: Patricia Xu
-        url:
+        url: https://orl.mae.cornell.edu//#people
+        pic:
+    tgrant:
+        name: Tim Grant
+        url: https://www.cs.utah.edu/~tgrant/
         pic:
 ...

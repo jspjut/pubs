@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# By Josef Spjut, 2014
+# By Josef Spjut, 2014-2018
 # This script is intended to be used to read in some yaml files and output
 # markdown, bibtex, html or similar file types with paper references.
 # It requires PyYaml to function: http://pyyaml.org/wiki/PyYAML
@@ -18,7 +18,7 @@ researchfilename = '/Users/Josef/jspjut.github.io/content/research/_index.md' # 
 
 htmlheaderstring = '''+++
 title = "Research"
-date = 2017-07-26
+date = 2018-01-26
 +++
 
 <style>
@@ -34,7 +34,7 @@ a.primary{
 '''
 researchheaderstring = '''+++
 title = "Research"
-date = "2017-01-01T00:00:00Z"
+date = "2018-01-01T00:00:00Z"
 math = false
 highlight = false
 

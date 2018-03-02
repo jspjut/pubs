@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''Script to generate publications files for a hugo academic site.'''
-# Josef Spjut 2017
+# Josef Spjut 2017-2018
 
 import yaml
 
@@ -61,6 +61,12 @@ def main():
                 # date
                 try:
                     outstr += 'date = "%s"\n'%pub['date']
+                except KeyError:
+                    pass
+                
+                # draft (for not yet accepted stuff)
+                try:
+                    outstr += 'draft = "%s"\n'%pub['draft']
                 except KeyError:
                     pass
 
