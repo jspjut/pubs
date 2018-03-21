@@ -232,4 +232,16 @@ authors:
         name: Tim Grant
         url: https://www.cs.utah.edu/~tgrant/
         pic:
+    evasiou:
+        name: Elena Vasiou
+        url: http://www.cs.utah.edu/~elvasiou/
+        pic:
+    imallett:
+        name: Ian Mallett
+        url: https://geometrian.com/
+        pic:
+    cyuksel: 
+        name: Cem Yuksel
+        url: http://www.cemyuksel.com/
+        pic:
 ...
