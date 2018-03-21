@@ -40,6 +40,7 @@ pubs:
         date: 2018-04-24
         paper: http://research.nvidia.com/sites/default/files/pubs/2018-04_A-Variable-Shape/Mac%20Murray%20Final%2020180228.pdf
         abstract: "This paper presents an entirely compliant controller handle for use in virtual and augmented reality environments. The controller handle transitions between two static states: a semi-rigid, large diameter state when pneumatically pressurized and a soft, compressible, smaller diameter state when depressurized. We integrated the controller with a modified version of NVIDIA’s VR Funhouse employing the two controller states to simulate the physical feel of two virtual objects. We used finite element modeling to downselect an internal elastomer lattice within the controller that controls deformation upon inflation. Finally, we show an example of using the compliance of the handle as an interaction input by designing an algorithm to identify rapid compressions of the handle as a signal to swap objects in the virtual environment."
+        alternate: http://research.nvidia.com/publication/2018-04_A-Variable-Shape
         thumbnail: robosoft2018.png
         banner: macmurray18.png
     - c10:
