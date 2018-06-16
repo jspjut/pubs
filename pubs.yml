@@ -3,6 +3,24 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c13:
+        authors:
+            - amarrs
+            - jspjut
+            - hgruen
+            - rsathe
+            - mmcguire
+        title: Adaptive Temporal Antialiasing
+        conference: High-Performance Graphics (HPG 2018)
+        conf-short: HPG
+        location: Vancouver
+        month: August 10-12
+        year: 2018
+        date: 2018-08-10
+        paper: 
+        abstract: We introduce a pragmatic algorithm for real-time adaptive supersampling in games. It extends temporal antialiasing of rasterized images with adaptive ray tracing, and conforms to the constraints of a commercial game engine and today's GPU ray tracing APIs. The algorithm removes blurring and ghosting artifacts associated with standard temporal antialiasing and achieves quality approaching 8X supersampling of geometry, shading, and materials while staying within the 33ms frame budget required of most games.
+        thumbnail: marrs18a.png
+        banner: marrs18a.png
     - c12:
         authors:
             - kshkurko
@@ -19,7 +37,7 @@ pubs:
         month: May 23-25
         year: 2018
         date: 2018-05-23
-        paper:
+        paper: http://josef.spjut.me/pubs/shkurko18.pdf
         abstract: "SimTRaX is a simulation infrastructure for simultaneous exploration of highly parallel accelerator architectures and how applications map to them. The infrastructure targets both cycle-accurate and functional simulation of architectures with thousands of simple cores that may share expensive computation and memory resources. A modified LLVM backend used to compile C++ programs for the simulated architecture allows the user to create custom instructions that access proposed special-purpose hardware and to debug and profile the applications being executed. The simulator models a full memory hierarchy including registers, local scratchpad RAM, shared caches, external memory channels, and DRAM main memory, leveraging the USIMM DRAM simulator to provide accurate dynamic latencies and power usage. SimTRaX provides a powerful and flexible infrastructure for exploring a class of extremely parallel architectures for parallel applications that are not easily simulated using existing simulators."
         thumbnail: shkurko18.png
         banner: shkurko18.png
@@ -374,6 +392,26 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - c12:
+        authors:
+            - kshkurko
+            - tgrant
+            - elb
+            - dkopta
+            - jspjut
+            - evasiou
+            - imallett
+            - cyuksel
+        title: "SimTrax: Simulation Infrastructure for Exploring Thousands of Cores"
+        conference: Tech Report
+        conf-short: Tech Report
+        month: March 29
+        year: 2018
+        date: 2018-03-29
+        paper: http://josef.spjut.me/pubs/shkurko18_tr.pdf
+        abstract: "SimTRaX is a simulation infrastructure for simultaneous exploration of highly parallel accelerator architectures and how applications map to them. The infrastructure targets both cycle-accurate and functional simulation of architectures with thousands of simple cores that may share expensive computation and memory resources. A modified LLVM backend used to compile C++ programs for the simulated architecture allows the user to create custom instructions that access proposed special-purpose hardware and to debug and profile the applications being executed. The simulator models a full memory hierarchy including registers, local scratchpad RAM, shared caches, external memory channels, and DRAM main memory, leveraging the USIMM DRAM simulator to provide accurate dynamic latencies and power usage. SimTRaX provides a powerful and flexible infrastructure for exploring a class of extremely parallel architectures for parallel applications that are not easily simulated using existing simulators."
+        thumbnail: shkurko18.png
+        banner: shkurko18.png
     - tr7:
         authors:
         - clarson
