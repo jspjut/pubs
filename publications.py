@@ -380,8 +380,9 @@ def getCollaborators(collaborators, pubentry, authors, exclude = 'jspjut'):
 
 def collaboratorString(collaborators):
 	firstyear = 2006
-	recentyear = 2014
-	currentyear = 2018
+	# need to update these years every year
+	recentyear = 2015
+	currentyear = 2019
 	recentset = set()
 	pastset = set()
 	for year in range(firstyear, currentyear):
@@ -393,12 +394,11 @@ def collaboratorString(collaborators):
 			# htmlstr += '<p>' + ', '.join(collaborators[year]) + '</p>'
 		except:
 			pass
-
 	htmlstr = ''
 	htmlstr += '<h3>Current and Recent Collaborators</h3>\n\n'
-	htmlstr += '<p>' + ', '.join(recentset) + '</p>\n\n'
+	htmlstr += '<p>' + ', '.join(sorted(recentset)) + '</p>\n\n'
 	htmlstr += '<h3>Past Collaborators</h3>\n\n'
-	htmlstr += '<p>' + ', '.join(pastset.difference(recentset)) + '</p>\n\n'
+	htmlstr += '<p>' + ', '.join(sorted(pastset.difference(recentset))) + '</p>\n\n'
 	return htmlstr
 
 if __name__ == '__main__':
