@@ -17,7 +17,8 @@ pubs:
         month: August 10-12
         year: 2018
         date: 2018-08-10
-        paper: 
+        paper: http://research.nvidia.com/sites/default/files/pubs/2018-08_Adaptive-Temporal-Antialiasing/adaptive-temporal-antialiasing-preprint_0.pdf
+        alternate: http://research.nvidia.com/publication/2018-08_Adaptive-Temporal-Antialiasing
         abstract: We introduce a pragmatic algorithm for real-time adaptive supersampling in games. It extends temporal antialiasing of rasterized images with adaptive ray tracing, and conforms to the constraints of a commercial game engine and today's GPU ray tracing APIs. The algorithm removes blurring and ghosting artifacts associated with standard temporal antialiasing and achieves quality approaching 8X supersampling of geometry, shading, and materials while staying within the 33ms frame budget required of most games.
         thumbnail: marrs18a.png
         banner: marrs18a.png
@@ -242,9 +243,30 @@ name: Technical Demos
 hugoid: 8
 urlid: td
 pubs:
+    - td3:
+        authors:
+        - krathinavel
+        - pchakravarthula
+        - kaksit
+        - jspjut
+        - bboudaoud
+        - jtw
+        - dluebke
+        - hfuchs
+        title: "Steerable Application-Adaptive Near-Eye Displays"
+        conference: SIGGRAPH Emerging Technologies
+        conf-short: SIGGRAPH E-Tech
+        location: Vancouver
+        month: August 12 - 16
+        year: 2018
+        date: 2018-08-12
+        paper: 
+        thumbnail: etech18-unc.png
+        banner: etech18-unc.png
+        abstract: This augmented reality display uses interchangeable 3D-printed optical components to provide content-specific accommodation support. It also presents high-resolution imagery in a gaze-contingent manner by implementing a lens actuation based foveation mechanism.
     - td2:
         authors:
-        - kaskit
+        - kaksit
         - wlopes
         - jonghyunkim
         - jspjut

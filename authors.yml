@@ -116,7 +116,7 @@ authors:
         name: David Luebke
         url: http://luebke.us/
         pic:
-    kaskit:
+    kaksit:
         name: Kaan Aksit
         url: https://kaanaksit.com/
         pic:
@@ -255,5 +255,21 @@ authors:
     rsathe: 
         name: Rahul Sathe
         url: https://www.linkedin.com/in/rasathe/
+        pic:
+    krathinavel:
+        name: Kishore Rathinavel
+        url: https://sites.google.com/site/kishorerathinavel/
+        pic:
+    pchakravarthula:
+        name: Praneeth Chakravarthula
+        url: http://www.ee.iitm.ac.in/~ee11b061/
+        pic:
+    bboudaoud:
+        name: Ben Boudaoud
+        url: https://www.linkedin.com/in/ben-boudaoud/
+        pic:
+    hfuchs:
+        name: Henry Fuchs
+        url: http://henryfuchs.web.unc.edu/
         pic:
 ...
