@@ -3,12 +3,18 @@ name: Adaptive Temporal Anti-Aliasing
 url: 
 text: NVIDIA Research
 media:
-  - m11:
+  - m12:
     title: Nvidia Ray Tracing In Temporal Anti-aliasing Will Revolutionize The Future Of Gaming
     author: Talha Amjad
     date: 2018-08-02
     url: https://segmentnext.com/2018/08/02/nvidia-ray-tracing-temporal-anti-aliasing/
     journal: Segment Next
+  - m11:
+    title: Nvidia research team hoping for ray tracing in games "over the next few years"
+    author: Jacob Ridley
+    date: 2018-08-01
+    url: https://www.pcgamesn.com/nvidia-ataa-real-time-ray-tracing-anti-aliasing
+    journal: PC Games N
   - m10:
     title: NVIDIA announces Adaptive Ray Tracing Temporal Antialiasing for games
     author: JOHN PAPADOPOULOS
