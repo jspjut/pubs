@@ -3,6 +3,18 @@ name: Adaptive Temporal Anti-Aliasing
 url: 
 text: NVIDIA Research
 media:
+  - m11:
+    title: Nvidia Ray Tracing In Temporal Anti-aliasing Will Revolutionize The Future Of Gaming
+    author: Talha Amjad
+    date: 2018-08-02
+    url: https://segmentnext.com/2018/08/02/nvidia-ray-tracing-temporal-anti-aliasing/
+    journal: Segment Next
+  - m10:
+    title: NVIDIA announces Adaptive Ray Tracing Temporal Antialiasing for games
+    author: JOHN PAPADOPOULOS
+    date: 2018-08-01
+    url: https://www.dsogaming.com/news/nvidia-announces-adaptive-ray-tracing-temporal-antialiasing-for-games/
+    journal: Dark Side of Gaming
   - m9:
     title: Nvidia Showcases Adaptive Temporal Anti-Aliasing Technology with Ray Tracing
     author: Scott Hill
@@ -25,7 +37,7 @@ media:
     title: Nvidia at work on the Adaptive Temporal anti-Aliasing (ATAA), which is based on Ray Tracing
     author: bitfeed
     date: 2018-08-01
-    url: https://www.bitfeed.co/page/nvidia-at-work-on-the-adaptive-temporal-anti-aliasing-ataa-which-is-based-on-ray-tracing?utm_source=twitter&utm_medium=tweet&utm_campaign=twitter-status
+    url: https://www.bitfeed.co/page/nvidia-at-work-on-the-adaptive-temporal-anti-aliasing-ataa-which-is-based-on-ray-tracing
     journal: bitfeed
   - m5:
     title: Adaptive Temporal Antialiasing (ATAA) in Development at NVIDIA, Powered by Ray Tracing
