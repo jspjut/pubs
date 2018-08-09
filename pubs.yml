@@ -17,7 +17,7 @@ pubs:
         month: August 10-12
         year: 2018
         date: 2018-08-10
-        paper: http://research.nvidia.com/sites/default/files/pubs/2018-08_Adaptive-Temporal-Antialiasing/adaptive-temporal-antialiasing-preprint_0.pdf
+        paper: http://research.nvidia.com/sites/default/files/pubs/2018-08_Adaptive-Temporal-Antialiasing/adaptive-temporal-antialiasing-preprint.pdf
         alternate: http://research.nvidia.com/publication/2018-08_Adaptive-Temporal-Antialiasing
         abstract: We introduce a pragmatic algorithm for real-time adaptive supersampling in games. It extends temporal antialiasing of rasterized images with adaptive ray tracing, and conforms to the constraints of a commercial game engine and today's GPU ray tracing APIs. The algorithm removes blurring and ghosting artifacts associated with standard temporal antialiasing and achieves quality approaching 8X supersampling of geometry, shading, and materials while staying within the 33ms frame budget required of most games.
         thumbnail: marrs18a.png
