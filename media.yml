@@ -82,6 +82,17 @@ media:
     url: https://videocardz.com/76902/nvidia-introduces-adaptive-temporal-antialiasing-with-ray-tracing
     journal: videocardz
 ---
+name: Steerable Application-Adaptive Near-Eye Displays
+url: 
+text: NVIDIA Research - Best in Show Award
+media:
+  - m0:
+    title: SIGGRAPH 2018 Celebrates Generations in Vancouver
+    author: Dan Harary
+    date: 2018-08-16
+    url: https://s2018.siggraph.org/press/news-releases/siggraph-2018-celebrates-generations-vancouver/
+    journal: SIGGRAPH
+---
 name: Kinesthetic Haptics for Virtual Reality
 url: 
 text: Collaboration between Cornell Organic Robotics Lab and NVIDIA.
