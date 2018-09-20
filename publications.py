@@ -18,7 +18,7 @@ researchfilename = '/Users/Josef/jspjut.github.io/content/research/_index.md' # 
 
 htmlheaderstring = '''+++
 title = "Research"
-date = 2018-01-26
+date = 2018-09-20
 +++
 
 <style>
