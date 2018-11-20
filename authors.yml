@@ -210,11 +210,11 @@ authors:
         pic:
     dsheldon:
         name: David Sheldon
-        url:
+        url: https://www.linkedin.com/in/david-sheldon-b3600339/
         pic:
     ssirowy:
         name: Scott Sirowy
-        url:
+        url: https://www.linkedin.com/in/scott-sirowy/
         pic:
     rlysecky:
         name: Roman Lysecky
@@ -272,4 +272,23 @@ authors:
         name: Henry Fuchs
         url: http://henryfuchs.web.unc.edu/
         pic:
+    yyuralsky:
+        name: Yury Uralsky
+        url: https://www.linkedin.com/in/yuryuralsky/ 
+        pic:
+    mjalal:
+        name: Mona Jalal
+        url: http://monajalal.com/
+    nkalavakonda:
+        name: Niveditha Kalavakonda
+        url: https://nivedithakalavakonda.com/
+    hclaure:
+        name: Houston Claure
+        url: https://www.linkedin.com/in/houston-claure-33793771/
+    mjung:
+        name: Malte Jung
+        url: http://mjung.infosci.cornell.edu/
+    mbetke:
+        name: Margrit Betke
+        url: http://www.cs.bu.edu/~betke/
 ...
