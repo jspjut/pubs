@@ -3,6 +3,27 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c14:
+        authors:
+            - jbarreiros
+            - hclaure
+            - bpeele
+            - oshapira
+            - jspjut
+            - dluebke
+            - mjung
+            - rshepherd
+        title: Fluidic Elastomer Actuators for Haptic Interactions in Virtual Reality
+        conference: IEEE Robotics and Automation Letters
+        conf-short: IEEE RA-L
+        location: 
+        month: February
+        year: 2019
+        date: 2019-02-27
+        paper:
+        abstract:
+        thumbnail: barreiros19.png
+        banner: barreiros19.png
     - c13:
         authors:
             - amarrs
@@ -415,7 +436,7 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
-    - c12:
+    - tr8:
         authors:
             - kshkurko
             - tgrant
@@ -537,6 +558,22 @@ name: Refereed Posters
 hugoid: 11
 urlid: pos
 pubs:
+    - p3:
+        authors:
+        - mjalal
+        - jspjut
+        - bboudaoud
+        - mbetke
+        title: Large-scale Synthetic Domain Randomized 6DoF Object Pose Estimation Dataset
+        conference: New England Computer Vision Workshop
+        conf-short: NECV
+        location: Boston
+        month: November 26
+        year: 2018
+        date: 2018-11-26
+        paper:
+        thumbnail: jalal18.png
+        banner: jalal18.png
     - p2:
         authors:
         - dkopta
@@ -572,6 +609,58 @@ name: Unpublished
 hugoid: -1
 urlid: unpub
 pubs:
+    - bc2:
+        authors:
+        - amarrs
+        - jspjut
+        - hgruen
+        - rsathe
+        - mmcguire
+        title: Improving Temporal Antialiasing with Adaptive Ray Tracing
+        conference: Ray Tracing Gems
+        conf-short: RTG
+        month: March
+        year: 2019
+        date: 2019-03-31
+        paper: 
+        thumbnail:
+        banner:
+        abstract: 
+    - bc1:
+        authors:
+        - rsathe
+        - hgruen
+        - amarrs
+        - jspjut
+        - mmcguire
+        - yyuralsky
+        title: "Adaptive Anti-Aliasing using Conservative Rasterization and GPU Ray Tracing"
+        conference: GPU Zen 2
+        conf-short: GPU Zen 2
+        month: March
+        year: 2019
+        date: 2019-03-31
+        paper:
+        thumbnail:
+        banner:
+        abstract: 
+    - tr10:
+        authors:
+        - nkalavakonda
+        - jspjut
+        - bboudaoud
+        title: TrackNN
+        year: 2018
+        date: 2018-11-28
+    - tr9:
+        authors:
+        - mjalal
+        - jspjut
+        - bboudaoud
+        - mbetke
+        title: Dataset paper
+        year: 2018
+        date: 2018-11-28
     - up3:
         authors:
         - dluebke
