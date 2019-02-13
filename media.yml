@@ -3,6 +3,12 @@ name: Steerable Application-Adaptive Near-Eye Displays
 url: 
 text: NVIDIA Research - Best in Show Award
 media:
+  - m1:
+    title: "2018 Emerging Technologies Best in Show: Steerable Application-Adaptive Near-Eye Displays"
+    author: Siggraph Conferences
+    date: 2018-11-09
+    url: https://blog.siggraph.org/2018/11/2018-emerging-technologies-best-in-show-steerable-application-adaptive-near-eye-displays.html/
+    journal: SIGGRAPH Blog
   - m0:
     title: SIGGRAPH 2018 Celebrates Generations in Vancouver
     author: Dan Harary
