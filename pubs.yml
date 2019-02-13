@@ -14,7 +14,7 @@ pubs:
             - mjung
             - rshepherd
         title: Fluidic Elastomer Actuators for Haptic Interactions in Virtual Reality
-        conference: IEEE Robotics and Automation Letters
+        conference: IEEE Robotics and Automation Letters (RA-L)
         conf-short: IEEE RA-L
         location: 
         month: February
@@ -259,6 +259,28 @@ pubs:
         misc: (Best paper award)
         paper: http://www.cs.utah.edu/~dkopta/papers/hwrt_sasp08.pdf
         thumbnail: spjut08.png
+---
+name: Book Chapter
+hugoid: 6
+urlid: bc
+pubs:
+    - bc1:
+        authors:
+        - amarrs
+        - jspjut
+        - hgruen
+        - rsathe
+        - mmcguire
+        title: Improving Temporal Antialiasing with Adaptive Ray Tracing
+        conference: Ray Tracing Gems
+        conf-short: RTG
+        month: March
+        year: 2019
+        date: 2019-03-31
+        paper: https://developer.nvidia.com/books/raytracing/raytracing_gems_preview
+        thumbnail: ATAA_RTG19.png
+        banner: ATAA_RTG19.png
+        abstract: In this chapter, we discuss a pragmatic approach to real-time supersampling that extends commonly used temporal antialiasing techniques with adaptive ray tracing. The algorithm conforms to the constraints of a commercial game engine, removes blurring and ghosting artifacts associated with standard temporal antialiasing, and achieves quality approaching 16x supersampling of geometry, shading, and materials within the 16 ms frame budget required of most games.
 ---
 name: Technical Demos
 hugoid: 8
@@ -611,23 +633,6 @@ urlid: unpub
 pubs:
     - bc2:
         authors:
-        - amarrs
-        - jspjut
-        - hgruen
-        - rsathe
-        - mmcguire
-        title: Improving Temporal Antialiasing with Adaptive Ray Tracing
-        conference: Ray Tracing Gems
-        conf-short: RTG
-        month: March
-        year: 2019
-        date: 2019-03-31
-        paper: 
-        thumbnail:
-        banner:
-        abstract: 
-    - bc1:
-        authors:
         - rsathe
         - hgruen
         - amarrs
@@ -644,6 +649,27 @@ pubs:
         thumbnail:
         banner:
         abstract: 
+    - c15:
+        authors:
+            - jbarreiros
+            - hclaure
+            - bpeele
+            - oshapira
+            - jspjut
+            - dluebke
+            - mjung
+            - rshepherd
+        title: Fluidic Elastomer Actuators for Haptic Interactions in Virtual Reality
+        conference: IEEE International Conference on Robotics and Automation (ICRA)
+        conf-short: ICRA
+        location: Montreal, Canada
+        month: May
+        year: 2019
+        date: 2019-05-24
+        paper:
+        abstract:
+        thumbnail: barreiros19.png
+        banner: barreiros19.png
     - tr10:
         authors:
         - nkalavakonda
