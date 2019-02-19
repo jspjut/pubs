@@ -1,25 +1,26 @@
 ---
-name: Steerable Application-Adaptive Near-Eye Displays
-url: 
-text: NVIDIA Research - Best in Show Award
-media:
-  - m1:
-    title: "2018 Emerging Technologies Best in Show: Steerable Application-Adaptive Near-Eye Displays"
-    author: Siggraph Conferences
-    date: 2018-11-09
-    url: https://blog.siggraph.org/2018/11/2018-emerging-technologies-best-in-show-steerable-application-adaptive-near-eye-displays.html/
-    journal: SIGGRAPH Blog
-  - m0:
-    title: SIGGRAPH 2018 Celebrates Generations in Vancouver
-    author: Dan Harary
-    date: 2018-08-16
-    url: https://s2018.siggraph.org/press/news-releases/siggraph-2018-celebrates-generations-vancouver/
-    journal: SIGGRAPH
----
 name: Adaptive Temporal Anti-Aliasing
 url: https://research.nvidia.com/publication/2018-08_Adaptive-Temporal-Antialiasing
 text: NVIDIA Research
 media:
+  - m15:
+    title: Nvidia planea mejorar la calidad del TAA con el raytracing
+    author: Diego Emegé
+    date: 2019-02-19
+    url: https://www.3djuegos.com/noticias-ver/190174/nvidia-planea-mejorar-la-calidad-del-taa-con-el-raytracing/
+    journal: 3D Juegos
+  - m14:
+    title: Nvidia Plans to Improve Temporal Anti-aliasing with Ray Tracing
+    author: Mark Campbell
+    date: 2019-02-18
+    url: https://www.overclock3d.net/news/gpu_displays/nvidia_plans_to_improve_temporal_anti-aliasing_with_ray_tracing/1
+    journal: Overclock 3D
+  - m13:
+    title: NVIDIA aims to remove TAA blurring and ghosting artifacts with adaptive ray tracing in games
+    author: John Papadopoulos
+    date: 2019-02-18
+    url: https://www.dsogaming.com/news/nvidia-aims-to-remove-blurring-and-ghosting-artifacts-in-taa-with-adaptive-ray-tracing-in-games/
+    journal: Dark Side of Gaming
   - m12:
     title: Nvidia Ray Tracing In Temporal Anti-aliasing Will Revolutionize The Future Of Gaming
     author: Talha Amjad
@@ -98,6 +99,23 @@ media:
     date: 2018-07-30
     url: https://videocardz.com/76902/nvidia-introduces-adaptive-temporal-antialiasing-with-ray-tracing
     journal: videocardz
+---
+name: Steerable Application-Adaptive Near-Eye Displays
+url: 
+text: NVIDIA Research - Best in Show Award
+media:
+  - m1:
+    title: "2018 Emerging Technologies Best in Show: Steerable Application-Adaptive Near-Eye Displays"
+    author: Siggraph Conferences
+    date: 2018-11-09
+    url: https://blog.siggraph.org/2018/11/2018-emerging-technologies-best-in-show-steerable-application-adaptive-near-eye-displays.html/
+    journal: SIGGRAPH Blog
+  - m0:
+    title: SIGGRAPH 2018 Celebrates Generations in Vancouver
+    author: Dan Harary
+    date: 2018-08-16
+    url: https://s2018.siggraph.org/press/news-releases/siggraph-2018-celebrates-generations-vancouver/
+    journal: SIGGRAPH
 ---
 name: Kinesthetic Haptics for Virtual Reality
 url: 
