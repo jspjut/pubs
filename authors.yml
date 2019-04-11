@@ -126,8 +126,7 @@ authors:
         pic:
     jonghyunkim:
         name: Jonghyun Kim
-        url:
-        pic:
+        url: http://j-kim.kr/
     apatney:
         name: Anjul Patney
         url: http://idav.ucdavis.edu/~anjul/
@@ -187,95 +186,72 @@ authors:
     mmcguire:
         name: Morgan McGuire
         url: https://casual-effects.com/morgan/index.html
-        pic:
     balfieri:
         name: Bob Alfieri
         url:
-        pic:
     taila:
         name: Timo Aila
         url: http://research.nvidia.com/person/timo-aila
-        pic:
     tkarras:
         name: Tero Karras
         url: http://research.nvidia.com/person/tero-karras
-        pic:
     slaine:
         name: Samuli Laine
         url: http://research.nvidia.com/person/samuli-laine
-        pic:
     fvahid:
         name: Frank Vahid
         url: http://www.cs.ucr.edu/~vahid/
-        pic:
     dsheldon:
         name: David Sheldon
         url: https://www.linkedin.com/in/david-sheldon-b3600339/
-        pic:
     ssirowy:
         name: Scott Sirowy
         url: https://www.linkedin.com/in/scott-sirowy/
-        pic:
     rlysecky:
         name: Roman Lysecky
         url: http://www2.engr.arizona.edu/~rlysecky/
-        pic:
     mparker:
         name: Mike Parker
-        url:
-        pic:
+        url: https://www.linkedin.com/in/mike-parker-0a42943/
     patriciaxu:
         name: Patricia Xu
         url: https://orl.mae.cornell.edu//#people
-        pic:
     tgrant:
         name: Tim Grant
         url: https://www.cs.utah.edu/~tgrant/
-        pic:
     evasiou:
         name: Elena Vasiou
         url: http://www.cs.utah.edu/~elvasiou/
-        pic:
     imallett:
         name: Ian Mallett
         url: https://geometrian.com/
-        pic:
     cyuksel: 
         name: Cem Yuksel
         url: http://www.cemyuksel.com/
-        pic:
     amarrs: 
         name: Adam Marrs
         url: http://visualextract.com/
-        pic:
     hgruen: 
         name: Holger Gruen
         url: https://www.linkedin.com/in/holger-gruen-b456791/
-        pic:
     rsathe: 
         name: Rahul Sathe
         url: https://www.linkedin.com/in/rasathe/
-        pic:
     krathinavel:
         name: Kishore Rathinavel
         url: https://sites.google.com/site/kishorerathinavel/
-        pic:
     pchakravarthula:
         name: Praneeth Chakravarthula
         url: http://www.ee.iitm.ac.in/~ee11b061/
-        pic:
     bboudaoud:
         name: Ben Boudaoud
         url: https://www.linkedin.com/in/ben-boudaoud/
-        pic:
     hfuchs:
         name: Henry Fuchs
         url: http://henryfuchs.web.unc.edu/
-        pic:
     yyuralsky:
         name: Yury Uralsky
         url: https://www.linkedin.com/in/yuryuralsky/ 
-        pic:
     mjalal:
         name: Mona Jalal
         url: http://monajalal.com/
@@ -291,4 +267,20 @@ authors:
     mbetke:
         name: Margrit Betke
         url: http://www.cs.bu.edu/~betke/
+    joohwankim:
+        name: Joohwan Kim
+        url: http://www.kimjoohwan.com/
+    youngmojeong:
+        name: Youngmo Jeong
+        url: http://www.youngmoj.com/
+    mstengel:
+        name: Michael Stengel
+        url: https://scholar.google.com/citations?user=9_GCtwUAAAAJ
+    ralbert:
+        name: Rachel Albert
+        url: http://www.rachelalbert.com/
+    zmajercik:
+        name: Alexander Majercik
+        url: https://research.nvidia.com/person/zander-majercik
+    
 ...
