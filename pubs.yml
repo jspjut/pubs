@@ -352,6 +352,19 @@ pubs:
     - td4:
         authors:
         - jonghyunkim
+        - mstengel
+        - juiyiwu
+        - bboudaoud
+        - jspjut
+        - kaksit
+        - ralbert
+        - tgreer
+        - youngmojeong
+        - wlopes
+        - zmajercik
+        - pshirley
+        - mmcguire
+        - dluebke
         title: "Matching Visual Acuity & Prescription: Towards AR for Humans"
         conference: SIGGRAPH Emerging Technologies
         conf-short: SIGGRAPH E-Tech
