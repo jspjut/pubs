@@ -114,7 +114,10 @@ def main():
                     outstr += 'url_slides = "%s"\n'%pub['slides']
                 except:
                     outstr += 'url_slides = ""\n'
-                outstr += 'url_video = ""\n'
+                try:
+                    outstr += 'url_video = "%s"\n'%pub['video']
+                except:
+                    outstr += 'url_video = ""\n'
 
                 # used for making the publication unique on pages
                 outstr += 'unique_id = "%s"\n'%publications.uniqueid(pub, authors)
