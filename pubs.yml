@@ -28,6 +28,26 @@ pubs:
         abstract: "We present a near-eye augmented reality display with resolution and focal depth dynamically driven by gaze tracking. The display combines a traveling microdisplay relayed off a concave half-mirror magnifier for the high-resolution foveal region, with a wide field-of-view peripheral display using a projector-based Maxwellian-view display whose nodal point is translated to follow the viewer's pupil during eye movements using a traveling holographic optical element.  The same optics relay an image of the eye to an infrared camera used for gaze tracking, which in turn drives the foveal display location and peripheral nodal point. Our display supports accommodation cues by varying the focal depth of the microdisplay in the foveal region, and by rendering simulated defocus on the 'always in focus' scanning laser projector used for peripheral display. The resulting family of displays significantly improves on the field-of-view, resolution, and form-factor tradeoff present in previous augmented reality designs.  We show prototypes supporting 30, 40 and 60 cpd foveal resolution at a net 85x78 degree field of view per eye."
         thumbnail: jkim19-foveatedar.png
         banner: jkim19-foveatedar.png
+    - c17:
+        authors:
+            - pandersson
+            - jnilsson
+            - msalvi
+            - jspjut
+            - takeninemoller
+        title: "Temporally Dense Ray Tracing"
+        conference: High Performance Graphics
+        conf-short: HPG
+        location: Strasbourg
+        month: July 8
+        year: 2019
+        date: 2019-07-08
+        paper: https://research.nvidia.com/sites/default/files/pubs/2019-07_Temporally-Dense-Ray/temporally-dense-ray-tracing.pdf
+        alternate: https://research.nvidia.com/publication/2019-07_Temporally-Dense-Ray
+        abstract: "We present a technique for real-time ray tracing with the goal of reaching 240 frames per second or more. The core idea is to trade spatial resolution for faster temporal updates in such a way that the display and human visual system aid in integrating high-quality images. We use a combination of frameless and interleaved rendering concepts together with ideas from temporal antialiasing algorithms and novel building blocks---the major one being adaptive selection of pixel orderings within tiles, which reduces spatiotemporal aliasing significantly. The image quality is verified with a user study. Our work can be used for esports or any kind of rendering where higher frame rates are needed."
+        thumbnail: andersson19.png
+        banner: andersson19.png
+        webpage: https://240hz.org/
     - c15:
         authors:
             - mjalal
@@ -723,7 +743,7 @@ pubs:
         month: May 17-22
         year: 2019
         date: 2019-05-17
-        paper:
+        paper: https://www.visionsciences.org/programs/VSS_2019_Abstracts.pdf
         thumbnail: kim19-vss.png
         banner: kim19-vss.png
         abstract: "In the world of esports (competitive video games), hardware and software configurations are optimized for winning. In many games this means minimizing latency ('I see you before you see me') and maximizing refresh rate ('I see your move more accurately'). Most esports athletes and competitive players ensure this by using high-end hardware (computers, monitors, and GPUs) while turning off superfluous in-game graphics features. By doing so, one can demonstrate the competitive benefit of modern display technologies. We conducted two user studies that compare esports performance using common display settings. We conclude that 240 hz, today's highest-speed display technology, provides a competitive advantage."
