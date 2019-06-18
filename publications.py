@@ -381,7 +381,7 @@ def getCollaborators(collaborators, pubentry, authors, exclude = 'jspjut'):
 def collaboratorString(collaborators):
 	firstyear = 2006
 	# need to update these years every year
-	recentyear = 2015
+	recentyear = 2016
 	currentyear = 2019
 	recentset = set()
 	pastset = set()
