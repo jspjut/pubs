@@ -798,42 +798,19 @@ name: Unpublished
 hugoid: -1
 urlid: unpub
 pubs:
-    - c15:
+    - up4:
         authors:
-            - jbarreiros
-            - hclaure
-            - bpeele
-            - oshapira
-            - jspjut
-            - dluebke
-            - mjung
-            - rshepherd
-        title: Fluidic Elastomer Actuators for Haptic Interactions in Virtual Reality
-        conference: IEEE International Conference on Robotics and Automation (ICRA)
-        conf-short: ICRA
-        location: Montreal, Canada
-        month: May
+        - joohwankim
+        - bboudaoud
+        title: esports research
         year: 2019
-        date: 2019-05-24
-        paper:
-        abstract:
-        thumbnail: barreiros19.png
-        banner: barreiros19.png
+        date: 2019-12-31
     - tr10:
         authors:
         - nkalavakonda
         - jspjut
         - bboudaoud
         title: TrackNN
-        year: 2018
-        date: 2018-11-28
-    - tr9:
-        authors:
-        - mjalal
-        - jspjut
-        - bboudaoud
-        - mbetke
-        title: Dataset paper
         year: 2018
         date: 2018-11-28
     - up3:
