@@ -24,7 +24,8 @@ pubs:
         month: July
         year: 2019
         date: 2019-07-28
-        paper:
+        paper: https://research.nvidia.com/sites/default/files/pubs/2019-07_Foveated-AR%3A-Dynamically-Foveated//Foveated_AR___v2%20%2815%29.pdf
+        alternate: https://research.nvidia.com/publication/2019-07_Foveated-AR%3A-Dynamically-Foveated
         abstract: "We present a near-eye augmented reality display with resolution and focal depth dynamically driven by gaze tracking. The display combines a traveling microdisplay relayed off a concave half-mirror magnifier for the high-resolution foveal region, with a wide field-of-view peripheral display using a projector-based Maxwellian-view display whose nodal point is translated to follow the viewer's pupil during eye movements using a traveling holographic optical element.  The same optics relay an image of the eye to an infrared camera used for gaze tracking, which in turn drives the foveal display location and peripheral nodal point. Our display supports accommodation cues by varying the focal depth of the microdisplay in the foveal region, and by rendering simulated defocus on the 'always in focus' scanning laser projector used for peripheral display. The resulting family of displays significantly improves on the field-of-view, resolution, and form-factor tradeoff present in previous augmented reality designs.  We show prototypes supporting 30, 40 and 60 cpd foveal resolution at a net 85x78 degree field of view per eye."
         thumbnail: jkim19-foveatedar.png
         banner: jkim19-foveatedar.png
@@ -393,7 +394,8 @@ pubs:
         month: July 28 - August 1
         year: 2019
         date: 2019-07-28
-        paper:
+        paper: https://research.nvidia.com/sites/default/files/pubs/2019-07_Matching-Prescription-%26//2019_Etech_submission%20%2815%29.pdf
+        alternate: https://research.nvidia.com/publication/2019-07_Matching-Prescription-%26
         thumbnail: etech19.png
         banner: etech19.png
         abstract: "In this installation, we demonstrate two novel wearable augmented reality (AR) prototypes inspired by the understandings on human visual system: Prescription AR and Foveated AR. Prescription AR is a 5mm-thick prescription-embedded AR display based on a free-form image combiner. A plastic prescription lens corrects viewer's vision while a half-mirror-coated free-form image combiner located delivers an augmented image located at the fixed focal depth (1 m). Foveated AR is a near-eye AR display with resolution and focal depth dynamically driven by gaze tracking. The display combines a traveling microdisplay relayed off a concave half-mirror magnifier for the high-resolution foveal region, with a wide FOV peripheral display using a projector-based Maxwellian-view display whose nodal point is translated to follow the viewer's pupil during eye movements using a traveling holographic optical element (HOE). The same optics relay an image of the eye to an infrared camera used for gaze tracking, which in turn drives the foveal display location and peripheral nodal point. Our display supports accommodation cues by varying the focal depth of the microdisplay in the foveal region, and by rendering simulated defocus on the 'always in focus' scanning laser projector used for peripheral display."
