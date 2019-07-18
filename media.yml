@@ -1,4 +1,21 @@
 ---
+name: "Matching Prescription & Visual Acuity: Towards AR for Humans"
+url: https://research.nvidia.com/publication/2019-07_Matching-Prescription-%26
+text: NVIDIA Research
+media:
+  - m1:
+    title: "SIGGRAPH 2019: Foveated AR With Prescriptions And A Physical Tail"
+    author: Ian Hamilton
+    date: 2019-07-16
+    url: https://uploadvr.com/siggraph-2019-foveated-ar-tail/
+    journal: UploadVR
+  - m0:
+    title: Nvidia Uncovers Breakthroughs with Dynamic Focus & Prescription Lenses for Augmented Reality Displays
+    author: Tommy Palladino
+    date: 2019-07-16
+    url: https://next.reality.news/news/nvidia-uncovers-breakthroughs-with-dynamic-focus-prescription-lenses-for-augmented-reality-displays-0201326/
+    journal: Next Reality
+---
 name: Adaptive Temporal Anti-Aliasing
 url: https://research.nvidia.com/publication/2018-08_Adaptive-Temporal-Antialiasing
 text: NVIDIA Research
