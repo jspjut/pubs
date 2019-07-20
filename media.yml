@@ -3,6 +3,18 @@ name: "Matching Prescription & Visual Acuity: Towards AR for Humans"
 url: https://research.nvidia.com/publication/2019-07_Matching-Prescription-%26
 text: NVIDIA Research
 media:
+  - m3:
+    title: "The Human Effect of Tech: SIGGRAPH 2019 Shines Light on Adaptive Technology"
+    author: Press Release
+    date: 2019-07-19
+    url: https://www.businesswire.com/news/home/20190719005423/en/
+    journal: Business Wire
+  - m2:
+    title: "The Human Effect of Tech: SIGGRAPH 2019 Shines Light on Adaptive Technology"
+    author: Yahoo! Finance
+    date: 2019-07-19
+    url: https://finance.yahoo.com/news/human-effect-tech-siggraph-2019-215900050.html
+    journal: Yahoo! Finance
   - m1:
     title: "SIGGRAPH 2019: Foveated AR With Prescriptions And A Physical Tail"
     author: Ian Hamilton
