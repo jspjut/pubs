@@ -3,6 +3,42 @@ name: "Matching Prescription & Visual Acuity: Towards AR for Humans"
 url: https://research.nvidia.com/publication/2019-07_Matching-Prescription-%26
 text: NVIDIA Research
 media:
+  - m1:
+    title: "SIGGRAPH 2019: Foveated AR With Prescriptions And A Physical Tail"
+    author: Ian Hamilton
+    date: 2019-08-08
+    url: https://uploadvr.com/siggraph-2019-foveated-ar-tail/
+    journal: UploadVR
+  - m7:
+    title: "Siggraph 2019 offers a sneak peek into what’s next for AR, VR, and CG"
+    author: Jeremy Horwitz
+    date: 2019-07-30
+    url: https://venturebeat.com/2019/07/30/siggraph-2019-offers-a-sneak-peek-into-whats-next-for-ar-vr-and-cg/
+    journal: Venture Beat
+  - m6: 
+    title: "Nvidia's Killer AR Tech Doubles Hololens 2's Field of View"
+    author: Jesus Diaz
+    date: 2019-07-31
+    url: https://www.tomsguide.com/news/nvidias-killer-ar-tech-doubles-hololens-2s-field-of-view
+    journal: Tom's Guide
+  - m5:
+    title: "Nvidia Research demos Prescription AR glasses"
+    author: Stephanie Condon
+    date: 2019-07-30
+    url: https://www.zdnet.com/article/nvidia-research-demos-prescription-ar-glasses/
+    journal: ZDNet
+  - m4:
+    title: "Foveated AR Demo From NVIDIA At SIGGRAPH"
+    author: Ian Hamilton
+    date: 2019-07-29
+    url: https://uploadvr.com/foveated-ar-nvidia-siggraph/
+    journal: UploadVR
+  - m8:
+    title: "NVIDIA brings ray tracing and AI to Siggraph again"
+    author: Jon Peddie
+    date: 2019-08-12
+    url: https://gfxspeak.com/2019/08/12/nvidia-tracing-siggraph/
+    journal: Graphic Speak
   - m3:
     title: "The Human Effect of Tech: SIGGRAPH 2019 Shines Light on Adaptive Technology"
     author: Press Release
@@ -15,12 +51,6 @@ media:
     date: 2019-07-19
     url: https://finance.yahoo.com/news/human-effect-tech-siggraph-2019-215900050.html
     journal: Yahoo! Finance
-  - m1:
-    title: "SIGGRAPH 2019: Foveated AR With Prescriptions And A Physical Tail"
-    author: Ian Hamilton
-    date: 2019-07-16
-    url: https://uploadvr.com/siggraph-2019-foveated-ar-tail/
-    journal: UploadVR
   - m0:
     title: Nvidia Uncovers Breakthroughs with Dynamic Focus & Prescription Lenses for Augmented Reality Displays
     author: Tommy Palladino

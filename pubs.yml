@@ -503,7 +503,8 @@ pubs:
         month: July 28-31
         year: 2019
         date: 2019-07-28
-        paper: 
+        paper: https://doi.org/10.1145/3306307.3328145
+        slides: https://drive.google.com/file/d/1-2-QUoRtV2AUTg3we-88sn8-D797ir8H/view?usp=sharing
         thumbnail: spjutfdt19.png
         banner: spjutfdt19.png
         abstract: There is not yet consensus in the field on what constitutes a ``foveated display''. We propose a compromise between the perspectives of rendering, imaging, physiology and vision science that defines a foveated display as a display designed to function in the context of user gaze. This definition enables us to describe 2 axes of foveation, gaze interaction and resolution distribution, which we then subdivide to provide useful categories for classification. We view this proposal as the start of a discussion among the community rather than a final taxonomy.
