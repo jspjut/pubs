@@ -730,6 +730,26 @@ name: Refereed Posters
 hugoid: 11
 urlid: pos
 pubs:
+    - p5:
+        authors:
+        - jspjut
+        - bboudaoud
+        - kbinaee
+        - zmajercik
+        - mmcguire
+        - joohwankim
+        title: "FirstPersonScience: Quantifying Psychophysics for First Person Shooter Tasks"
+        conference: UCI Esports Conference
+        conf-short: ESC
+        location: Irvine
+        month: October 10-12
+        year: 2019
+        date: 2019-10-10
+        paper:
+        alternate: https://uciesportsconference2019.sched.com/event/UQdr/posters-reception-heavy-hors-doeuvres-gallery
+        thumbnail: spjut19-esc.png
+        banner: spjut19-esc.png
+        abstract: "In the emerging field of esports research, there is an increasing demand for quantitative results that can be used by players, coaches and analysts to make decisions and present meaningful commentary for spectators. We present FirstPersonScience, a software application intended to fill this need in the esports community by allowing scientists to design carefully controlled experiments and capture accurate results in the First Person Shooter esports genre. An experiment designer can control a variety of parameters including target motion, weapon configuration, 3D scene, frame rate, and latency. Furthermore, we validate this application through careful end-to-end latency analysis and provide a case study showing how it can be used to demonstrate the training effect of one user given repeated task performance."
     - p4:
         authors:
         - joohwankim
