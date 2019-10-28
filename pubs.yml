@@ -600,6 +600,48 @@ pubs:
         abstract: "This dissertation presents computer architecture designs that are efficient for ray tracing based rendering algorithms. The primary observation is that ray tracing maps better to independent thread issue hardware designs than it does to dependent thread and data designs used in most commercial architectures. While the independent thread issue causes extra overhead in the fetch and issue parts of the pipeline, the number of computation resources required can be reduced through the sharing of less frequently used execution units. Furthermore, since all the threads run a single program on multiple data (SPMD), thread processors can share instruction and data caches. Ray tracing needs read-only access to the scene data during each frame, so caches can be optimized for reading, and traditional cache coherence protocols are unnecessary for maintaining coherent memory access. The resultant image exists as a write only frame buffer, allowing memory writes to avoid the cache entirely, preventing cache pollution and increasing the performance of smaller caches.
         Commercial real-time rendering systems lean heavily on high-performance graphics processing units (GPU) that use the rasterization and z-buffer algorithms for rendering. A single pass of rasterization throws out much of the global scene information by streaming the surface data that a ray tracer keeps resident in memory. As a result, ray tracing is more naturally able to support rendering effects involving global information, such as shadows, reflections, refractions and camera lens effects. Rasterization has a time complexity of approximately O(Nlog(P)) where N is the number of primitive polygons and P is the number of pixels in the image. Ray tracing, in contrast, has a time complexity of O(Plog(N)) making ray tracing scale better to large scenes with many primitive polygons, allowing for increased surface detail. Finally, once the number of pixels reaches its limit, ray tracing should exceed the performance of rasterization by allowing the number of objects to increase with less of a penalty on performance."
 ---
+name: Patents
+hugoid: 12
+urlid: pat
+pubs:
+    - pat2:
+        authors:
+            - hgruen
+            - amarrs
+            - jspjut
+            - rsathe
+            - mmcguire
+        title: "Adding greater realism to a computer-generated image by smoothing jagged edges within the image in an efficient manner"
+        year: 2020
+        date: 2020-12-31
+        misc: Pending
+        paper: https://patents.google.com/patent/US20190318455A1/en
+        abstract: "During the rendering of an image, specific pixels in the image are identified where antialiasing would be helpful. Antialiasing is then performed on these identified pixels, where antialiasing is a technique used to add greater realism to a digital image by smoothing jagged edges. This reduces a cost of performing antialiasing by reducing a number of pixels within an image on which antialiasing is performed."
+    - pat1:
+        authors:
+            - amarrs
+            - jspjut
+            - hgruen
+            - mmcguire
+            - rsathe
+        title: "Adding greater realism to a computer-generated image by smoothing jagged edges"
+        year: 2020
+        date: 2020-12-31
+        misc: Pending
+        paper: https://patents.google.com/patent/US20190318454A1/en
+        abstract: "During the rendering of an image, specific pixels in the image are identified where antialiasing would be helpful. Antialiasing is then performed on these identified pixels, where anti-aliasing is a technique used to add greater realism to a digital image by smoothing jagged edges. This reduces a cost of performing antialiasing by reducing a number of pixels within an image on which antialiasing is performed."
+    - pat0:
+        authors:
+            - tgreer
+            - jspjut
+            - dluebke
+        title: "Retina space display stabilization and a foveated display for augmented reality"
+        year: 2020
+        date: 2020-12-31
+        misc: Pending
+        paper: https://patents.google.com/patent/US20190302883A1/en
+        abstract: "Perceived clarity of an image presented by a display can be improved using an image stabilization technique to stabilize the image relative to a user's retina. During an illumination period, stabilization actuators are controlled to move a display panel or adjust optical components in the path of light associated with the image to shift the location of the image on the user's retina in response to head or eye movement detected by the system. In some embodiments, a display is configured to illuminate an image, and at least one stabilization actuator is configured to stabilize the image in a retina space associated with a user. Changes in the retina space can be detected by one or more sensors configured to detect a head position of the user and/or an orientation of the user's retina. The image is stabilized in retina space using the stabilization actuators."
+---
 name: Technical Reports
 hugoid: 4
 urlid: tr
