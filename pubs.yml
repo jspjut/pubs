@@ -3,6 +3,26 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c19:
+        authors:
+            - jspjut
+            - bboudaoud
+            - kbinaee
+            - jonghyunkim
+            - zmajercik
+            - mmcguire
+            - dluebke
+            - joohwankim
+        title: "Latency of 30 ms Matters More Than Refresh Rate Above 60 Hz for First Person Targeting Tasks"
+        conference: SIGGRAPH Asia Technical Briefs
+        conf-short: SA'19 Technical Briefs
+        month: November 17-20
+        year: 2019
+        date: 2019-11-17
+        paper: https://research.nvidia.com/publication/2019-11_Latency-of-30
+        abstract: "In competitive sports, human performance makes the difference between who wins and loses. In some competitive video games (esports), response time is an essential factor of human performance. When the athlete's equipment (computer, input and output device) responds with lower latency, it provides a measurable advantage. In this study, we isolate latency and refresh rate by artificially increasing latency when operating at high refresh rates. Eight skilled esports athletes then perform gaming-inspired first person targeting tasks under varying conditions of refresh rate and latency, completing the tasks as quickly as possible. We show that reduced latency has a clear benefit in task completion time while increased refresh rate has relatively minor effects on performance when the inherent latency reduction present at high refresh rates is removed. Additionally, for certain tracking tasks, there is a small, but marginally significant effect from high refresh rates alone."
+        thumbnail: spjut19-sa.png
+        banner: spjut19-sa.png
     - c18:
         authors:
             - clarson
