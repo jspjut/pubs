@@ -25,6 +25,10 @@ def main():
         if puburltext == 'unpub':
             continue
 
+        # skip patents (for now)
+        if puburltext == 'pat':
+            continue
+
         print('Building ' + pubtype + ' for hugo in ' + HUGO_SITE + puburltext)
 
 		# loop over list of publications

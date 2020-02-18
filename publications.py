@@ -421,6 +421,10 @@ if __name__ == '__main__':
 				collaborators = getCollaborators(collaborators, pub, authors)
 			continue
 
+		# skip patents (for now)
+		if publist['urlid'] == 'unpub':
+			continue
+
 		mdstr += '## %s\n'%publist['name']
 		htmlstr += '<h2>%s</h2>\n<ol>'%publist['name']
 
