@@ -422,7 +422,7 @@ if __name__ == '__main__':
 			continue
 
 		# skip patents (for now)
-		if publist['urlid'] == 'unpub':
+		if publist['urlid'] == 'pat':
 			continue
 
 		mdstr += '## %s\n'%publist['name']
