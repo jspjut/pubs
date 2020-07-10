@@ -3,6 +3,25 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c21:
+        authors:
+            - joohwankim
+            - pknowles
+            - jspjut
+            - bboudaoud
+            - mmcguire
+        title: "Post-Render Warp with Late Input Sampling Improves Aiming Under High Latency Conditions"
+        conference: Proceedings of the ACM on Computer Graphics and Interactive Techniques
+        conf-short: PACM CGIT
+        month: July 13-16
+        year: 2020
+        date: 2020-07-13
+        paper: http://josef.spjut.me/pubs/kim_hpg2020_author.pdf
+        alternate: https://research.nvidia.com/publication/2020-07_Post-Render-Warp-with
+        alternate2: https://doi.org/10.1145/3406187
+        abstract: "End-to-end latency in remote-rendering systems can reduce user task performance. This notably includes aiming tasks on game streaming services, which are presently below the standards of competitive first-person desktop gaming. We evaluate the latency-induced penalty on task completion time in a controlled environment and show that it can be significantly mitigated by adopting and modifying image and simulation-warping techniques from virtual reality, eliminating up to 80% of the penalty from 80 ms of added latency. This has potential to enable remote rendering for esports and increase the effectiveness of remote-rendered content creation and robotic teleoperation. We provide full experimental methodology, analysis, implementation details, and source code."
+        thumbnail: kimhpg20.png
+        banner: kimhpg20.png
     - c20:
         authors:
             - jspjut
