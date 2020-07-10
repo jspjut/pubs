@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# By Josef Spjut, 2014-2018
+# By Josef Spjut, 2014-2020
 # This script is intended to be used to read in some yaml files and output
 # markdown, bibtex, html or similar file types with paper references.
 # It requires PyYaml to function: http://pyyaml.org/wiki/PyYAML
@@ -11,10 +11,12 @@ pubsyaml = 'pubs.yml'
 mediayaml = 'media.yml'
 
 # The output filenames
-htmlfilename = '/Users/Josef/jspjut.github.io/content/research/research.html' # use is deprecated on the website
-mdfilename = '/Users/Josef/CV/src/publications.md' # used by CV tool
-mediafilename = '/Users/Josef/jspjut.github.io/content/media/_index.md' # media page
-researchfilename = '/Users/Josef/jspjut.github.io/content/research/_index.md' # research page
+# basepath = '/Users/Josef/'
+basepath = '../'
+htmlfilename = basepath + 'jspjut.github.io/content/research/research.html' # use is deprecated on the website
+mdfilename = basepath + 'CV/src/publications.md' # used by CV tool
+mediafilename = basepath + 'jspjut.github.io/content/media/_index.md' # media page
+researchfilename = basepath + 'jspjut.github.io/content/research/_index.md' # research page
 
 htmlheaderstring = '''+++
 title = "Research"

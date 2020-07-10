@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 '''Script to generate publications files for a hugo academic site.'''
-# Josef Spjut 2017-2018
+# Josef Spjut 2017-2020
 
+import os
 import yaml
 
 import publications
 
-HUGO_SITE='/Users/Josef/jspjut.github.io/'
+HUGO_SITE='../jspjut.github.io/'
+# HUGO_SITE='/Users/Josef/jspjut.github.io/'
 
 def main():
 	# get author lookup
@@ -154,6 +156,12 @@ def main():
                 except KeyError:
                     pass
 
+                # Make sure the path exists
+                destpath = '%scontent/publication/%s'%(HUGO_SITE, puburltext)
+                if not os.path.exists(destpath):
+                    print('Creating directory ' + destpath)
+                    os.makedirs(destpath)
+                
                 #save the file
                 # generate filename  ~/github/jspjut-projects/jubilant-meme/content/publication/
                 output_filename = '%scontent/publication/%s/%s.md'%(HUGO_SITE, puburltext, pid)
