@@ -668,6 +668,19 @@ name: Patents
 hugoid: 12
 urlid: pat
 pubs:
+    - pat3:
+        authors:
+            - pandersson
+            - takeninemoller
+            - jnilsson
+            - msalvi
+            - jspjut
+        title: "Reconstruction for temporally dense ray trace rendering"
+        year: 2020
+        date: 2020-12-31
+        misc: Pending
+        paper: https://patents.google.com/patent/US20200312010A1/en
+        abstract: "A method dynamically selects one of a first sampling order and a second sampling order for a ray trace of pixels in a tile where the selection is based on a motion vector for the tile. The sampling order may be a bowtie pattern or an hourglass pattern. Subframes generated based on the sampling order are communicated over a bus along with motion vectors for tiles of the subframes."
     - pat2:
         authors:
             - hgruen
@@ -710,6 +723,23 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - tr10:
+        authors:
+            - zmajercik
+            - amarrs
+            - jspjut
+            - mmcguire
+        title: "Scaling Probe-Based Real-Time Dynamic Global Illumination for Production"
+        conference: Tech Report
+        conf-short: Tech Report
+        month: Sep 22
+        year: 2020
+        date: 2020-09-22
+        paper: https://arxiv.org/pdf/2009.10796
+        alternate: https://arxiv.org/abs/2009.10796
+        abstract: "We contribute several practical extensions to the probe based irradiance-field-with-visibility representation to improve image quality, constant and asymptotic performance, memory efficiency, and artist control. We developed these extensions in the process of incorporating the previous work into the global illumination solutions of the NVIDIA RTXGI SDK, the Unity and Unreal Engine 4 game engines, and proprietary engines for several commercial games. These extensions include: a single, intuitive tuning parameter (the 'self-shadow' bias); heuristics to speed transitions in the global illumination; reuse of irradiance data as prefiltered radiance for recursive glossy reflection; a probe state machine to prune work that will not affect the final image; and multiresolution cascaded volumes for large worlds."
+        thumbnail: majercik20.png
+        banner: majercik20.png
     - tr9:
         authors:
             - jspjut
