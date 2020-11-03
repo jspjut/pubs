@@ -231,11 +231,11 @@ def markdown(pubentry, authors, ptype = 'jspjut'):
 		
 		# add the fields that exist
 		try: 
-			mdstr += '**%s**,\n'%pub['title']
+			mdstr += '**%s**, '%pub['title']
 		except KeyError:
 			pass
 		try:
-			mdstr += '*%s*,\n'%pub['conference']
+			mdstr += '*%s*, '%pub['conference']
 		except KeyError:
 			pass
 		try:
@@ -424,8 +424,8 @@ if __name__ == '__main__':
 			continue
 
 		# skip patents (for now)
-		if publist['urlid'] == 'pat':
-			continue
+		# if publist['urlid'] == 'pat':
+		# 	continue
 
 		mdstr += '## %s\n'%publist['name']
 		htmlstr += '<h2>%s</h2>\n<ol>'%publist['name']
