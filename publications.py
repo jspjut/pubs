@@ -408,7 +408,7 @@ if __name__ == '__main__':
 	htmlstr = htmlheaderstring
 	# get author lookup
 	afile = open(authorsyaml, 'r')
-	authors = yaml.load(afile)['authors']
+	authors = yaml.load(afile, Loader=yaml.FullLoader)['authors']
 
 	# collaborators dict
 	collaborators = {}
@@ -416,7 +416,7 @@ if __name__ == '__main__':
 	# load pub list
 	stream = open(pubsyaml, 'r')
 	# delimited by --- in the yaml
-	for publist in yaml.load_all(stream): 
+	for publist in yaml.load_all(stream, Loader=yaml.FullLoader): 
 		# skip unpublished list
 		if publist['urlid'] == 'unpub':
 			for pub in publist['pubs']:
@@ -462,12 +462,12 @@ if __name__ == '__main__':
 	mediamdstr = mediaheaderstr
 
 	mfile = open(mediayaml, 'r')
-	for entry in yaml.load_all(mfile):
+	for entry in yaml.load_all(mfile, Loader=yaml.FullLoader):
 		mediamdstr += '## %s\n'%entry['name']
 		mediamdstr += entry['text'] + '\n\n'
 		mediamdstr += media.mdformat(entry['media'])
 
-	# medias = yaml.load(mfile)['media']
+	# medias = yaml.load(mfile, Loader=yaml.FullLoader)['media']
 	# mediahtmlstr = media.htmlformat(medias)
 	# mediamdstr += media.mdformat(medias)
 

@@ -13,12 +13,12 @@ HUGO_SITE='../jspjut.github.io/'
 def main():
 	# get author lookup
     afile = open(publications.authorsyaml, 'r')
-    authors = yaml.load(afile)['authors']
+    authors = yaml.load(afile, Loader=yaml.FullLoader)['authors']
 
     # load pub list
     stream = open(publications.pubsyaml, 'r')
     # delimited by --- in the yaml
-    for publist in yaml.load_all(stream): 
+    for publist in yaml.load_all(stream, Loader=yaml.FullLoader): 
         pubtype = publist['name']
         puburltext = publist['urlid']
         pubhugoid = publist['hugoid']
