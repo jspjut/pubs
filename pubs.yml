@@ -653,6 +653,7 @@ pubs:
         title: "Efficient Ray Tracing Architectures"
         conference: "University of Utah Dissertation"
         conf-short: Dissertation
+        month: May
         year: 2015
         date: 2015-05-01
         paper: http://josef.spjut.me/pubs/thesis.pdf
