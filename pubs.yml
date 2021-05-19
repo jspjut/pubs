@@ -3,6 +3,38 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c23:
+        authors:
+            - jspjut
+            - bboudaoud
+            - joohwankim
+        title: A Case Study of First Person Aiming at Low Latency for Esports
+        conference: Esports and High-Performance Human-Computer Interaction Workshop
+        conf-short: EHPHCI
+        month: May 8
+        year: 2021
+        date: 2021-05-08
+        paper: https://osf.io/nu9p3/
+        alternate: https://research.nvidia.com/publication/2021-05_A-Case-Study
+        abstract: "Lower computer system input-to-output latency substantially re-duces many task completion times. In fact, literature shows that reduction in targeting task completion time from decreased latency often exceeds the decrease in latency alone. However, for aiming in first person shooter (FPS) games, some prior work has demonstrated diminishing returns below 40 ms of local input-to-output computer system latency. In this paper, we review this prior art and provide an additional case study with data demonstrating the importance of local system latency improvement, even at latency values below 20 ms. Though other factors may determine victory in a particular esports challenge, ensuring balanced local computer latency among competitors is essential to fair competition."
+        thumbnail: spjut21ehphci.png
+        banner: spjut21ehphci.png
+    - c22:
+        authors:
+            - zmajercik
+            - amarrs
+            - jspjut
+            - mmcguire
+        title: "Scaling Probe-Based Real-Time Dynamic Global Illumination for Production"
+        conference: The Journal of Computer Graphics Techniques
+        conf-short: JCGT
+        month: May 3
+        year: 2021
+        date: 2021-05-03
+        paper: http://jcgt.org/published/0010/02/01/
+        abstract: 'We contribute several practical extensions to the probe-based irradiance-field-with-visibility representation [Majercik et al. 2019] [McGuire et al. 2017] to improve image quality, constant and asymptotic performance, memory efficiency, and artist control. We developed these extensions in the process of incorporating the previous work into the global illumination solutions of the NVIDIA RTXGI SDK, the Unity and Unreal Engine 4 game engines, and proprietary engines for several commercial games. These extensions include: an intuitive tuning parameter (the "self-shadow" bias); heuristics to speed transitions in the global illumination; reuse of irradiance data as prefiltered radiance for recursive glossy reflection; a probe state machine to prune work that will not affect the final image; and multiresolution cascaded volumes for large worlds.'
+        thumbnail: majercik21.png
+        banner: majercik21.png
     - c21:
         authors:
             - joohwankim
@@ -451,6 +483,23 @@ name: Technical Demos
 hugoid: 8
 urlid: td
 pubs:
+    - td5:
+        authors:
+        - bboudaoud
+        - pknowles
+        - joohwankim
+        - jspjut
+        title: "Gaming at Warp Speed: Improving Aiming with Late Warp"
+        conference: SIGGRAPH Emerging Technologies
+        conf-short: SIGGRAPH E-Tech
+        location: online
+        month: August 9-13
+        year: 2021
+        date: 2021-08-09
+        paper: https://research.nvidia.com/publication/2021-08_Gaming-at-Warp
+        thumbnail: boudaoud21etech.png
+        banner: boudaoud21etech.png
+        abstract: Latency can make all the difference in competitive online games. Late warp is a class of techniques used in VR that can reduce latency in FPS games as well. Prior art has demonstrated these techniques can recover most of the player performance lost to computer or network latency. Inspired by prior work demonstrating the usefulness of late warp as a potential solution to FPS latency, we provide an interactive demonstration, playable in a web browser, that shows how much latency limits aiming performance, and how late warp can help.
     - td4:
         authors:
         - jonghyunkim
@@ -668,6 +717,34 @@ name: Patents
 hugoid: 12
 urlid: pat
 pubs:
+    - pat5:
+        authors:
+            - pknowles
+            - bboudaoud
+            - jspjut
+            - mmcguire
+            - kbinaee
+            - joohwankim
+            - hvutukuru
+        title: "Hardware acceleration and event decisions for late latch and warp in interactive computer products"
+        year: 2021
+        date: 2021-12-31
+        misc: pending
+        paper: https://patents.google.com/patent/US20210106912A1/en
+        abstract: "The disclosure provides features or schemes that improve a user's experience with an interactive computer product by reducing latency through late latching and late warping. The late warping can be applied by imaging hardware based on late latch inputs and is applicable for both local and cloud computing environments. In one aspect, the disclosure provides a method of operating an imaging system employing late latching and late warping. In one example the method of operating an imaging system includes: (1) rendering a rendered image based on a user input from an input device and scene data from an application engine, (2) obtaining a late latch input from the input device, (3) rendering, employing imaging hardware, a warped image by late warping at least a portion of the rendered image based on the late latch input, and (4) updating state information in the application engine with late latch and warp information."
+    - pat4:
+        authors:
+            - joohwankim
+            - jspjut
+            - ifrosio
+            - ogallo
+            - eprashnani
+        title: "Gaze determination using one or more neural networks"
+        year: 2021
+        date: 2021-12-31
+        misc: Pending
+        paper: https://patents.google.com/patent/US20210132688A1/en
+        abstract: "Apparatuses, systems, and techniques are presented to modify media content using inferred attention. In at least one embodiment, a network is trained to predict a gaze of one or more users on one or more image features based, at least in part, on one or more prior gazes of the one or more users, wherein the prediction is to be used to modify at least one of the one or more image features."
     - pat3:
         authors:
             - pandersson
@@ -676,8 +753,8 @@ pubs:
             - msalvi
             - jspjut
         title: "Reconstruction for temporally dense ray trace rendering"
-        year: 2020
-        date: 2020-12-31
+        year: 2021
+        date: 2021-12-31
         misc: Pending
         paper: https://patents.google.com/patent/US20200312010A1/en
         abstract: "A method dynamically selects one of a first sampling order and a second sampling order for a ray trace of pixels in a tile where the selection is based on a motion vector for the tile. The sampling order may be a bowtie pattern or an hourglass pattern. Subframes generated based on the sampling order are communicated over a bus along with motion vectors for tiles of the subframes."
@@ -689,8 +766,8 @@ pubs:
             - rsathe
             - mmcguire
         title: "Adding greater realism to a computer-generated image by smoothing jagged edges within the image in an efficient manner"
-        year: 2020
-        date: 2020-12-31
+        year: 2021
+        date: 2021-12-31
         misc: Pending
         paper: https://patents.google.com/patent/US20190318455A1/en
         abstract: "During the rendering of an image, specific pixels in the image are identified where antialiasing would be helpful. Antialiasing is then performed on these identified pixels, where antialiasing is a technique used to add greater realism to a digital image by smoothing jagged edges. This reduces a cost of performing antialiasing by reducing a number of pixels within an image on which antialiasing is performed."
@@ -702,8 +779,8 @@ pubs:
             - mmcguire
             - rsathe
         title: "Adding greater realism to a computer-generated image by smoothing jagged edges"
-        year: 2020
-        date: 2020-12-31
+        year: 2021
+        date: 2021-12-31
         misc: Pending
         paper: https://patents.google.com/patent/US20190318454A1/en
         abstract: "During the rendering of an image, specific pixels in the image are identified where antialiasing would be helpful. Antialiasing is then performed on these identified pixels, where anti-aliasing is a technique used to add greater realism to a digital image by smoothing jagged edges. This reduces a cost of performing antialiasing by reducing a number of pixels within an image on which antialiasing is performed."
@@ -713,9 +790,9 @@ pubs:
             - jspjut
             - dluebke
         title: "Retina space display stabilization and a foveated display for augmented reality"
-        year: 2020
-        date: 2020-12-31
-        misc: Pending
+        year: 2021
+        date: 2021-03-16
+        misc: Granted
         paper: https://patents.google.com/patent/US20190302883A1/en
         abstract: "Perceived clarity of an image presented by a display can be improved using an image stabilization technique to stabilize the image relative to a user's retina. During an illumination period, stabilization actuators are controlled to move a display panel or adjust optical components in the path of light associated with the image to shift the location of the image on the user's retina in response to head or eye movement detected by the system. In some embodiments, a display is configured to illuminate an image, and at least one stabilization actuator is configured to stabilize the image in a retina space associated with a user. Changes in the retina space can be detected by one or more sensors configured to detect a head position of the user and/or an orientation of the user's retina. The image is stabilized in retina space using the stabilization actuators."
 ---
@@ -723,6 +800,25 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - tr11:
+        authors:
+            - eprashnani
+            - ogallo
+            - joohwankim
+            - jspjut
+            - psen
+            - ifrosio
+        title: "Noise-Aware Saliency Prediction for Videos with Incomplete Gaze Data"
+        conference: Tech Report
+        conf-short: Tech Report
+        month: April 16
+        year: 2021
+        date: 2021-04-16
+        paper: https://arxiv.org/pdf/2104.08038
+        alternate: https://arxiv.org/abs/2104.08038
+        abstract: "Deep-learning-based algorithms have led to impressive results in visual-saliency prediction, but the impact of noise in training gaze data has been largely overlooked. This issue is especially relevant for videos, where the gaze data tends to be incomplete, and thus noisier, compared to images. Therefore, we propose a noise-aware training (NAT) paradigm for visual-saliency prediction that quantifies the uncertainty arising from gaze data incompleteness and inaccuracy, and accounts for it in training. We demonstrate the advantage of NAT independently of the adopted model architecture, loss function, or training dataset. Given its robustness to the noise in incomplete training datasets, NAT ushers in the possibility of designing gaze datasets with fewer human subjects. We also introduce the first dataset that offers a video-game context for video-saliency research, with rich temporal semantics, and multiple gaze attractors per frame."
+        thumbnail: prashnani21.png
+        banner: prashnani21.png
     - tr10:
         authors:
             - zmajercik

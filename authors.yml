@@ -303,5 +303,20 @@ authors:
     pknowles:
         name: Pyarelal Knowles
         url: https://www.linkedin.com/in/pyarelal-knowles-a82a7844
+    hvutukuru:
+        name: Harish Vutukuru
+        url: https://patents.google.com/?inventor=Harish+Vutukuru
+    ifrosio:
+        name: Iuri Frosio
+        url: https://scholar.google.com/citations?user=PCJJ8LkAAAAJ&hl=en
+    ogallo:
+        name: Orazio Gallo
+        url: https://oraziogallo.github.io/
+    eprashnani:
+        name: Ekta Prashnani
+        url: https://prashnani.github.io/
+    psen:
+        name: Pradeep Sen
+        url: https://web.ece.ucsb.edu/~psen/
     
 ...
