@@ -1154,14 +1154,22 @@ name: Unpublished
 hugoid: -1
 urlid: unpub
 pubs:
+    - up5:
+        authors:
+        - joohwankim
+        - bboudaoud
+        - bwatson
+        title: esports research
+        year: 2022
+        date: 2022-12-31
     - up4:
         authors:
         - joohwankim
         - bboudaoud
         - mmcguire
         title: esports research
-        year: 2020
-        date: 2020-12-31
+        year: 2021
+        date: 2021-03-31
     - tr10:
         authors:
         - nkalavakonda
