@@ -318,5 +318,40 @@ authors:
     psen:
         name: Pradeep Sen
         url: https://web.ece.ucsb.edu/~psen/
+    sschneider:
+        name: Seth Schneider
+        url: https://www.linkedin.com/in/seth-schneider-a687a2b1/
+    rdimitrov:
+        name: Rouslan Dimitrov
+        url: https://rdimitrov.twistedsanity.net/
+    lnordskog:
+        name: Lars Nordskog
+        url: 
+    crobson:
+        name: Cody Robson
+        url: https://www.linkedin.com/in/cody-robson-ab432629/
+    keithli:
+        name: Keith Li
+        url: https://www.linkedin.com/in/keith-li-841a9954/
+    gslavenburg:
+        name: Gerrit Slavenburg
+        url: https://www.linkedin.com/in/gerrit-slavenburg-21307814/
+    tverbeure:
+        name: Tom Verbeure
+        url: https://www.linkedin.com/in/tom-verbeure-b1b8aa/
+    bwatson:
+        name: Benjamin Watson
+        url: https://watson.csc.ncsu.edu/
+    cmcgee:
+        name: Caitlin McGee
+        url: https://www.researchgate.net/profile/Caitlin-Mcgee
+    aissa:
+        name: Amine Issa
+        url: https://www.linkedin.com/in/amine-issa-ph-d-20839619/
+    wmackey:
+        name: Wayne Mackey
+        url: http://wmackey.com/
+    
+    
     
 ...
