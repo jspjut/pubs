@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''Script to generate publications files for a hugo academic site.'''
-# Josef Spjut 2017-2020
+# Josef Spjut 2017-2022
 
 import os
 import yaml

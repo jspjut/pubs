@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# By Josef Spjut, 2014-2021
+# By Josef Spjut, 2014-2022
 # This script is intended to be used to read in some yaml files and output
 # markdown, bibtex, html or similar file types with paper references.
 # It requires PyYaml to function: http://pyyaml.org/wiki/PyYAML
