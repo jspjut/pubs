@@ -462,6 +462,20 @@ name: Book Chapter
 hugoid: 6
 urlid: bc
 pubs:
+    - bc3:
+        authors:
+        - jspjut
+        - mvance
+        title: "Part VI: Performance"
+        conference: Ray Tracing Gems II
+        conf-short: RTG2
+        month: August
+        year: 2021
+        date: 2021-08-26
+        paper: https://link.springer.com/content/pdf/bfm%3A978-1-4842-7185-8%2F6%2F1.pdf
+        thumbnail: spjutvance21.png
+        banner: spjutvance21.png
+        abstract: Though the flm industry may hope to render a frame in sixty seconds, in video games and other interactive applications, we would hope to render sixty frames or more in a single second, leaving scant milliseconds for each image to be produced. This part contains chapters that focus on a variety of topics that explore the optimization space of ray tracing performance, proposing both algorithmic and heuristic improvements to aid in the relentless search for both faster runtime speed as well as smaller memory utilization.
     - bc2:
         authors:
         - rsathe
