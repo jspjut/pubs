@@ -672,7 +672,7 @@ pubs:
         date: 2021-08-09
         paper: http://josef.spjut.me/pubs/watson21.pdf
         thumbnail: watson21.png
-        banner: watson21.png
+        banner: none.png
         abstract: Esports is a growing worldwide phenomenon now rivaling traditional sports, with a deep dependence on real-time graphics technology. Despite this, the SIGGRAPH research community has largely ignored it. This panel brings together esports experts in engineering, medicine as well as cognitive and data science to argue that this must change. Like film, esports is an important problem for computer graphics, and could give rise to technologies and techniques benefitting not only esports, but society more broadly. With a series of moderated and audience questions, this panel will sketch the research challenges and potential benefits of esports, while also considering its risks.
     - ct3:
         authors:
