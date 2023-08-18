@@ -384,7 +384,7 @@ def collaboratorString(collaborators):
 	firstyear = 2006
 	# need to update these years every year
 	recentyear = 2020
-	currentyear = 2023
+	currentyear = 2024
 	recentset = set()
 	pastset = set()
 	for year in range(firstyear, currentyear):
