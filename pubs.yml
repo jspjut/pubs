@@ -1086,6 +1086,96 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - tr16:
+        authors:
+            - dklein
+            - jspjut
+            - bboudaoud
+            - joohwankim
+        title: The Influence of Variable Frame Timing on First-Person Gaming
+        conference: Tech Report
+        conf-short: Tech Report
+        month: June 2
+        year: 2023
+        date: 2023-06-02
+        paper: https://arxiv.org/pdf/2306.01691
+        alternate: https://arxiv.org/abs/2306.01691
+        abstract: "Variable frame timing (VFT), or changes in the time intervals between discrete frame images displayed to users, deviates from our traditional conceptualization of frame rate in which all frame times are equal. With the advent of variable refresh rate (VRR) monitor technologies, gamers experience VFT at the display. VRR, coupled with increased display refresh rates and high-end hardware, enables smoother variation of frame presentation sequences. We assess the effects of VFT on the perception of smoothness (experiment 1) and performance (experiment 2) in first-person shooter (FPS) gameplay by introducing frequent but relatively small (4-12 ms) variations in frame time around typical refresh rates (30-240 Hz). Our results indicate that VFT impacts the perception of smoothness. However, the results from experiment 2 do not indicate differences in FPS task performance (i.e., completion time) between variable and constant frame time sequences ranked equally smooth in experiment 1."
+        thumbnail: klein23.png
+        banner: klein23.png
+    - tr15:
+        authors:
+            - jspjut
+            - amadhusudan
+            - bwatson
+            - sschneider
+            - bboudaoud
+            - joohwankim
+        title: Toward Understanding Display Size for FPS Esports Aiming
+        conference: Tech Report
+        conf-short: Tech Report
+        month: May 26
+        year: 2023
+        date: 2023-05-26
+        paper: https://arxiv.org/pdf/2305.16953
+        alternate: https://arxiv.org/abs/2305.16953
+        abstract: "Gamers use a variety of different display sizes, though for PC gaming in particular, monitors in the 24 to 27 inch size range have become most popular. Particularly popular among many PC gamers, first person shooter (FPS) games represent a genre where hand-eye coordination is particularly central to the player's performance in game. In a carefully designed pair of experiments on FPS aiming, we compare player performance across a range of display sizes. First, we compare 12.5 inch, 17.3 inch and 24 inch monitors on a multi-target elimination task. Secondly, we highlight the differences between 24.5 inch and 27 inch displays with a small target experiment, specifically designed to amplify these small changes. We find a small, but statistically significant improvement from the larger monitor sizes, which is likely a combined effect between monitor size, resolution, and the player's natural viewing distance."
+        thumbnail: spjut23.png
+        banner: none.png
+    - tr14:
+        authors:
+            - jspjut
+            - amadhusudan
+            - bwatson
+            - bboudaoud
+            - joohwankim
+        title: "The Esports Frontier: Rendering for Competitive Games"
+        conference: Tech Report
+        conf-short: Tech Report
+        month: August 24
+        year: 2022
+        date: 2022-08-24
+        paper: https://arxiv.org/pdf/2208.11774
+        alternate: https://arxiv.org/abs/2208.11774
+        abstract: "Real-time graphics is commonly thought of as anything exceeding about 30 fps, where the interactivity of the application becomes fluid enough for high rates of interaction. Inspired by esports and competitive gaming, where players regularly exceed the threshold for real-time by 10x (esports displays commonly reach 360 Hz or beyond), this talk begins the exploration of how rendering has the opportunity to evolve beyond the current state of focus on either image quality or frame rate. Esports gamers regularly decline nearly all options for increased image quality in exchange for maximum frame rates. However, there remains a distinct opportunity to move beyond the focus on video as a sequence of images and instead rethink the pipeline for more continuous updates."
+        thumbnail: spjut22b.png
+        banner: none.png
+    - tr13:
+        authors:
+            - bboudaoud
+            - jspjut
+            - joohwankim
+        title: Mouse Sensitivity Effects in First-Person Targeting Tasks
+        conference: Tech Report
+        conf-short: Tech Report
+        month: March 22
+        year: 2022
+        date: 2022-03-22
+        paper: https://arxiv.org/pdf/2203.12050
+        alternate: https://arxiv.org/abs/2203.12050
+        abstract: "Despite billions of hours of play and copious discussion online, mouse sensitivity recommendations for first-person targeting tasks vary by a factor of 10x or more and remain an active topic of debate in both competitive and recreational gaming communities. Inspired by previous academic literature in pointer-based gain optimization, we conduct the first user study of mouse sensitivity in first person targeting tasks, reporting a statistically significant range of optimal values in both task completion time and throughput. Due to inherent incompatibility (i.e., lack of convert-ability) between sensitivity metrics adopted for prior pointer-based gain literature and those describing first-person targeting, we provide the first analytically demonstrated, statistically significant optimal sensitivity range useful for first-person camera controls. Furthermore, we demonstrate that this optimal sensitivity range arises (at least in part) from a speed-precision trade-off impacted by spatial task difficulty, similar to results reported in pointer-based sensitivity literature previously."
+        thumbnail: boudaoud22.png
+        banner: none.png
+    - tr12:
+        authors:
+            - jspjut
+            - fzhu
+            - xhuang
+            - yshou
+            - bboudaoud
+            - oshapira
+            - mmcguire
+        title: Experimental Augmented Reality User Experience
+        conference: Tech Report
+        conf-short: Tech Report
+        month: February 10
+        year: 2022
+        date: 2022-02-10
+        paper: https://arxiv.org/pdf/2202.06726
+        alternate: https://arxiv.org/abs/2202.06726
+        abstract: "Augmented Reality (AR) is an emerging field ripe for experimentation, especially when it comes to developing the kinds of applications and experiences that will drive mass adoption of the technology. While we aren't aware of any current consumer product that realize a wearable, wide Field of View (FoV), AR Head Mounted Display (HMD), such devices will certainly come. In order for these sophisticated, likely high-cost hardware products to succeed, it is important they provide a high quality user experience. To that end, we prototyped 4 experimental applications for wide FoV displays that will likely exist in the future. Given current AR HMD limitations, we used a AR simulator built on web technology and VR headsets to demonstrate these applications, allowing users and designers to peer into the future."
+        thumbnail: spjut22.png
+        banner: spjut22.png
     - tr11:
         authors:
             - eprashnani
