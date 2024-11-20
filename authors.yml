@@ -117,7 +117,7 @@ authors:
         url: http://luebke.us/
         pic:
     kaksit:
-        name: Kaan Aksit
+        name: Kaan Akşit
         url: https://kaanaksit.com/
         pic:
     wlopes:
@@ -396,5 +396,81 @@ authors:
     yshou:
         name: Yichen Shou
         url: https://www.linkedin.com/in/yichenshou/
+    myoo:
+        name: Mijin Yoo
+        url: https://yoomimi.github.io/
+    rraymond:
+        name: Rulon Raymond
+        url: https://www.linkedin.com/in/rulon-raymond-9437643/
+    zoexu:
+        name: Zoe (Jing) Xu
+        url: https://scholar.google.com/citations?user=vTZ5NPkAAAAJ
+    sbuetti:
+        name: Simona Buetti
+        url: https://psychology.illinois.edu/directory/profile/buetti
+    alleras:
+        name: Alejandro Lleras
+        url: https://psychology.illinois.edu/directory/profile/alleras
+    rrosenholtz:
+        name: Ruth Rosenholtz
+        url: https://persci.mit.edu/people/rosenholtz
+    mclaypool:
+        name: Mark Claypool
+        url: https://web.cs.wpi.edu/~claypool/
+    sstokey:
+        name: Samin Shahriar Tokey
+        url:
+    zchen:
+        name: Zesheng Chen
+        url:
+    cmettler:
+        name: Colin Mettler
+        url:
+    dtang:
+        name: Dexuan Tang
+        url:
+    shengzewang:
+        name: Shengze (Mike) Wang
+        url: https://mcmvmc.github.io/
+    xuetingli:
+        name: Xueting Li
+        url: https://sunshineatnoon.github.io/
+    cliu:
+        name: Chao Liu
+        url: https://research.nvidia.com/person/chao-liu
+    mchan:
+        name: Matthew Chan
+        url: https://matthew-a-chan.github.io/
+    sdemello:
+        name: Shalini De Mello
+        url: https://research.nvidia.com/person/shalini-de-mello
+    knagano:
+        name: Koki Nagano
+        url: https://luminohope.org/
+    dyuen:
+        name: Deborah Yuen
+        url: https://design.berkeley.edu/profiles/debbie-yuen
+    ziyangchen:
+        name: Ziyang Chen
+        url: https://ziyang.space/
+    mdogan:
+        name: Mustafa Doğa Doğan
+        url: https://www.dogadogan.com/
+    fysun:
+        name: Fan-Yun Sun
+        url: https://sunfanyun.com/
+    azook:
+        name: Alex Zook
+        url: https://scholar.google.com/citations?user=2nA9bVMAAAAJ
+    vblukis:
+        name: Valts Blukis
+        url: https://www.cs.cornell.edu/~valts/
+    sbirchfield:
+        name: Stan Birchfield
+        url: https://research.nvidia.com/person/stan-birchfield
+    jtremblay:
+        name: Jonathan Tremblay
+        url: https://scholar.google.hu/citations?user=zeS5UJEAAAAJ&hl=en
+    
 
 ...

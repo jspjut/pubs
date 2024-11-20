@@ -3,6 +3,47 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c31:
+        authors:
+            - sstokey
+            - zchen
+            - cmettler
+            - dtang
+            - bboudaoud
+            - joohwankim
+            - jspjut
+            - mclaypool
+        title: "The Effects of Network Latency on the Peeker's Advantage in First-person Shooter Games"
+        conference: IEEE Computer Graphics and Applications
+        conf-short: IEEE CG&A
+        month: May 21
+        year: 2024
+        date: 2024-05-21
+        paper: https://web.cs.wpi.edu/~claypool/papers/peeker-fdg-24/paper.pdf
+        alternate: https://dl.acm.org/doi/10.1145/3649921.3650002
+        abstract: "In first-person shooter (FPS) games, the peeker's advantage is the edge the moving peeker gets when battling a stationary defender at a corner due to network latency. However, confirmation of (the size of) this advantage based on network latency and the distance from the corner has not been studied. This paper assesses the peeker's advantage via two user studies both using an open-source FPS game extended to support two-player networking and a custom map. Users play as both peeker and defender with 3 different corner distances and 3 different network latencies. Analysis of hits, wins, and time-to-damage shows that the advantage for the peeker is impacted more by the defender's latency than the peeker's latency and is lowest when the peeker is nearest the corner. The user study with a tournament setting had quicker and more competitive matches resulting in more combat encounters and closer games than did the traditional user study."
+        thumbnail: tokey24peek.png
+        banner: tokey24peek.png
+    - c30:
+        authors:
+            - bwatson
+            - jspjut
+            - joohwankim
+            - blee
+            - myoo
+            - pshirley
+            - rraymond
+        title: "Is Less More? Rendering for Esports"
+        conference: IEEE Computer Graphics and Applications
+        conf-short: IEEE CG&A
+        month: March 27
+        year: 2024
+        date: 2024-03-27
+        paper: https://ieeexplore.ieee.org/abstract/document/10478358
+        alternate: https://research.nvidia.com/index.php/publication/2024-03_less-more-rendering-esports
+        abstract: "Computer graphics research has long prioritized image quality over frame rate. Yet demand for an alternative is growing, with many esports players turning off visual effects to improve frame rates. Is it time for graphics researchers to reconsider their goals? A workshop at the 2023 SIGGRAPH Conference explored this question. Three researchers made provocative presentations, each of which were then discussed by dozens of research and industry attendees. We summarize those presentations and discussions here, concluding with potential research questions, and future plans for esports at SIGGRAPH."
+        thumbnail: watson24.png
+        banner: watson24.png
     - c29:
         authors:
             - bboudaoud
@@ -365,7 +406,7 @@ pubs:
         year: 2018
         date: 2018-04-24
         paper: http://research.nvidia.com/sites/default/files/pubs/2018-04_A-Variable-Shape/Mac%20Murray%20Final%2020180228.pdf
-        abstract: "This paper presents an entirely compliant controller handle for use in virtual and augmented reality environments. The controller handle transitions between two static states: a semi-rigid, large diameter state when pneumatically pressurized and a soft, compressible, smaller diameter state when depressurized. We integrated the controller with a modified version of NVIDIA’s VR Funhouse employing the two controller states to simulate the physical feel of two virtual objects. We used finite element modeling to downselect an internal elastomer lattice within the controller that controls deformation upon inflation. Finally, we show an example of using the compliance of the handle as an interaction input by designing an algorithm to identify rapid compressions of the handle as a signal to swap objects in the virtual environment."
+        abstract: "This paper presents an entirely compliant controller handle for use in virtual and augmented reality environments. The controller handle transitions between two static states: a semi-rigid, large diameter state when pneumatically pressurized and a soft, compressible, smaller diameter state when depressurized. We integrated the controller with a modified version of NVIDIA's VR Funhouse employing the two controller states to simulate the physical feel of two virtual objects. We used finite element modeling to downselect an internal elastomer lattice within the controller that controls deformation upon inflation. Finally, we show an example of using the compliance of the handle as an interaction input by designing an algorithm to identify rapid compressions of the handle as a signal to swap objects in the virtual environment."
         alternate: http://research.nvidia.com/publication/2018-04_A-Variable-Shape
         thumbnail: robosoft2018.png
         banner: macmurray18.png
@@ -606,6 +647,27 @@ name: Technical Demos
 hugoid: 8
 urlid: td
 pubs:
+    - td6:
+        authors:
+        - sstokey
+        - zchen
+        - cmettler
+        - dtang
+        - mclaypool
+        - bboudaoud
+        - joohwankim
+        - jspjut
+        title: "Demonstration of Network Latency and the Peeker's Advantage in First-person Shooter Games"
+        conference: Foundations of Digital Games
+        conf-short: FDG
+        location: Worcester
+        month: May
+        year: 2024
+        date: 2024-05-21
+        paper: https://web.cs.wpi.edu/~claypool/papers/peeker-fdg-24/demo-paper.pdf
+        thumbnail: tokey24demo.png
+        banner: tokey24peek.png
+        abstract: We demonstrate peeker's advantage in a first person shooter game.
     - td5:
         authors:
         - bboudaoud
@@ -744,6 +806,112 @@ name: Conference Talks and Courses
 hugoid: 9
 urlid: ct
 pubs:
+    - ct13:
+        authors:
+            - dklein
+            - jspjut
+            - bboudaoud
+            - joohwankim
+        title: "On Smoothly Varying Frame Timing in First-Person Gaming"
+        conference: SIGGRAPH Talk
+        conf-short: SIGGRAPH Talk
+        location: Denver
+        month: July 28
+        year: 2024
+        date: 2024-07-28
+        paper: https://dl.acm.org/doi/abs/10.1145/3641233.3664346
+        thumbnail: klein24talk.png
+        banner: none.png
+        abstract: "Some researchers have used G-Sync as a part of stimulus design [Poth et al. 2018], or to promote energy savings [Ko 2019; You et al. 2020]. Others have used VRR as a method for shifting refresh rates to match a perceptual goal, but neglected to study the impact of varying the refresh rate itself [Denes et al. 2020; Jindal et al. 2021]. More directly related works study VRR's effect on task performance, some showing positive general outcomes [Riahi and Watson 2021; Watson et al. 2019], while others have focused on the perceptual effects (quality of experience) when artificially adding variability [Liu et al. 2023]. None of these studies carefully control the frame time sequence and distribution, nor study rates above 120 Hz. Our study fills these gaps using a smoothly varying controlled sequence, including stimuli up to 240 Hz."
+    - ct12:
+        authors:
+            - amadhusudan
+            - jspjut
+            - bboudaoud
+            - joohwankim
+            - bwatson
+        title: "Studying Esports Competition: Piloting Methodology for User Studies During Tournaments"
+        conference: SIGGRAPH Talk
+        conf-short: SIGGRAPH Talk
+        location: Denver
+        month: July 28
+        year: 2024
+        date: 2024-07-28
+        paper: https://dl.acm.org/doi/abs/10.1145/3641233.3664349
+        thumbnail: madhusudan24talk.png
+        banner: none.png
+        abstract: "Designing experiments is a well-studied, complex task with many conflicting constraints. In experimental user studies, the overarching goal is to gain understanding of how a system affects users by manipulating independent variables (eg, an interface's configuration) while measuring dependent variables (eg, the user's performance). Achieving this goal requires significant compromise between many conflicting sub-goals including internal validity, that the effects on dependent variables were caused by manipulations of independent variables, not other uncontrolled variables; external validity, that the findings are generalizable enough to have meaning outside the lab; and feasibility, that the experiment can be performed without unreasonable time and cost."
+    - ct11:
+        authors:
+            - dyuen
+            - jspjut
+        title: "Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5"
+        conference: SIGGRAPH Labs Course
+        conf-short: SIGGRAPH Labs
+        location: Denver
+        month: July 28
+        year: 2024
+        date: 2024-07-28
+        paper: https://dl.acm.org/doi/abs/10.1145/3641236.3664419
+        thumbnail: yuen24.png
+        banner: none.png
+        abstract: "Recent years have seen a rise in machine learning applications deployed in different technological contexts. It has shaped how we experience technology and led to new doors of innovation and a mass market interest in artificial intelligence (AI)."
+    - ct10:
+        authors:
+            - zoexu
+            - jspjut
+            - bboudaoud
+            - sbuetti
+            - alleras
+            - rrosenholtz
+        title: "Do Action Video Game Players Search Faster Than Non-Players?"
+        conference: Vision Science Society
+        conf-short: VSS
+        location: St. Pete Beach
+        month: May 18
+        year: 2024
+        date: 2024-05-18
+        paper: https://jov.arvojournals.org/article.aspx?articleid=2801490
+        thumbnail: xu24.png
+        banner: none.png
+        abstract: "Studies have shown that action video game players have enhanced visual abilities in various domains, such as multiple object tracking, size of the useful field of view, and visual search speed and accuracy. These improvements have been attributed to either a general advantage in ''learning to learn'' abilities, or domain-specific enhancement(s) in the ''common demands'' between specific games and experimental tasks. To investigate these two theories, we conducted six experiments examining whether and how players and non-players differ in various aspects of visual search. First, we used a staircase to determine the minimal display duration (Experiment1a) and target-distractor color difference (Experiment1b) required for participants to successfully identify a target in a color search task. Next, we assessed participants' search speed and the cost of switching target and distractor identities when there is one (Experiment2a) or multiple distractor types (Experiment2b). Finally, we measured search speed in harder T/L search (Experiment3a) and game-style figure search (Experiment3b). This study is the first to use both a staircase procedure and standard response time measures to discern differences between players and non-players in visual search. The results suggest that players search faster than non-players only in Experiment2, where performance degraded with increased distractor variability for non-players but not for players. Players also exhibited a smaller cost to switching the target and distractor identities. These findings imply that while there might be no overall enhancement in players' search abilities, they might benefit from holding variable distractor templates and switching their search target, potentially due to gaming experience which often necessitates memorizing and switching among multiple objects to monitor/avoid (as in first-person shooting games). These results support the ''common demands'' theory. In addition, our collected data on the specific games participants play allow for a more systematic evaluation of which games might enhance which search-related abilities."
+    - ct9:
+        authors:
+            - jspjut
+            - bboudaoud
+            - joohwankim
+        title: Constant Field of View Display Size Effects on First-Person Aiming Time
+        conference: Frontiers in Optics + Laser Science
+        conf-short: FiO
+        location: Tacoma
+        month: October 9
+        year: 2023
+        date: 2023-10-09
+        paper: http://josef.spjut.me/pubs/spjut23fio.pdf
+        alternate: https://research.nvidia.com/publication/2023-10_constant-field-view-display-size-effects-first-person-aiming-time
+        alternate2: https://opg.optica.org/viewmedia.cfm?uri=FiO-2023-FTu6A.1
+        thumbnail: spjut23b.png
+        banner: spjut23b.png
+        abstract: "Under constant display field of view, FPS game aiming performance improves with display size, resulting in 3% faster aiming time comparing 13 and 26 inches diagonal."
+    - ct8:
+        authors:
+            - joohwankim
+            - jspjut
+            - bboudaoud
+            - bwatson
+            - jtw
+        title: Rethinking Display Requirements for Esports and High Interactivity Applications
+        conference: Society for Information Display
+        conf-short: SID
+        location: San Francisco
+        month: August 30
+        year: 2023
+        date: 2023-08-30
+        paper: https://sid.onlinelibrary.wiley.com/doi/abs/10.1002/sdtp.16538
+        alternate: https://research.nvidia.com/publication/2023-08_rethinking-display-requirements-esports-and-high-interactivity-applications
+        thumbnail: spjut23b.png
+        banner: none.png
+        abstract: "Under constant display field of view, FPS game aiming performance improves with display size, resulting in 3% faster aiming time comparing 13 and 26 inches diagonal."
     - ct7:
         authors:
             - bwatson
@@ -952,8 +1120,8 @@ pubs:
             - jspjut
         title: "Target-based mouse sensitivity recommendations"
         year: 2022
-        date: 2022-06-30
-        misc: Pending
+        date: 2023-10-31
+        misc: Granted
         paper: https://patents.google.com/patent/US20220203230A1/en
         abstract: "One embodiment of a computer-implemented method for generating mouse sensitivity recommendations includes generating mouse movement data corresponding to one or more mouse movements performed by a user while interacting with a software application; generating a predicted efficiency for each mouse sensitivity level included in a plurality of mouse sensitivity levels based on the mouse movement data; and determining one or more mouse sensitivity levels to provide to the user based on the predicted efficiencies."
     - pat8:
@@ -984,8 +1152,8 @@ pubs:
             - tverbeure
         title: "System-latency-aware display device"
         year: 2020
-        date: 2022-12-31
-        misc: Pending
+        date: 2023-10-10
+        misc: Granted
         paper: https://patents.google.com/patent/US20210243101A1/en
         abstract: "A display device for measuring the end-to-end latency of a computing system. The computing system includes an input device, a computing device, and the display device. The display device is directly connected with the input device and receives input data packets generated by the input device in response to received user input events. The display device passes the input packets to the computing device for graphics processing. The display device measures the end-to-end latency comprising the sum of three latencies. A first latency comprises an input delay of the input device. A second latency comprises an amount of time between generation of the input packet and a corresponding change in pixel values caused by the input event at the display device. A third latency comprises a display latency. The display device also displays latency information associated with the measured end-to-end latency."
     - pat6:
@@ -997,8 +1165,8 @@ pubs:
             - mmcguire
         title: "Modular prescription augmented reality display"
         year: 2022
-        date: 2022-12-31
-        misc: Pending
+        date: 2024-01-02
+        misc: Granted
         paper: https://patents.google.com/patent/US20210181533A1/en
         abstract: "In an embodiment, a modular augmented reality display is provided that incorporates prescription eyewear that can be used separately by the wearer. In an embodiment, an image is generated from a removable display attached to the eyewear and directed into the edge of a prescription lens, which acts as a waveguide. The image is internally reflected within the prescription lens, and is directed to the wearer by an image combiner embedded within the prescription lens. In an embodiment, the augmented reality display includes a wearable belt pouch that includes a battery and support electronics connected to the eyewear so that the weight on the eyewear is reduced."
     - pat5:
@@ -1086,6 +1254,47 @@ name: Technical Reports
 hugoid: 4
 urlid: tr
 pubs:
+    - tr18:
+        authors:
+             - azook
+             - fysun
+             - jspjut
+             - vblukis
+             - sbirchfield
+             - jtremblay
+        title: "GRS: Generating Robotic Simulation Tasks from Real-World Images"
+        conference: Tech Report
+        conf-short: Tech Report
+        month: October 24
+        year: 2024
+        date: 2024-10-24
+        paper: https://arxiv.org/abs/2410.15536
+        abstract: "We introduce GRS (Generating Robotic Simulation tasks), a novel system to address the challenge of real-to-sim in robotics, computer vision, and AR/VR. GRS enables the creation of digital twin simulations from single real-world RGB-D observations, complete with diverse, solvable tasks for virtual agent training. We use state-of-the-art vision-language models (VLMs) to achieve a comprehensive real-to-sim pipeline. GRS operates in three stages: 1) scene comprehension using SAM2 for object segmentation and VLMs for object description, 2) matching identified objects with simulation-ready assets, and 3) generating contextually appropriate robotic tasks. Our approach ensures simulations align with task specifications by generating test suites designed to verify adherence to the task specification. We introduce a router that iteratively refines the simulation and test code to ensure the simulation is solvable by a robot policy while remaining aligned to the task specification. Our experiments demonstrate the system's efficacy in accurately identifying object correspondence, which allows us to generate task environments that closely match input environments, and enhance automated simulation task generation through our novel router mechanism."
+        thumbnail: zook24.png
+        banner: none.png
+    - tr17:
+        authors:
+            - shengzewang
+            - xuetingli
+            - cliu
+            - mchan
+            - mstengel
+            - jspjut
+            - hfuchs
+            - sdemello
+            - knagano
+        title: Coherent 3D Portrait Video Reconstruction via Triplane Fusion
+        conference: Tech Report
+        conf-short: Tech Report
+        month: May 1
+        year: 2023
+        date: 2023-05-01
+        paper: https://arxiv.org/pdf/2405.00794
+        webpage: https://research.nvidia.com/labs/amri/projects/stable3d/
+        alternate: https://arxiv.org/abs/2405.00794
+        abstract: "Recent breakthroughs in single-image 3D portrait reconstruction have enabled telepresence systems to stream 3D portrait videos from a single camera in real-time, potentially democratizing telepresence. However, per-frame 3D reconstruction exhibits temporal inconsistency and forgets the user's appearance. On the other hand, self-reenactment methods can render coherent 3D portraits by driving a personalized 3D prior, but fail to faithfully reconstruct the user's per-frame appearance (e.g., facial expressions and lighting). In this work, we recognize the need to maintain both coherent identity and dynamic per-frame appearance to enable the best possible realism. To this end, we propose a new fusion-based method that fuses a personalized 3D subject prior with per-frame information, producing temporally stable 3D videos with faithful reconstruction of the user's per-frame appearances. Trained only using synthetic data produced by an expression-conditioned 3D GAN, our encoder-based method achieves both state-of-the-art 3D reconstruction accuracy and temporal consistency on in-studio and in-the-wild datasets."
+        thumbnail: swang24.png
+        banner: none.png
     - tr16:
         authors:
             - dklein
@@ -1355,6 +1564,24 @@ name: Refereed Posters
 hugoid: 11
 urlid: pos
 pubs:
+    - p6:
+        authors:
+        - ziyangchen
+        - mdogan
+        - jspjut
+        - kaksit
+        title: "SpecTrack: Learned Multi-Rotation Tracking via Speckle Imaging"
+        conference: SIGGRAPH Asia Poster
+        conf-short: SIGGRAPH Asia Poster
+        location: Tokyo
+        month: December 3-6
+        year: 2024
+        date: 2024-12-03
+        paper: https://arxiv.org/abs/2410.06028
+        alternate: https://complightlab.com/publications/spec_track/
+        thumbnail: chen24.png
+        banner: none.png
+        abstract: "Precision pose detection is increasingly demanded in fields such as personal fabrication, Virtual Reality (VR), and robotics due to its critical role in ensuring accurate positioning information. However, conventional vision-based systems used in these systems often struggle with achieving high precision and accuracy, particularly when dealing with complex environments or fast-moving objects. To address these limitations, we investigate Laser Speckle Imaging (LSI), an emerging optical tracking method that offers promising potential for improving pose estimation accuracy. Specifically, our proposed LSI-Based Tracking (SpecTrack) leverages the captures from a lensless camera and a retro-reflector marker with a coded aperture to achieve multi-axis rotational pose estimation with high precision. Our extensive trials using our in-house built testbed have shown that SpecTrack achieves an accuracy of 0.31{deg} (std=0.43{deg}), significantly outperforming state-of-the-art approaches and improving accuracy up to 200%."
     - p5:
         authors:
         - jspjut
@@ -1453,8 +1680,8 @@ pubs:
         - bwatson
         - amadhusudan
         title: esports research
-        year: 2023
-        date: 2023-12-31
+        year: 2024
+        date: 2024-12-31
     - up5:
         authors:
         - joohwankim
