@@ -3,6 +3,38 @@ name: Refereed Publications
 hugoid: 7
 urlid: ref
 pubs: 
+    - c33:
+        authors:
+            - tkrilavicius
+            - lpaolis
+            - vluca
+            - jspjut
+        title: eXtended reality and artificial intelligence in medicine and rehabilitation
+        conference: Information Systems Frontiers
+        conf-short: ISF
+        month: January 29
+        year: 2025
+        date: 2025-01-29
+        paper: https://link.springer.com/article/10.1007/s10796-025-10580-8
+        abstract: "This special issue focuses on the application of eXtended Reality (XR) technologies—comprising Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—and Artificial Intelligence (AI) in the fields of medicine and rehabilitation. AR provides support in minimally invasive surgery, where it visualises internal anatomical structures on the patient’s body and provides real-time feedback to improve accuracy, keep the surgeon’s attention and reduce the risk of errors. Furthermore, XR technologies can be used to develop applications for pre-operative planning or for training surgeons through serious games. AI finds applications both in medical image processing, for the recognition of anatomical structures and the reconstruction of 3D models, and in the analysis of biological data for patient monitoring and disease diagnosis. In rehabilitation, XR and AI can enable personalised therapy plans, increase patient engagement through immersive environments and provide real-time feedback to improve recovery outcomes. The papers in this special issue deal with rehabilitation through serious games, AI-enhanced XR applications for healthcare, digital twins and the analysis of bio/neuro-adaptive signals."
+        thumbnail: krilavicius25.png
+        banner: krilavicius25.png
+    - c32:
+        authors:
+            - dklein
+            - jspjut
+            - bboudaoud
+            - joohwankim
+        title: Variable Frame Timing Affects Perception of Smoothness in First-Person Gaming
+        conference: IEEE Conference on Games
+        conf-short: CoG
+        month: August 5
+        year: 2024
+        date: 2024-08-05
+        paper: https://ieeexplore.ieee.org/abstract/document/10645568
+        abstract: "With the advent of variable refresh rate (VRR) monitor technologies, gamers experience variable frame timing (VFT) during their gameplay. Combining VRR with low-latency GPU rendering and increased display refresh rates enables smoother variation of frame presentation sequences. Here, we assess how VFT affects self-reported perceived smoothness of game play by introducing frequent but relatively small ((4−12 ms) variations in frame time around typical refresh rates (30-240 Hz). Our results demonstrate that VFT degrades the perceived smoothness of game play for large variation in frame time (12 ms) but has a diminished effect on perceived smoothness for small variations in frame time (4 ms)."
+        thumbnail: klein23.png
+        banner: klein23.png
     - c31:
         authors:
             - sstokey
